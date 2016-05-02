@@ -2,6 +2,7 @@
 $config = array(
     "info" => array(
         "siteName" => "WebLearn",
+        "siteAuthor" => "Andrew S. Gardner"
         "cacheVer" => "?v=2.0"
         ),
     "paths" => array(
