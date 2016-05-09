@@ -1,4 +1,10 @@
-<?php require_once("config.php"); ?>
+<?php require_once("config.php"); 
+
+$meta = array(
+    "pageTitle" => "",
+    "pageDesc" => ""
+);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
