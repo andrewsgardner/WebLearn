@@ -2,21 +2,21 @@
 $config = array(
     "info" => array(
         "siteName" => "WebLearn",
-        "siteAuthor" => "Andrew S. Gardner"
+        "siteAuthor" => "Andrew S. Gardner",
         "cacheVer" => "?v=2.0"
         ),
     "paths" => array(
         "styles" => array(
-            "css" => "./css"
+            "css" => "/css"
             ),
         "img" => array(
-            "content" => "./img/content",
-            "layout" => "./img/layout"
+            "content" => "/img/content",
+            "layout" => "/img/layout"
         )
     ),
     "jQuery" => array(
         "cdn" => "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js",
-        "local" => "./js/local/jquery-1.12.2.min.js"
+        "local" => "/js/local/jquery-1.12.2.min.js"
     )
 );
 
