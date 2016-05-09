@@ -12,6 +12,6 @@ $meta = array(
         <?php require_once(TEMPLATES_PATH . "/metadata.php"); ?>
     </head>
     <body>
-        
+        <?php require_once(TEMPLATES_PATH . "/loadScripts.php"); ?>
     </body>
 </html>
