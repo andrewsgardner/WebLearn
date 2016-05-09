@@ -1,0 +1,12 @@
+{
+  "path": {
+    "resources/scss/main.scss": {
+      "sass.enabled": true,
+      "sass.options": {
+        "outputDir": "../../public_html/css/",
+        "imagePath": null,
+        "outputStyle": "expanded"
+      }
+    }
+  }
+}
