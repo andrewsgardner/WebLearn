@@ -1,7 +1,7 @@
 <?php
 echo "<meta charset=\"UTF-8\">\n";
-echo "\t<title>" . $meta['about']['pageTitle'] . "</title>\n";
-echo "\t<meta name=\"description\" content=\"" . $meta['about']['pageDesc'] . "\">\n";
+echo "\t<title>" . $meta['pageTitle'] . "</title>\n";
+echo "\t<meta name=\"description\" content=\"" . $meta['pageDesc'] . "\">\n";
 echo "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n";
 echo "\t<meta name=\"author\" content=\"" . $config['info']['siteAuthor'] . "\">\n";
 echo "\t<link rel=\"icon\" type=\"image/png\" href=\"#\">\n"; ?>
