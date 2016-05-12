@@ -6,12 +6,17 @@ $config = array(
         "cacheVer" => "?v=2.0"
         ),
     "paths" => array(
-        "styles" => array(
-            "css" => "/css"
-            ),
+        "css" => array(
+            "main" => "/css/main.css",
+            "min" => "/css/main.min.css"
+        ),
         "img" => array(
             "content" => "/img/content",
             "layout" => "/img/layout"
+        ),
+        "scripts" => array(
+            "main" => "/js/main.js",
+            "min" => "/js/main.min.js"
         )
     ),
     "jQuery" => array(
