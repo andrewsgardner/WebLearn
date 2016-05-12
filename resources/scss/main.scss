@@ -1,0 +1,39 @@
+/*
+Theme Name: WebLearn
+Author: Andrew S. Gardner
+Author URI: http://www.andrewsgardner.com/
+Version: 1.0
+*/
+
+/* ---------------------- CSS DIRECTORY
+1. CSS Reset
+2. Bootstrap
+3. Fonts
+4. Global
+5. Structural
+6. Grid
+7. Header
+8. Footer
+9. Media Queries
+------------------------------------ */
+@import 'modules/_variables';
+@import 'modules/_mixins';
+@import 'modules/_functions';
+/*----------> 1. CSS RESET <---------*/
+@import 'partials/_reset';
+/*---------> 2. BOOTSTRAP <----------*/
+@import 'vendor/_bootstrap.scss';
+/*------------> 3. FONTS <-----------*/
+@import 'partials/_fonts';
+/*-----------> 4. GLOBAL <-----------*/
+@import 'partials/_global';
+/*---------> 5. STRUCTURAL <---------*/
+@import 'partials/_structural';
+/*------------> 6. GRID <------------*/
+@import 'partials/_grid';
+/*-----------> 7. HEADER <-----------*/
+@import 'partials/_header';
+/*-----------> 8. FOOTER <-----------*/
+@import 'partials/_footer';
+/*--------> 9. MEDIA QUERIES <-------*/
+@import 'partials/_media-queries';

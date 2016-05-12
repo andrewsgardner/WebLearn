@@ -3,7 +3,7 @@ $config = array(
     "info" => array(
         "siteName" => "WebLearn",
         "siteAuthor" => "Andrew S. Gardner",
-        "cacheVer" => "?v=2.0"
+        "cacheVer" => "?v=1.0"
         ),
     "paths" => array(
         "css" => array(
@@ -16,7 +16,9 @@ $config = array(
         ),
         "scripts" => array(
             "main" => "/js/main.js",
-            "min" => "/js/main.min.js"
+            "min" => "/js/main.min.js",
+            "html5shiv" => "https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js",
+            "respond" => "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"
         )
     ),
     "jQuery" => array(
