@@ -27,16 +27,29 @@ module.exports = function(grunt) {
                 }
             }
         },
+        
+        sass: {
+            options: {
+                sourceMap: true,
+                sourceComments: false
+            },
+            dist: {
+                files: {
+                    'public_html/css/main.css': 'resources/scss/main.scss'
+                }
+            }
+        },
 
         watch: {
             files: ['resources/scss/**/*.scss', 'resources/scripts/*.js'],
-            tasks: ['concat', 'uglify']
+            tasks: ['concat', 'uglify', 'sass']
         }
 
     });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.registerTask('default', ['concat', 'uglify', 'watch']);
+    grunt.registerTask('default', ['concat', 'uglify', 'sass', 'watch']);
 };
