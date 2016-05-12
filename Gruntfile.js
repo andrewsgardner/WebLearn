@@ -23,32 +23,20 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    'public_html/js/main.min.js': ['&lt;%= concat.dist.dest %&gt;']
-                }
-            }
-        },
-
-        compass: {
-            dist: {
-                options: {
-                    sassDir: 'resources/scss',
-                    cssDir: 'public_html/css',
-                    environment: 'development',
-                    outputStyle: 'compressed'
+                    'public_html/js/main.min.js': ['public_html/js/main.js']
                 }
             }
         },
 
         watch: {
             files: ['resources/scss/**/*.scss', 'resources/scripts/*.js'],
-            tasks: ['concat', 'uglify', 'compass']
+            tasks: ['concat', 'uglify']
         }
 
     });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.registerTask('default', ['concat', 'uglify', 'compass', 'watch']);
+    grunt.registerTask('default', ['concat', 'uglify', 'watch']);
 };
