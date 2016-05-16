@@ -2361,6 +2361,3 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
-rnrn$(document).ready(function() {
-    
-});
