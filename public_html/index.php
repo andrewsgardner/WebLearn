@@ -29,31 +29,31 @@ $meta = array(
                 <div class="collapse navbar-collapse" id="primary-navbar">
                     
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="/">Getting Started<span class="sr-only">(current)</span></a></li>
+                        <li class="active"><a href="/getting-started/">Getting Started<span class="sr-only">(current)</span></a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABE Lab <span class="caret"></span></a>
+                            <a href="/abe/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABE Lab <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">English</a></li>
-                                <li><a href="#">Math</a></li>
-                                <li><a href="#">Science</a></li>
-                                <li><a href="#">Social Studies</a></li>
-                                <li><a href="#">Technology</a></li>
+                                <li><a href="/abe/english/">English</a></li>
+                                <li><a href="/abe/math/">Math</a></li>
+                                <li><a href="/abe/science/">Science</a></li>
+                                <li><a href="/abe/social-studies/">Social Studies</a></li>
+                                <li><a href="/abe/technology/">Technology</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ESOL Lab <span class="caret"></span></a>
+                            <a href="/esol/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ESOL Lab <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Citizenship</a></li>
-                                <li><a href="#">General ESOL</a></li>
-                                <li><a href="#">Grammar</a></li>
-                                <li><a href="#">Health</a></li>
-                                <li><a href="#">MA Learner's Permit</a></li>
-                                <li><a href="#">Money</a></li>
-                                <li><a href="#">Parents</a></li>
-                                <li><a href="#">Pronunciation</a></li>
-                                <li><a href="#">Technology</a></li>
-                                <li><a href="#">Vocabulary</a></li>
-                                <li><a href="#">Workplace</a></li>
+                                <li><a href="/esol/citizenship/">Citizenship</a></li>
+                                <li><a href="/esol/general-esol/">General ESOL</a></li>
+                                <li><a href="/esol/grammar/">Grammar</a></li>
+                                <li><a href="/esol/health/">Health</a></li>
+                                <li><a href="/esol/learners-permit/">MA Learner's Permit</a></li>
+                                <li><a href="/esol/money/">Money</a></li>
+                                <li><a href="/esol/parents/">Parents</a></li>
+                                <li><a href="/esol/pronunciation/">Pronunciation</a></li>
+                                <li><a href="/esol/technology/">Technology</a></li>
+                                <li><a href="/esol/vocabulary/">Vocabulary</a></li>
+                                <li><a href="/esol/workplace/">Workplace</a></li>
                             </ul>
                         </li>
                     </ul>
