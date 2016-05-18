@@ -17,7 +17,7 @@ Version: 1.0
 9. Media Queries
 ------------------------------------ */
 /* fonts */
-/* fonts */
+/* colors */
 /* css transform prefixes */
 /* css transform prefixes */
 /* clearfix */
@@ -5844,10 +5844,32 @@ button.close {
 
 /*------------> 3. FONTS <-----------*/
 /*-----------> 4. GLOBAL <-----------*/
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  margin-bottom: 3.75em;
+  /* note: set margin-bottom to footer height */ }
+
 /*---------> 5. STRUCTURAL <---------*/
 /*------------> 6. GRID <------------*/
 /*-----------> 7. HEADER <-----------*/
 /*-----------> 8. FOOTER <-----------*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.75em;
+  /* TMP */
+  /* note: set footer height to body margin-bottom */
+  background-color: #f5f5f5;
+  /* change color */ }
+
+.copyright {
+  display: block;
+  text-align: left; }
+
 /*--------> 9. MEDIA QUERIES <-------*/
 
 /*# sourceMappingURL=main.css.map */

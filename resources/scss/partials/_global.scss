@@ -1,0 +1,9 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: em(60);
+    /* note: set margin-bottom to footer height */
+}

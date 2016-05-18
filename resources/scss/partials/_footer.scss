@@ -1,0 +1,13 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: em(60); /* TMP */
+    /* note: set footer height to body margin-bottom */
+    background-color: #f5f5f5; /* change color */
+}
+
+.copyright {
+    display: block;
+    text-align: left;
+}
