@@ -29,6 +29,7 @@ $config = array(
 );
 
 $gettingStarted = "/getting-started/";
+$salcStcc = "http://www.stcc.edu/adulteducationcenter/";
 
 $abeRoutes = array(
     "abeHome" => "/abe/",
