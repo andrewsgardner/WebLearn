@@ -5852,6 +5852,9 @@ body {
   margin-bottom: 3.75em;
   /* note: set margin-bottom to footer height */ }
 
+p {
+  display: block; }
+
 /*---------> 5. STRUCTURAL <---------*/
 /*------------> 6. GRID <------------*/
 /*-----------> 7. HEADER <-----------*/
