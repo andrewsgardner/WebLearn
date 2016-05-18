@@ -12,7 +12,8 @@ $config = array(
         ),
         "img" => array(
             "content" => "/img/content",
-            "layout" => "/img/layout"
+            "layout" => "/img/layout",
+            "logo" => "/img/layout/weblearn-logo.png"
         ),
         "scripts" => array(
             "main" => "/js/main.js",
@@ -25,6 +26,32 @@ $config = array(
         "cdn" => "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js",
         "local" => "/js/local/jquery-1.12.2.min.js"
     )
+);
+
+$gettingStarted = "/getting-started/";
+
+$abeRoutes = array(
+    "abeHome" => "/abe/",
+    "english" => "/abe/english/",
+    "math" => "/abe/math/",
+    "science" => "/abe/science/",
+    "socialStudies" => "/abe/social-studies/",
+    "technology" => "/abe/technology/"
+);
+
+$esolRoutes = array(
+    "esolHome" => "/esol/",
+    "citizenship" => "/esol/citizenship/",
+    "generalEsol" => "/esol/general-esol/",
+    "grammar" => "/esol/grammar/",
+    "health" => "/esol/health/",
+    "learnersPermit" => "/esol/learners-permit/",
+    "money" => "/esol/money/",
+    "parents" => "/esol/parents/",
+    "pronunciation" => "/esol/pronunciation/",
+    "technology" => "/esol/technology/",
+    "vocabulary" => "/esol/vocabulary/",
+    "workplace" => "/esol/workplace/"
 );
 
 defined("LIBRARY_PATH")
