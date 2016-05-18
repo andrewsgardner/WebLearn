@@ -1,4 +1,4 @@
-<?php require_once("config.php"); 
+<?php $currentPage = "landing"; require_once("config.php"); 
 
 $meta = array(
     "pageTitle" => "",
@@ -12,7 +12,9 @@ $meta = array(
         <?php require_once(TEMPLATES_PATH . "/metadata.php"); ?>
     </head>
     <body>
-    
+        <?php require_once(TEMPLATES_PATH . "/header.php"); ?>
+        
+        <!--
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 
@@ -67,9 +69,10 @@ $meta = array(
                     </div>
                     </form>
                     </div>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
+                </div>
+            </div>
         </nav>
+        -->
         
         <?php require_once(TEMPLATES_PATH . "/loadScripts.php"); ?>
     </body>
