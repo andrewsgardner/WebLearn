@@ -1,20 +1,26 @@
-<?php $currentPage = "landing"; require_once("config.php"); 
+<?php 
+$currentPage = "landing";
+$pageTitle = "";
+$pageDesc = "";
+require_once("config.php");
+require_once(LIBRARY_PATH . "/contentPageFunctions.php");
 
-$meta = array(
-    "pageTitle" => "",
-    "pageDesc" => ""
-);
+ob_start();
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <?php require_once(TEMPLATES_PATH . "/metadata.php"); ?>
-    </head>
-    <body>
-        <?php require_once(TEMPLATES_PATH . "/header.php"); ?>
-        
-        <?php require_once(TEMPLATES_PATH . "/footer.php"); ?>
-        <?php require_once(TEMPLATES_PATH . "/loadScripts.php"); ?>
-    </body>
-</html>
+<!-- BEGIN page content -->
+
+<h1>Test</h1>
+<p>Lorem ipsum dolor sit amet, pellentesque laoreet orci integer facilisi tortor quis, sollicitudin gravida torquent pellentesque proin, venenatis dolore cras iaculis wisi lacus egestas, wisi amet integer ultrices cursus irure est.</p>
+
+<!-- END page content -->
+
+<?php 
+$pageContent = ob_get_contents();
+ob_get_clean();
+
+$variables = array(
+    "pageContent" => $pageContent
+);
+renderContentPageLayout("/contentPage.php", $variables);
+?>
