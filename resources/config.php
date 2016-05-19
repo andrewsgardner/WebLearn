@@ -1,4 +1,9 @@
 <?php
+/* global variables */
+global $currentPage;
+global $pageTitle;
+global $pageDesc;
+
 $config = array(
     "info" => array(
         "siteName" => "WebLearn",
