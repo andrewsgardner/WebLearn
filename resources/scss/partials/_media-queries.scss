@@ -1,0 +1,27 @@
+@media (min-width: em(1.6)) { /* Custom: 1.6px = .1em */
+    
+    /*----> HEADER <----*/
+    
+    .navbar-bottom {
+        height: em(20);
+        margin: em(51) 0 0 0;
+    }
+}
+
+@media (min-width: em(768)) { /* Small devices */
+    
+    /*----> HEADER <----*/
+    
+    .navbar-bottom {
+        height: em(40);
+        margin: em(51) 0 em(20) 0;
+    }
+}
+
+@media (min-width: em(992)) { /* Medium devices */
+    
+}
+
+@media (min-width: wm(1200)) { /* Large devices (large devices */
+    
+}

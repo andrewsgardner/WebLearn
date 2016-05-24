@@ -1,0 +1,5 @@
+.navbar-bottom {
+    width: 100%;
+    background-color: $hex-yellow;
+    @include box-shadow(0 0 em(2.5) 0 $hex-black);
+}
