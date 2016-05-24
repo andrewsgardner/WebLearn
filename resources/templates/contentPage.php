@@ -1,3 +1,15 @@
-<?php 
+<?php
+
+/* BEGIN navbar-bottom */
+echo "\t<div class=\"navbar-bottom\">\n";
+echo "\t</div>\n";
+/* END navbar-bottom */
+
+/* BEGIN container */
+echo "\t<div class=\"container\">\n";
+
 echo $pageContent;
+
+echo "\t</div>\n";
+/* END container */
 ?>
