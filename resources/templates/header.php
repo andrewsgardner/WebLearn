@@ -21,53 +21,12 @@ echo "\t\t\t</div>\n";
 
 /* BEGIN navbar links */
 echo "\t\t\t<div class=\"collapse navbar-collapse\" id=\"primary-navbar\">\n";
-echo "\t\t\t<ul class=\"nav navbar-nav\">\n"; ?>
+echo "\t\t\t<ul class=\"nav navbar-nav\">\n";
 
-<?php 
-/* BEGIN abe links */
-echo "\t\t\t\t"; ?><li<?php if($currentPage=='getting_started' ) echo ' class="active"'; ?>><a href="<?php echo $gettingStarted ; ?>">Getting Started<span class="sr-only">(current)</span></a></li><?php echo "\n"; ?>
+echo "\t\t\t\t"; ?><li<?php if($currentPage=='getting_started' ) echo ' class="active"'; ?>><a href="<?php echo $gettingStarted ; ?>">Getting Started<span class="sr-only">(current)</span></a></li><?php echo "\n";
+echo "\t\t\t\t"; ?><li<?php if($currentPage=='abe' ) echo ' class="active"'; ?>><a href="<?php echo $abeRoutes['abeHome']; ?>">ABE Lab<span class="sr-only">(current)</span></a></li><?php echo "\n";
+echo "\t\t\t\t"; ?><li<?php if($currentPage=='esol' ) echo ' class="active"'; ?>><a href="<?php echo $esolRoutes['esolHome']; ?>">ESOL Lab<span class="sr-only">(current)</span></a></li><?php echo "\n";
 
-<?php echo "\t\t\t\t"; ?><li class="dropdown<?php if($currentPage == 'abe') echo ' active'; ?>"><?php echo "\n"; ?>
-<?php echo "\t\t\t\t<a href=\"" . $abeRoutes['abeHome'] . "\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">ABE Lab <span class=\"caret\"></span></a>\n";
-echo "\t\t\t\t<ul class=\"dropdown-menu\">\n";
-
-echo "\t\t\t\t<li><a href=\"" . $abeRoutes['abeHome'] . "\">ABE Lab</a></li>\n";
-echo "\t\t\t\t<li role=\"separator\" class=\"divider\"></li>\n";
-echo "\t\t\t\t<li class=\"dropdown-header\">Subjects</li>\n";
-echo "\t\t\t\t<li><a href=\"" . $abeRoutes['english'] . "\">English</a></li>\n";
-echo "\t\t\t\t<li><a href=\"" . $abeRoutes['math'] . "\">Math</a></li>\n";
-echo "\t\t\t\t<li><a href=\"" . $abeRoutes['science'] . "\">Science</a></li>\n";
-echo "\t\t\t\t<li><a href=\"" . $abeRoutes['socialStudies'] . "\">Social Studies</a></li>\n";
-echo "\t\t\t\t<li><a href=\"" . $abeRoutes['technology'] . "\">Technology</a></li>\n";
-
-echo "\t\t\t\t</ul>\n";
-echo "\t\t\t\t</li>\n";
-/* END abe links */
-
-/* BEGIN esol links */
-echo "\t\t\t\t"; ?><li class="dropdown<?php if($currentPage == 'esol') echo ' active'; ?>">
-<?php echo "\t\t\t\t<a href=\"" . $esolRoutes['esolHome'] . "\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">ESOL Lab <span class=\"caret\"></span></a>\n";
-echo "\t\t\t\t<ul class=\"dropdown-menu\">\n";
-
-echo "\t\t\t\t<li><a href=\"" . $esolRoutes['esolHome'] . "\">ESOL Lab</a></li>\n";
-echo "\t\t\t\t<li role=\"separator\" class=\"divider\"></li>\n";
-echo "\t\t\t\t<li class=\"dropdown-header\">Subjects</li>\n";
-echo "\t\t\t\t<li><a href=\"" . $esolRoutes['citizenship'] . "\">Citizenship</a></li>\n";
-echo "\t\t\t\t<li><a href=\"" . $esolRoutes['generalEsol'] . "\">General ESOL</a></li>\n";
-echo "\t\t\t\t<li><a href=\"" . $esolRoutes['grammar'] . "\">Grammar</a></li>\n";
-echo "\t\t\t\t<li><a href=\"" . $esolRoutes['health'] . "\">Health</a></li>\n";
-echo "\t\t\t\t<li><a href=\"" . $esolRoutes['learnersPermit'] . "\">MA Learner's Permit</a></li>\n";
-echo "\t\t\t\t<li><a href=\"" . $esolRoutes['money'] . "\">Money</a></li>\n";
-echo "\t\t\t\t<li><a href=\"" . $esolRoutes['parents'] . "\">Parents</a></li>\n";
-echo "\t\t\t\t<li><a href=\"" . $esolRoutes['pronunciation'] . "\">Pronunciation</a></li>\n";
-echo "\t\t\t\t<li><a href=\"" . $esolRoutes['technology'] . "\">Technology</a></li>\n";
-echo "\t\t\t\t<li><a href=\"" . $esolRoutes['vocabulary'] . "\">Vocabulary</a></li>\n";
-echo "\t\t\t\t<li><a href=\"" . $esolRoutes['workplace'] . "\">Workplace</a></li>\n";
-
-echo "\t\t\t\t</ul>\n";
-echo "\t\t\t\t</li>\n";
-
-/* END esol links */
 echo "\t\t\t</ul>\n";
 /* END navbar links */
 
