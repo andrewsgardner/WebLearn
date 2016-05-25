@@ -8,7 +8,7 @@ echo "\t<div class=\"row\">\n";
 
 /* BEGIN footer links */
 echo "\t<div class=\"col-xs-12\">\n";
-echo "\t<p class=\"footer-links\">\n\t\t<a href=\"#\">WebLearn</a>\n\t\t<a href=\"#\">Getting Started</a>\n\t\t<a href=\"#\">ABE Lab</a>\n\t\t<a href=\"#\">ESOL Lab</a>\n</p>\n";
+echo "\t<p class=\"footer-links\">\n\t\t<a href=\"/\">WebLearn</a>\n\t\t<a href=\"" . $gettingStarted . "\">Getting Started</a>\n\t\t<a href=\"" . $abeRoutes['abeHome'] . "\">ABE Lab</a>\n\t\t<a href=\"" . $esolRoutes['esolHome'] . "\">ESOL Lab</a>\n</p>\n";
 echo "\t</div>\n";
 /* END footer links */
 
