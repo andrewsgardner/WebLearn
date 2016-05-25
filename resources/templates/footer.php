@@ -24,25 +24,6 @@ echo "\t<p class=\"developer\">Website by <a href=\"http://www.andrewsgardner.co
 echo "\t</div>\n";
 /* END developer notice */
 
-
-/* BEGIN left column */
-/*
-echo "\t<div class=\"col-xs-12 col-sm-6 copyright\">\n";
-echo "\t<p><small>&copy; " . date('Y') . "&nbsp;" . "<a href=\"" . $salcStcc . "\">Springfield Adult Learning Center</a></small></p>\n";
-echo "\t<p><small><em>Springfield Technical Community College</em></small></p>\n";
-echo "\t<p><small><em>One Armory Sq. Springfield, MA</em></small></p>\n";
-echo "\t</div>\n";
-*/
-/* END left column */
-
-/* BEGIN right column */
-/*
-echo "\t<div class=\"col-xs-12 col-sm-6\">\n";
-echo " <img src=\"" . $config['paths']['img']['stccLogo'] . "\" alt=\"Springfield Technical Community College Logo\" class=\"stcc-logo\"> ";
-echo "\t</div>\n";
-*/
-/* END right column */
-
 echo "\t</div>\n";
 echo "\t</div>\n";
 echo "\t</footer>\n";
