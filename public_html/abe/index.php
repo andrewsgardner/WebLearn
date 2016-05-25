@@ -8,6 +8,22 @@ require_once(LIBRARY_PATH . "/contentPageFunctions.php");
 ob_start();
 ?>
 
+<!-- BEGIN page breadcrumbs -->
+
+<ol class="breadcrumb">
+    <li><a href="#">WebLearn</a></li>
+    <li class="active"><a href="#">ABE Lab</a></li>
+</ol>
+
+<!-- END page breadcrumbs -->
+
+<?php 
+$pageBreadbrumbs = ob_get_contents();
+ob_get_clean();
+
+ob_start();
+?>
+
 <!-- BEGIN page content -->
 
 <h1>ABE Lab</h1>
@@ -20,6 +36,7 @@ $pageContent = ob_get_contents();
 ob_get_clean();
 
 $variables = array(
+    "pageBreadbrumbs" => $pageBreadbrumbs,
     "pageContent" => $pageContent
 );
 renderContentPageLayout("/contentPage.php", $variables);

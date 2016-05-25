@@ -8,6 +8,19 @@ require_once(LIBRARY_PATH . "/contentPageFunctions.php");
 ob_start();
 ?>
 
+<!-- BEGIN page breadcrumbs -->
+
+
+
+<!-- END page breadcrumbs -->
+
+<?php 
+$pageBreadbrumbs = ob_get_contents();
+ob_get_clean();
+
+ob_start();
+?>
+
 <!-- BEGIN page content -->
 
 <h1>Test</h1>
@@ -20,6 +33,7 @@ $pageContent = ob_get_contents();
 ob_get_clean();
 
 $variables = array(
+    "pageBreadbrumbs" => $pageBreadbrumbs,
     "pageContent" => $pageContent
 );
 renderContentPageLayout("/contentPage.php", $variables);

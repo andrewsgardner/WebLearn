@@ -6,6 +6,13 @@
         padding: em(60) em(20) em(258) em(20);
     }
     
+    .breadcrumb {
+        
+        > li {
+            display: none;
+        }
+    }
+    
     /*----> HEADER <----*/
     
     .navbar-bottom {
@@ -39,6 +46,13 @@
     
     .grid-container {
         padding: em(98) 0 em(213) 0;
+    }
+    
+    .breadcrumb {
+        
+        > li {
+            display: inline-block;
+        }
     }
     
     /*----> HEADER <----*/
