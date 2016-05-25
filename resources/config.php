@@ -18,7 +18,8 @@ $config = array(
         "img" => array(
             "content" => "/img/content",
             "layout" => "/img/layout",
-            "logo" => "/img/layout/weblearn-logo.png"
+            "logo" => "/img/layout/weblearn-logo.png",
+            "stccLogo" => "/img/layout/stcc-logo.png"
         ),
         "scripts" => array(
             "main" => "/js/main.js",

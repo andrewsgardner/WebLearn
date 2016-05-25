@@ -12,9 +12,10 @@ Version: 1.0
 4. Global
 5. Structural
 6. Grid
-7. Header
-8. Footer
-9. Media Queries
+7. pageContent
+8. Header
+9. Footer
+10. Media Queries
 ------------------------------------ */
 @import 'modules/_variables';
 @import 'modules/_mixins';
@@ -31,9 +32,11 @@ Version: 1.0
 @import 'partials/_structural';
 /*------------> 6. GRID <------------*/
 @import 'partials/_grid';
-/*-----------> 7. HEADER <-----------*/
+/*---------> 7. PAGECONTENT <--------*/
+@import 'partials/_pageContent';
+/*-----------> 8. HEADER <-----------*/
 @import 'partials/_header';
-/*-----------> 8. FOOTER <-----------*/
+/*-----------> 9. FOOTER <-----------*/
 @import 'partials/_footer';
-/*--------> 9. MEDIA QUERIES <-------*/
+/*-------> 10. MEDIA QUERIES <-------*/
 @import 'partials/_media-queries';

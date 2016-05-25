@@ -6,7 +6,7 @@ echo "\t</div>\n";
 /* END navbar-bottom */
 
 /* BEGIN container */
-echo "\t<div class=\"container\">\n";
+echo "\t<div class=\"container grid-container\">\n";
 
 echo $pageContent;
 
