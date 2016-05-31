@@ -12,7 +12,7 @@ ob_start();
 
 <ol class="breadcrumb">
     <li><a href="#">WebLearn</a></li>
-    <li class="active"><a href="#">ABE Lab</a></li>
+    <li><a href="#">ABE Lab</a></li>
 </ol>
 
 <!-- END page breadcrumbs -->
