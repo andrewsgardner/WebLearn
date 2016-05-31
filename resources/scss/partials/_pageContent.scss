@@ -1,0 +1,24 @@
+.subheading {
+    display: block;
+    margin-bottom: em(20);
+}
+
+.media-block {
+    border: em(5) solid $hex-black;
+    background-color: $hex-yellow;
+    @include box-shadow(0 0 em(2.5) 0 $hex-black);
+}
+
+.caption {
+    background-color: $hex-white;
+    padding: em(17.1425);
+    @include box-shadow(0 0 em(2.5) 0 $hex-black);
+    
+    h3 {
+        margin-top: 0;
+    }
+    
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}

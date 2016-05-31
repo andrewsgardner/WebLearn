@@ -11,3 +11,13 @@ body {
 p {
     display: block;
 }
+
+h1 {
+    color: $hex-dark-red;
+    font-size: em(32);
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: em(21);
+}

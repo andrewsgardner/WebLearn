@@ -70,6 +70,10 @@ a.btn {
 }
 .btn-primary {
   @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+    &:hover {
+        background-color: $hex-darkest-red;
+        border-color: $hex-darkest-red;
+    }
 }
 // Success appears as green
 .btn-success {
