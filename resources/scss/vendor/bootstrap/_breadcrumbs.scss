@@ -6,7 +6,7 @@
 .breadcrumb {
   padding: $breadcrumb-padding-vertical $breadcrumb-padding-horizontal;
     margin: em(62) 0 0 0;
-    padding: em(6) 0 em(5) 0;
+    padding: em(7) 0 em(4) 0;
     list-style: none;
     font-size: em(15);
 
@@ -19,12 +19,13 @@
       padding: 0 5px;
         color: $hex-black;
         text-shadow: 0 0 em(.5) $hex-white;
+        font-weight: 700;
     }
   }
     a {
         color: $hex-black;
         text-shadow: 0 0 em(.5) $hex-white;
-        
+        font-weight: 700;
     }
 
   > .active {

@@ -4091,17 +4091,19 @@ tbody.collapse.in {
 .breadcrumb {
   padding: 8px 15px;
   margin: 3.875em 0 0 0;
-  padding: 0.375em 0 0.3125em 0;
+  padding: 0.4375em 0 0.25em 0;
   list-style: none;
   font-size: 0.9375em; }
   .breadcrumb > li + li:before {
     content: "/ ";
     padding: 0 5px;
     color: #353638;
-    text-shadow: 0 0 0.03125em #fff; }
+    text-shadow: 0 0 0.03125em #fff;
+    font-weight: 700; }
   .breadcrumb a {
     color: #353638;
-    text-shadow: 0 0 0.03125em #fff; }
+    text-shadow: 0 0 0.03125em #fff;
+    font-weight: 700; }
   .breadcrumb > .active {
     color: #353638; }
 
