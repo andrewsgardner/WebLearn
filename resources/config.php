@@ -8,7 +8,9 @@ $config = array(
     "info" => array(
         "siteName" => "WebLearn",
         "siteAuthor" => "Andrew S. Gardner",
-        "cacheVer" => "?v=1.0"
+        "cacheVer" => "?v=1.0",
+        "abeLinkNum" => "167",
+        "esolLinkNum" => "86"
         ),
     "paths" => array(
         "css" => array(

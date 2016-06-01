@@ -39,7 +39,7 @@ ob_start();
             <div class="panel-body text-center media-block">
                 <div class="caption">
                     <h3>ABE Lab</h3>
-                    <p>ABE Lab is a section on WebLearn for students waiting to enter <a href="http://hiset.ets.org/" target="_blank">High School Equivalency Test</a> (HiSET) preparation classes. It contains links to 167 learning activities that SALC instructors feel are important for students to review.</p>
+                    <p>ABE Lab is a section on WebLearn for students waiting to enter <a href="http://hiset.ets.org/" target="_blank">High School Equivalency Test</a> (HiSET) preparation classes. It contains links to <?php echo $config['info']['abeLinkNum']; ?> learning activities that SALC instructors feel are important for students to review.</p>
                     <p><a href="#" class="btn btn-primary" role="button">Start Here</a></p>
                 </div>
             </div>
@@ -50,7 +50,7 @@ ob_start();
             <div class="panel-body text-center media-block">
                 <div class="caption">
                     <h3>ESOL Lab</h3>
-                    <p>ESOL Lab is a section on WebLearn for students waiting to enter English for Speakers of Other Languages (ESOL) classes. It contains links to 86 learning activities for both future and current students to use.</p>
+                    <p>ESOL Lab is a section on WebLearn for students waiting to enter English for Speakers of Other Languages (ESOL) classes. It contains links to <?php echo $config['info']['esolLinkNum']; ?> learning activities for both future and current students to use.</p>
                     <p><a href="#" class="btn btn-primary" role="button">Start Here</a></p>
                 </div>
             </div>
