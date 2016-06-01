@@ -5951,11 +5951,20 @@ address {
 /*-------> 10. MEDIA QUERIES <-------*/
 @media (min-width: 0.1em) {
   /* Custom: 1.6px = .1em */
+  /*---> BOOTSTRAP <--*/
+  .panel {
+    margin-top: 1.25em; }
+  /*----> GLOBAL <----*/
+  h1, h2, address {
+    text-align: center; }
   /*--> STRUCTURAL <--*/
   .grid-container {
     padding: 4.1875em 1.25em 16.6875em 1.25em; }
   .breadcrumb > li {
     display: none; }
+  /*--> PAGECONTENT <-*/
+  .subheading {
+    text-align: center; }
   /*----> HEADER <----*/
   .navbar-bottom {
     height: 4.25em; }
@@ -5969,18 +5978,21 @@ address {
         content: "";
         display: none; }
   .copyright, .developer {
-    font-size: 0.75em; }
-  /*---> BOOTSTRAP <--*/
-  .panel {
-    margin-top: 1.25em; } }
+    font-size: 0.75em; } }
 
 @media (min-width: 48em) {
   /* Small devices */
+  /*----> GLOBAL <----*/
+  h1, h2, address {
+    text-align: left; }
   /*--> STRUCTURAL <--*/
   .grid-container {
     padding: 6em 0 13.25em 0; }
   .breadcrumb > li {
     display: inline-block; }
+  /*--> PAGECONTENT <-*/
+  .subheading {
+    text-align: left; }
   /*----> HEADER <----*/
   .navbar-bottom {
     height: 5.5em; }
