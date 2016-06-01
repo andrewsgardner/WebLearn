@@ -25,7 +25,7 @@ ob_start();
 ?>
 
 <!-- BEGIN page content -->
-
+    
 <h1>ABE Lab</h1>
 <p>Lorem ipsum dolor sit amet, pellentesque laoreet orci integer facilisi tortor quis, sollicitudin gravida torquent pellentesque proin, venenatis dolore cras iaculis wisi lacus egestas, wisi amet integer ultrices cursus irure est.</p>
 

@@ -3,7 +3,7 @@
     /*--> STRUCTURAL <--*/
     
     .grid-container {
-        padding: em(60) em(20) em(258) em(20);
+        padding: em(67) em(20) em(267) em(20);
     }
     
     .breadcrumb {
@@ -38,6 +38,13 @@
     .copyright, .developer {
         font-size: em(12);
     }
+    
+    /*---> BOOTSTRAP <--*/
+    
+    .panel {
+        margin-top: em(20);
+    }
+    
 }
 
 @media (min-width: em(768)) { /* Small devices */
@@ -45,7 +52,7 @@
     /*--> STRUCTURAL <--*/
     
     .grid-container {
-        padding: em(98) 0 em(213) 0;
+        padding: em(96) 0 em(212) 0;
     }
     
     .breadcrumb {
@@ -90,7 +97,6 @@
     .copyright, .developer {
         font-size: em(14);
     }
-    
 }
 
 @media (min-width: em(992)) { /* Medium devices */
