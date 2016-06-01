@@ -133,8 +133,13 @@
 
 @media (min-width: em(992)) { /* Medium devices */
     
+    /*---> BOOTSTRAP <--*/
+    
+    .container {
+        width: 970px;
+    }
 }
 
-@media (min-width: wm(1200)) { /* Large devices (large devices */
+@media (min-width: em(1200)) { /* Large devices (large devices */
     
 }

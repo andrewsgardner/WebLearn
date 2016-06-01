@@ -6019,9 +6019,12 @@ address {
     font-size: 0.875em; } }
 
 @media (min-width: 62em) {
-  /* Medium devices */ }
+  /* Medium devices */
+  /*---> BOOTSTRAP <--*/
+  .container {
+    width: 970px; } }
 
-@media (min-width: wm(1200)) {
+@media (min-width: 75em) {
   /* Large devices (large devices */ }
 
 /*# sourceMappingURL=main.css.map */
