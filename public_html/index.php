@@ -1,7 +1,7 @@
 <?php 
 $currentPage = "landing";
-$pageTitle = "";
-$pageDesc = "";
+$pageTitle = "SALC WebLearn | Springfield Adult Learning Center";
+$pageDesc = "WebLearn is a distance learning website for prospective Adult Basic Education or English for Speakers of Other Languages students at SALC.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");
 
@@ -40,7 +40,7 @@ ob_start();
                 <div class="caption">
                     <h3>ABE Lab</h3>
                     <p>ABE Lab is a section on WebLearn for students waiting to enter <a href="http://hiset.ets.org/" target="_blank">High School Equivalency Test</a> (HiSET) preparation classes. It contains links to <?php echo $config['info']['abeLinkNum']; ?> learning activities that SALC instructors feel are important for students to review.</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Start Here</a></p>
+                    <p><a href="<?php echo $abeRoutes['abeHome']; ?>" class="btn btn-primary" role="button">Start Here</a></p>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@ ob_start();
                 <div class="caption">
                     <h3>ESOL Lab</h3>
                     <p>ESOL Lab is a section on WebLearn for students waiting to enter English for Speakers of Other Languages (ESOL) classes. It contains links to <?php echo $config['info']['esolLinkNum']; ?> learning activities for both future and current students to use.</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Start Here</a></p>
+                    <p><a href="<?php echo $esolRoutes['esolHome']; ?>" class="btn btn-primary" role="button">Start Here</a></p>
                 </div>
             </div>
         </div>
