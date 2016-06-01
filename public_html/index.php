@@ -27,9 +27,10 @@ ob_start();
     <div class="col-xs-12">
         <h1>WebLearn</h1>
         <strong class="subheading text-muted">Springfield Adult Learning Center</strong>
+        <h2>About</h2>
         <p>WebLearn is a distance learning website maintained by the <a href="<?php echo $salcStcc; ?>" target="_blank">Springfield Adult Learning Center</a> (SALC). This resource empowers future students to get a head start on their education while still on our waitlist for Adult Basic Education services.</p>
         <h2>What is Distance Learning?</h2>
-        <p>Distance learning is an education delivery process that's used when students and teachers are separated by space or time. Instruction is provided over the Internet to students who can't be present in a traditional classroom. Distance learning websites use video recordings, audio recordings, and web-based activities to present academic material.</p>
+        <p>Distance learning is an education delivery process that's used when students and teachers are separated by space or time. Instruction is provided over the Internet to students who can't be present in a traditional classroom. Distance learning websites use video recordings, audio recordings, and web-based activities to present academic material. Please begin by reading our <a href="<?php echo $gettingStarted; ?>" target="_blank">Getting Started</a> page.</p>
     </div>
 </div>
 <div class="row">
@@ -54,6 +55,22 @@ ob_start();
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Contact</h2>
+        <p>Questions or comments about WebLearn can be directed to SALC's Workforce Readiness Coordinator:</p>
+        <address>
+            <strong>John W. Lewis II</strong><br>
+            Work Readiness Coordinator<br>
+            Springfield Adult Learning Center<br>
+            Springfield Technical Community College<br>
+            <script>
+                document.write("<n uers=\"znvygb:wjyrjvf@fgpp.rqh\" ery=\"absbyybj\">wjyrjvf@fgpp.rqh</n>".replace(/[a-zA-Z]/g,
+                function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+            </script>
+        </address>
     </div>
 </div>
 
