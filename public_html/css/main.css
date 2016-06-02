@@ -5898,6 +5898,9 @@ address {
   -webkit-box-shadow: 0 0 0.15625em 0 #353638;
   box-shadow: 0 0 0.15625em 0 #353638; }
 
+.media-gap {
+  margin-bottom: 2.34375em; }
+
 .caption {
   background-color: #fff;
   padding: 1.07140625em;
@@ -5965,7 +5968,7 @@ address {
   .breadcrumb > li {
     display: none; }
   /*--> PAGECONTENT <-*/
-  .subheading {
+  .subheading, .subject-desc {
     text-align: center; }
   /*----> HEADER <----*/
   .navbar-bottom {
@@ -5984,6 +5987,9 @@ address {
 
 @media (min-width: 48em) {
   /* Small devices */
+  /*---> BOOTSTRAP <--*/
+  .container {
+    max-width: 720px; }
   /*----> GLOBAL <----*/
   h1, h2, address {
     text-align: left; }
@@ -5995,7 +6001,7 @@ address {
   .breadcrumb > li {
     display: inline-block; }
   /*--> PAGECONTENT <-*/
-  .subheading {
+  .subheading, .subject-desc {
     text-align: left; }
   /*----> HEADER <----*/
   .navbar-bottom {
@@ -6022,7 +6028,7 @@ address {
   /* Medium devices */
   /*---> BOOTSTRAP <--*/
   .container {
-    width: 970px; } }
+    max-width: 940px; } }
 
 @media (min-width: 75em) {
   /* Large devices (large devices */ }

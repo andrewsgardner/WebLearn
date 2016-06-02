@@ -9,6 +9,10 @@
     @include box-shadow(0 0 em(2.5) 0 $hex-black);
 }
 
+.media-gap {
+    margin-bottom: em(37.5);
+}
+
 .caption {
     background-color: $hex-white;
     padding: em(17.1425);
