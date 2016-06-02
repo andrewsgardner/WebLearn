@@ -41,11 +41,50 @@ $salcStcc = "http://www.stcc.edu/adulteducationcenter/";
 
 $abeRoutes = array(
     "abeHome" => "/abe/",
-    "english" => "/abe/english/",
-    "math" => "/abe/math/",
-    "science" => "/abe/science/",
-    "socialStudies" => "/abe/social-studies/",
-    "compLit" => "/abe/computer-literacy/"
+    "english" => array(
+        "grammar" => "/abe/grammar/",
+        "punctuation" => "/abe/punctuation/",
+        "reading" => "/abe/reading/",
+        "writing" => "/abe/writing/"
+    ),
+    "math" => array(
+        "addition" => "/abe/addition/",
+        "decimalsPercentages" => "/abe/decimals-percentages/",
+        "division" => "/abe/division/",
+        "evenOddNums" => "/abe/even-odd-numbers/",
+        "fractions" => "/abe/fractions/",
+        "measurement" => "/abe/measurement/",
+        "multiplication" => "/abe/multiplication/",
+        "numberSense" => "/abe/number-sense/",
+        "placeValue" => "/abe/place-value/",
+        "subtraction" => "/abe/subtraction/"
+    ),
+    "science" => array(
+        "bodySystems" => "/abe/body-systems/",
+        "photosynthesis" => "/abe/photosynthesis/",
+        "scientificMethod" => "/abe/scientific-method/",
+        "scientificTerms" => "/abe/scientific-terms/"
+    ),
+    "socialStudies" => array(
+        "civilRights" => "/abe/civil-rights-movement/",
+        "civilWar" => "/abe/civil-war/",
+        "greatDepression" => "/abe/great-depression/",
+        "revolutionaryWar" => "/abe/revolutionary-war/",
+        "separationPowers" => "/abe/separation-of-powers/",
+        "usPresidents" => "/abe/us-presidents/"
+    ),
+    "compLit" => array(
+        "CompFundamentals" => "/abe/computer-fundamentals/",
+        "email" => "/abe/email/",
+        "internetBrowsing" => "/abe/internet-browsing/",
+        "excel" => "/abe/excel/",
+        "powerPoint" => "/abe/powerpoint/",
+        "word" => "/abe/word/",
+        "searchEngines" => "/abe/search-engines/",
+        "typing" => "/abe/typing/",
+        "win7" => "/abe/windows-7/",
+        "win8" => "/abe/windows-8/"
+    )
 );
 
 $esolRoutes = array(
