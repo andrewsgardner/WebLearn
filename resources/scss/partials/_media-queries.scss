@@ -31,7 +31,7 @@
     
     /*--> PAGECONTENT <-*/
     
-    .subheading {
+    .subheading, .subject-desc {
         text-align: center;
     }
     
@@ -65,6 +65,12 @@
 
 @media (min-width: em(768)) { /* Small devices */
     
+    /*---> BOOTSTRAP <--*/
+    
+    .container {
+        max-width: 720px;
+    }
+    
     /*----> GLOBAL <----*/
     
     h1, h2, address {
@@ -90,7 +96,7 @@
     
     /*--> PAGECONTENT <-*/
     
-    .subheading {
+    .subheading, .subject-desc {
         text-align: left;
     }
     
@@ -136,7 +142,8 @@
     /*---> BOOTSTRAP <--*/
     
     .container {
-        width: 970px;
+        //width: 970px;
+        max-width: 940px;
     }
 }
 
