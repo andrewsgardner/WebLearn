@@ -74,7 +74,7 @@ $abeRoutes = array(
         "usPresidents" => "/abe/us-presidents/"
     ),
     "compLit" => array(
-        "CompFundamentals" => "/abe/computer-fundamentals/",
+        "compFundamentals" => "/abe/computer-fundamentals/",
         "email" => "/abe/email/",
         "internetBrowsing" => "/abe/internet-browsing/",
         "excel" => "/abe/excel/",
