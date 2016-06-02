@@ -45,7 +45,7 @@ $abeRoutes = array(
     "math" => "/abe/math/",
     "science" => "/abe/science/",
     "socialStudies" => "/abe/social-studies/",
-    "technology" => "/abe/technology/"
+    "compLit" => "/abe/computer-literacy/"
 );
 
 $esolRoutes = array(
@@ -58,7 +58,7 @@ $esolRoutes = array(
     "money" => "/esol/money/",
     "parents" => "/esol/parents/",
     "pronunciation" => "/esol/pronunciation/",
-    "technology" => "/esol/technology/",
+    "compLit" => "/esol/computer-literacy/",
     "vocabulary" => "/esol/vocabulary/",
     "workplace" => "/esol/workplace/"
 );
