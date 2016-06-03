@@ -5972,6 +5972,7 @@ address {
   /*--> PAGECONTENT <-*/
   .subheading, .subject-desc {
     text-align: center; }
+  /*-> ACTIVITYLIST <-*/
   /*----> HEADER <----*/
   .navbar-bottom {
     height: 4.25em; }
@@ -6005,6 +6006,7 @@ address {
   /*--> PAGECONTENT <-*/
   .subheading, .subject-desc {
     text-align: left; }
+  /*-> ACTIVITYLIST <-*/
   /*----> HEADER <----*/
   .navbar-bottom {
     height: 5.5em; }

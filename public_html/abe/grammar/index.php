@@ -2,6 +2,7 @@
 $currentPage = "abe";
 $pageTitle = "";
 $pageDesc = "";
+$count = 0;
 require_once("config.php");
 require_once(LIBRARY_PATH . "/activityListFunctions.php");
 
@@ -31,24 +32,18 @@ ob_start();
     <div class="col-xs-12">
         <h1>ABE Lab</h1>
         <strong class="subheading text-muted">Springfield Adult Learning Center</strong>
-        
         <h2>Grammar</h2>
-        
+
         <div class="panel panel-default">
         <div class="panel-body text-left media-block">
         <div class="caption">
-        <dl class="list">
-            
-            <dt>Item</dt>
-            <dd>
-                <p>Description of item.</p>
-                <img src="#" alt="#">
-            </dd>
         
-        </dl>
+        <?php echo ++$count; ?>
+            
         </div>
         </div>
         </div>
+        
     </div>
 </div>
 
