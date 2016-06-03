@@ -13,7 +13,9 @@ echo "\t</div>\n";
 /* BEGIN container */
 echo "\t<div class=\"container grid-container\">\n";
 
-echo $activityList;
+echo $activityItems;
+
+echo $itemRefs;
 
 echo "\t</div>\n";
 /* END container */
