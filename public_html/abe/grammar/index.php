@@ -25,19 +25,54 @@ ob_get_clean();
 ob_start();
 ?>
 
-<!-- BEGIN activity list -->
+<!-- BEGIN activity items -->
     
+<div class="row">
+    <div class="col-xs-12">
+        <h1>ABE Lab</h1>
+        <strong class="subheading text-muted">Springfield Adult Learning Center</strong>
+        
+        <h2>Grammar</h2>
+        
+        <div class="panel panel-default">
+        <div class="panel-body text-left media-block">
+        <div class="caption">
+        <dl class="list">
+            
+            <dt>Item</dt>
+            <dd>
+                <p>Description of item.</p>
+                <img src="#" alt="#">
+            </dd>
+        
+        </dl>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
 
-
-<!-- END activity list -->
+<!-- END activity items -->
 
 <?php 
-$activityList = ob_get_contents();
+$activityItems = ob_get_contents();
+ob_get_clean();
+
+ob_start();
+?>
+
+<!-- BEGIN item references -->
+
+<!-- END item references -->
+
+<?php
+$itemRefs = ob_get_contents();
 ob_get_clean();
 
 $variables = array(
     "pageBreadbrumbs" => $pageBreadbrumbs,
-    "activityList" => $activityList
+    "activityItems" => $activityItems,
+    "itemRefs" => $itemRefs
 );
 renderActivityListLayout("/activityList.php", $variables);
 ?>
