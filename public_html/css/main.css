@@ -13,9 +13,10 @@ Version: 1.0
 5. Structural
 6. Grid
 7. pageContent
-8. Header
-9. Footer
-10. Media Queries
+8. activityList
+9. Header
+10. Footer
+11. Media Queries
 ------------------------------------ */
 /* colors */
 /* css transform prefixes */
@@ -5911,7 +5912,8 @@ address {
   .caption p:last-of-type {
     margin-bottom: 0; }
 
-/*-----------> 8. HEADER <-----------*/
+/*---------> 8. ACTIVITYLIST <-------*/
+/*-----------> 9. HEADER <-----------*/
 .navbar-bottom {
   position: fixed;
   top: 0;
@@ -5922,7 +5924,7 @@ address {
   -webkit-box-shadow: 0 0 0.15625em 0 #353638;
   box-shadow: 0 0 0.15625em 0 #353638; }
 
-/*-----------> 9. FOOTER <-----------*/
+/*-----------> 10. FOOTER <-----------*/
 .footer {
   position: absolute;
   bottom: 0;
@@ -5951,7 +5953,7 @@ address {
   .copyright a, .developer a {
     color: #e1bc60; }
 
-/*-------> 10. MEDIA QUERIES <-------*/
+/*-------> 11. MEDIA QUERIES <-------*/
 @media (min-width: 0.1em) {
   /* Custom: 1.6px = .1em */
   /*---> BOOTSTRAP <--*/

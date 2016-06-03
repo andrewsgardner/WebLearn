@@ -13,9 +13,10 @@ Version: 1.0
 5. Structural
 6. Grid
 7. pageContent
-8. Header
-9. Footer
-10. Media Queries
+8. activityList
+9. Header
+10. Footer
+11. Media Queries
 ------------------------------------ */
 @import 'modules/_variables';
 @import 'modules/_mixins';
@@ -34,9 +35,11 @@ Version: 1.0
 @import 'partials/_grid';
 /*---------> 7. PAGECONTENT <--------*/
 @import 'partials/_pageContent';
-/*-----------> 8. HEADER <-----------*/
+/*---------> 8. ACTIVITYLIST <-------*/
+@import 'partials/_activityList.scss';
+/*-----------> 9. HEADER <-----------*/
 @import 'partials/_header';
-/*-----------> 9. FOOTER <-----------*/
+/*-----------> 10. FOOTER <-----------*/
 @import 'partials/_footer';
-/*-------> 10. MEDIA QUERIES <-------*/
+/*-------> 11. MEDIA QUERIES <-------*/
 @import 'partials/_media-queries';
