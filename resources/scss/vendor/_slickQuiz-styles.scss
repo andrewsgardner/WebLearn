@@ -1,0 +1,183 @@
+.pre-activity {
+	margin: 0 auto;
+}
+
+.pre-activity:after {
+	clear: both;
+}
+
+.pre-activity-col1 {
+	width: 744px;
+	margin: 20px;
+	background: #EFEFEF;
+	border: 3px solid #940022;
+	padding: 9px;
+	line-height: 1.4;
+	display: block;
+}
+
+.pre-activity-col1 h3 {
+	color: #940022;
+}
+
+.pre-activity-col2 {
+	display: block;
+	width: 310px;
+	margin: 0 20px 20px 20px;
+}
+
+img.pre-activity-pic {
+	border: 2px solid #940022;
+	min-width: 312px;
+	min-height: 211px;
+}
+
+.quiz-p {
+	margin-bottom: 20px;
+}
+
+.quiz-t {
+	margin: 20px 0;
+}
+
+.abeActivity {
+    width: 100%;
+}
+.button {
+    float: left;
+    width: auto;
+    padding: em(5) em(15);
+    color: $hex-white;
+    background-color: $hex-dark-red;
+    border: 1px solid $hex-white;
+    @include border-radius(em(5));
+	text-decoration: none;
+	box-shadow: 0 0 4px 0 #353638;
+}
+.button:hover {
+    background-color: $hex-darkest-red;
+    color: $hex-white;
+}
+
+.startQuiz {
+    margin-top: 40px;
+}
+
+.tryAgain {
+    float: none;
+    margin: 20px 0;
+}
+
+.quizArea {
+    width: 100%;
+}
+
+/* clearfix */
+.quizArea, .quizResults {
+    zoom: 1;
+}
+.quizArea:before, .quizArea:after, .quizResults:before, .quizResults:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+}
+.quizArea:after, .quizResults:after {
+    clear: both;
+}
+
+.questionCount {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.questionCount span {
+    font-weight: bold;
+}
+
+ol.questions {
+    margin-top: 20px;
+    margin-left: 0;
+    
+    h3 {
+        font-size: 16px;
+    }
+}
+ol.questions li {
+    margin-left: 0;
+    
+    width: 100%;
+}
+
+ul.answers {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul.responses li {
+    margin: 10px 20px 20px;
+}
+ul.responses li p span {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+.complete ul.answers li.correct, ul.responses li.correct p span {
+    color: #6C9F2E;
+}
+ul.responses li.incorrect p span {
+    color: #B5121B;
+    
+    width: 100%;
+}
+
+.quizResults h3 {
+    margin: 0;
+}
+.quizResults h3 span {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.quizResultsCopy {
+    clear: both;
+    margin-top: 20px;
+}
+.startQuiz,
+.nextQuestion,
+.backToQuestion,
+.questions li.question,
+.questions li.question .responses,
+.questions li.question .responses .correct,
+.questions li.question .responses .incorrect,
+.quizResults {
+    display: none;
+}
+
+/* If response messages are disabled or only shown on quiz completion,
+   nextQuestion button IS checkAnswer button - so it must be displayed */
+.nextQuestion.checkAnswer {
+    display: block;
+}
+
+ol.questions,
+ul.answers,
+ul.responses,
+ol.questions li,
+ul.answers li,
+ul.responses li {
+    list-style-type: none;
+}
+
+/* Accessibility */
+.quizName span:first-child {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
