@@ -102,6 +102,26 @@ $esolRoutes = array(
     "workplace" => "/esol/workplace/"
 );
 
+if (!function_exists('preMediaBlock')) {
+    
+    function preMediaBlock() {
+        
+        echo "<div class=\"panel panel-default\">\n";
+        echo "\t<div class=\"panel-body media-block\">\n";
+        echo "\t<div class=\"caption\">";
+        
+    }
+    
+    function postMediaBlock() {
+        
+        echo "</div>\n";
+        echo "\t</div>\n";
+        echo "\t</div>\n";
+        
+    }
+    
+}
+
 defined("LIBRARY_PATH")
 	or define("LIBRARY_PATH", realpath(dirname(__FILE__) . "/library"));
 
