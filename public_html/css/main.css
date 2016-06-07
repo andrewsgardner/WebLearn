@@ -6093,7 +6093,7 @@ ul.answers {
   margin-bottom: 20px; }
 
 ul.responses li {
-  margin: 10px 20px 20px; }
+  margin: 20px 0; }
 
 ul.responses li p span {
   display: block;
@@ -6139,7 +6139,8 @@ ul.responses,
 ol.questions li,
 ul.answers li,
 ul.responses li {
-  list-style-type: none; }
+  list-style-type: none;
+  padding-left: 0; }
 
 /* Accessibility */
 .quizName span:first-child {
