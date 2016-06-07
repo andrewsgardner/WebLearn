@@ -17,6 +17,14 @@
     box-shadow: #{$str};
 }
 
+// css border radius prefixes
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
 // clearfix
 @mixin clearfix() {
     &:before,
