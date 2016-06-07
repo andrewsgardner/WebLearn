@@ -37,7 +37,30 @@
     
     /*-> ACTIVITYLIST <-*/
     
+    .activity {
+        //padding: 0;
+        padding: 0 0 em(30) 0;
+        
+        &:last-of-type {
+            padding: 0;
+        }
+        
+        h3, h4 {
+            text-align: center;
+        }
+    }
     
+    .activity-thumbnail {
+        
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    
+    .activity-open {
+        text-align: center;
+    }
     
     /*----> HEADER <----*/
     
@@ -106,7 +129,28 @@
     
     /*-> ACTIVITYLIST <-*/
     
+    .activity {
+        padding: em(30);
+        
+        &:last-of-type {
+            padding: em(30);
+        }
+        
+        h3, h4 {
+            text-align: left;
+        }
+    }
     
+    .activity-thumbnail {
+        
+        img {
+            margin-left: 0;
+        }
+    }
+    
+    .activity-open {
+        text-align: left;
+    }
     
     /*----> HEADER <----*/
     

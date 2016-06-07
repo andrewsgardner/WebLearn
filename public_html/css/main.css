@@ -18,12 +18,6 @@ Version: 1.0
 10. Footer
 11. Media Queries
 ------------------------------------ */
-/* colors */
-/* css transform prefixes */
-/* css transform prefixes */
-/* css box shadow prefixes */
-/* clearfix */
-/* convert px to em: 16px = 1em */
 /*----------> 1. CSS RESET <---------*/
 /*---------> 2. BOOTSTRAP <----------*/
 /*!
@@ -5913,6 +5907,28 @@ address {
     margin-bottom: 0; }
 
 /*---------> 8. ACTIVITYLIST <-------*/
+.activity, .activity-thumbnail, .activity-open {
+  display: block; }
+
+.activity-thumbnail {
+  margin: 1.0714375em 0; }
+  .activity-thumbnail img {
+    border: 0.15625em solid #353638;
+    max-width: 100%;
+    height: auto; }
+
+.alt-link-color {
+  color: #380000; }
+
+hr {
+  border: 0;
+  height: 0.0625em;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: linear-gradient(left, #ccc, #333, #ccc); }
+
 /*-----------> 9. HEADER <-----------*/
 .navbar-bottom {
   position: fixed;
@@ -5973,6 +5989,17 @@ address {
   .subheading, .subject-desc {
     text-align: center; }
   /*-> ACTIVITYLIST <-*/
+  .activity {
+    padding: 0 0 1.875em 0; }
+    .activity:last-of-type {
+      padding: 0; }
+    .activity h3, .activity h4 {
+      text-align: center; }
+  .activity-thumbnail img {
+    display: block;
+    margin: 0 auto; }
+  .activity-open {
+    text-align: center; }
   /*----> HEADER <----*/
   .navbar-bottom {
     height: 4.25em; }
@@ -6007,6 +6034,16 @@ address {
   .subheading, .subject-desc {
     text-align: left; }
   /*-> ACTIVITYLIST <-*/
+  .activity {
+    padding: 1.875em; }
+    .activity:last-of-type {
+      padding: 1.875em; }
+    .activity h3, .activity h4 {
+      text-align: left; }
+  .activity-thumbnail img {
+    margin-left: 0; }
+  .activity-open {
+    text-align: left; }
   /*----> HEADER <----*/
   .navbar-bottom {
     height: 5.5em; }

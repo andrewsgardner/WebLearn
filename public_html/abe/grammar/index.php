@@ -2,7 +2,8 @@
 $currentPage = "abe";
 $pageTitle = "";
 $pageDesc = "";
-$count = 0;
+$activityCount = 0;
+$refCount = 0;
 require_once("config.php");
 require_once(LIBRARY_PATH . "/activityListFunctions.php");
 
@@ -33,16 +34,28 @@ ob_start();
         <h1>ABE Lab</h1>
         <strong class="subheading text-muted">Springfield Adult Learning Center</strong>
         <h2>Grammar</h2>
-
-        <div class="panel panel-default">
-        <div class="panel-body text-left media-block">
-        <div class="caption">
         
-        <?php echo ++$count; ?>
-            
+        <?php preMediaBlock(); ?>
+        
+        <div class="activity">
+            <h3><a href="#" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>Activity Title</a></h3>
+            <p>Lorem ipsum dolor sit amet, usu molestiae deseruisse repudiandae no, accumsan omnesque no vis, vis id vero dissentiunt.</p>
+            <div class="activity-thumbnail">
+                <img src="#" class="" alt="#">
+            </div>
+            <div class="activity-open">
+                <p><a href="#" class="btn btn-primary" role="button">Open</a></p>
+            </div>
         </div>
+        
+        <hr>
+        
+        <div class="activity">
+            <h4>Credits:</h4>
+            <p><?php echo ++$refCount . ". "; ?>Reference Name</p>
         </div>
-        </div>
+        
+        <?php postMediaBlock(); ?>
         
     </div>
 </div>
