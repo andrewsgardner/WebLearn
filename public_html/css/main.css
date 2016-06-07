@@ -5932,6 +5932,9 @@ address {
 .activity, .activity-thumbnail, .activity-open {
   display: block; }
 
+.activity h4, .activity p {
+  color: #353638; }
+
 .activity-thumbnail {
   margin: 1.0714375em 0; }
   .activity-thumbnail img {

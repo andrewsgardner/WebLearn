@@ -2,6 +2,13 @@
     display: block;
 }
 
+.activity {
+    
+    h4, p {
+        color: $hex-black;
+    }
+}
+
 .activity-thumbnail {
     margin: em(17.143) 0;
     
