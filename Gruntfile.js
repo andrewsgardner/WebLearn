@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 
         concat: {
             options: {
-                separator: 'rnrn'
+                separator: ';'
             },
             dist: {
                 src: ['resources/scripts/*.js'],
