@@ -34,6 +34,7 @@ function renderContentPageLayout($contentFile, $variables = array()) {
         
         require_once(TEMPLATES_PATH . "/footer.php");
         require_once(TEMPLATES_PATH . "/loadScripts.php");
+        require_once(TEMPLATES_PATH . "/analytics.php");
         echo "</body>\n";
         /* END body */
         echo "</html>";
