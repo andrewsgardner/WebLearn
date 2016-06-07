@@ -1,23 +1,23 @@
-/* css transform prefixes */
+// css transform prefixes
 @mixin transition($str) {
     -webkit-transition: #{$str};
     transition: #{$str};      
 }
 
-/* css transform prefixes */
+// css transform prefixes
 @mixin transform($str) {
     -webkit-transform: #{$str};
     -ms-transform: #{$str};
     transform: #{$str};
 }
 
-/* css box shadow prefixes */
+// css box shadow prefixes
 @mixin box-shadow($str) {
     -webkit-box-shadow: #{$str};
     box-shadow: #{$str};
 }
 
-/* clearfix */
+// clearfix
 @mixin clearfix() {
     &:before,
     &:after {
