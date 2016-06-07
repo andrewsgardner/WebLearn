@@ -38,8 +38,8 @@ ob_start();
         <?php preMediaBlock(); ?>
         
         <div class="activity">
-            <h3><a href="#" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>Activity Title</a></h3>
-            <p>Lorem ipsum dolor sit amet, usu molestiae deseruisse repudiandae no, accumsan omnesque no vis, vis id vero dissentiunt.</p>
+            <h3><a href="#" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>Title</a></h3>
+            <p>Description. <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></p>
             <div class="activity-thumbnail">
                 <img src="#" class="" alt="#">
             </div>
