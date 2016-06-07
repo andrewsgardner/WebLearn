@@ -38,21 +38,21 @@ ob_start();
         <?php preMediaBlock(); ?>
         
         <div class="activity">
-            <h3><a href="#" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>Title</a></h3>
-            <p>Description. <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></p>
+            <h3><a href="<?php echo $abeRoutes['english']['toTooTwo']; ?>" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>To, Too, Two</a></h3>
+            <p>Learn about the differences between 'to,' 'too,' and 'two.' Watch the video tutorial and then complete the practice exercise. <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span></p>
             <div class="activity-thumbnail">
                 <img src="#" class="" alt="#">
             </div>
             <div class="activity-open">
-                <p><a href="#" class="btn btn-primary" role="button">Open</a></p>
+                <p><a href="<?php echo $abeRoutes['english']['toTooTwo']; ?>" class="btn btn-primary" role="button">Open</a></p>
             </div>
         </div>
         
         <hr>
         
-        <div class="activity">
+        <div class="activity alt-link-color">
             <h4>Credits:</h4>
-            <p><?php echo ++$refCount . ". "; ?>Reference Name</p>
+            <p><?php echo ++$refCount . ". "; ?><a href="<?php echo $salcStcc; ?>">Andrew S. Gardner: Springfield Adult Learning Center</a>, <a href="http://www.engvid.com/confused-words-to-too-two/">engVID.com</a>.</p>
         </div>
         
         <?php postMediaBlock(); ?>

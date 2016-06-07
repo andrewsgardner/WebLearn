@@ -26,3 +26,27 @@
         margin-bottom: 0;
     }
 }
+
+.video-container {
+    display: block;
+    max-width: 560px;
+    max-height: 315px;
+    margin-bottom: em(59.5);
+}
+
+.embed-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: em(35);
+    margin: em(28) 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
