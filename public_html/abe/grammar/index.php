@@ -48,11 +48,35 @@ ob_start();
             </div>
         </div>
         
+        <div class="activity">
+            <h3><a href="http://www.engvid.com/commonly-confused-words-in-english-theyre-there-their/" target="_blank" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>They're, Their, There</a></h3>
+            <p>Learn about the differences between 'they're,' 'their,' and 'there.' Watch the video tutorial and then answer the practice questions. <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span></p>
+            <div class="activity-thumbnail">
+                <img src="<?php echo $config['paths']['img']['content'] . '/theyre-their-there.png'; ?>" alt="They're, Their, There">
+            </div>
+            <div class="activity-open">
+                <p><a href="http://www.engvid.com/commonly-confused-words-in-english-theyre-there-their/" target="_blank" class="btn btn-primary" role="button">Open</a></p>
+            </div>
+        </div>
+        
+        <div class="activity">
+            <h3><a href="<?php echo $abeRoutes['english']['yourYoure']; ?>" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>Your vs. You're</a></h3>
+            <p>Learn about the differences between 'your' and 'you're.' Watch the video tutorial and then answer the practice questions. <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span></p>
+            <div class="activity-thumbnail">
+                <img src="<?php echo $config['paths']['img']['content'] . '/your-youre.png'; ?>" alt="Your vs. You're">
+            </div>
+            <div class="activity-open">
+                <p><a href="<?php echo $abeRoutes['english']['yourYoure']; ?>" class="btn btn-primary" role="button">Open</a></p>
+            </div>
+        </div>
+        
         <hr>
         
         <div class="activity alt-link-color">
             <h4>Credits:</h4>
-            <p><?php echo ++$refCount . ". "; ?><a href="<?php echo $salcStcc; ?>">Andrew S. Gardner: Springfield Adult Learning Center</a>, <a href="http://www.engvid.com/confused-words-to-too-two/">engVID.com</a>.</p>
+            <p><?php echo ++$refCount . ". "; ?><a href="<?php echo $salcStcc; ?>" target="_blank">Andrew S. Gardner: Springfield Adult Learning Center</a>, <a href="http://www.engvid.com/confused-words-to-too-two/" target="_blank">engVID.com</a>.</p>
+            <p><?php echo ++$refCount . ". "; ?><a href="http://www.engvid.com/commonly-confused-words-in-english-theyre-there-their/" target="_blank">engVID.com</a>.</p>
+            <p><?php echo ++$refCount . ". "; ?><a href="<?php echo $salcStcc; ?>" target="_blank">Andrew S. Gardner: Springfield Adult Learning Center</a>, <a href="http://www.engvid.com/confused-words-youre-your/" target="_blank">engVID.com</a>.</p>
         </div>
         
         <?php postMediaBlock(); ?>
