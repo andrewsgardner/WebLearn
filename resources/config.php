@@ -46,6 +46,9 @@ $abeRoutes = array(
         "toTooTwo" => "/abe/grammar/to-too-two.php",
         "yourYoure" => "/abe/grammar/your-youre.php",
         "punctuation" => "/abe/punctuation/",
+        "apostrophes" => "/abe/punctuation/apostrophes.php",
+        "commaFunctions" => "/abe/punctuation/common-comma-functions.php",
+        "semicolonUsage" => "/abe/punctuation/semicolon-usage.php",
         "reading" => "/abe/reading/",
         "writing" => "/abe/writing/"
     ),
