@@ -1,7 +1,7 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "";
-$pageDesc = "";
+$pageTitle = "ABE Lab | Grammar Activity List";
+$pageDesc = "Grammar distance learning activities for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;
 require_once("config.php");
@@ -41,7 +41,7 @@ ob_start();
             <h3><a href="<?php echo $abeRoutes['english']['toTooTwo']; ?>" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>To, Too, Two</a></h3>
             <p>Learn about the differences between 'to,' 'too,' and 'two.' Watch the video tutorial and then complete the practice exercise. <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span></p>
             <div class="activity-thumbnail">
-                <img src="#" class="" alt="#">
+                <img src="<?php echo $config['paths']['img']['content'] . '/to-too-two.png'; ?>" alt="To, Too, Two">
             </div>
             <div class="activity-open">
                 <p><a href="<?php echo $abeRoutes['english']['toTooTwo']; ?>" class="btn btn-primary" role="button">Open</a></p>
