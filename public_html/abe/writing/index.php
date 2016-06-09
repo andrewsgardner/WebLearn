@@ -81,9 +81,8 @@ ob_start();
             </div>
         </div>
         
-        <hr>
         
-        <div class="activity alt-link-color">
+        <div class="credits alt-link-color">
             <h4>Credits:</h4>
             <p><?php echo ++$refCount . ". "; ?><a href="http://www.mometrix.com/academy/persuasive-essay/" target="_blank">Mometrix Test Preparation</a>.</p>
             <p><?php echo ++$refCount . ". "; ?><a href="http://www.mometrix.com/academy/drafting-a-thesis-statement/" target="_blank">Mometrix Test Preparation</a>.</p>

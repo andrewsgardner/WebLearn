@@ -49,7 +49,7 @@
     
     /*-> ACTIVITYLIST <-*/
     
-    .activity {
+    .activity, .credits {
         //padding: 0;
         padding: 0 0 em(30) 0;
         
@@ -158,7 +158,7 @@
     
     /*-> ACTIVITYLIST <-*/
     
-    .activity {
+    .activity, .credits {
         padding: em(30);
         
         &:last-of-type {

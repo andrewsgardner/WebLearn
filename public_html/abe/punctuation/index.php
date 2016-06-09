@@ -114,9 +114,8 @@ ob_start();
             </div>
         </div>
         
-        <hr>
         
-        <div class="activity alt-link-color">
+        <div class="credits alt-link-color">
             <h4>Credits:</h4>
             <p><?php echo ++$refCount . ". "; ?><a href="http://www.mometrix.com/academy/apostrophes/" target="_blank">Mometrix Test Preparation</a>.</p>
             <p><?php echo ++$refCount . ". "; ?><a href="http://www.softschools.com/quizzes/grammar/apostrophe/quiz601.html" target="_blank">softschools.com</a>.</p>

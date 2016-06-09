@@ -1,8 +1,8 @@
-.activity, .activity-thumbnail, .activity-open {
+.activity, .credits, .activity-thumbnail, .activity-open {
     display: block;
 }
 
-.activity {
+.activity, .credits {
     
     h4, p {
         color: $hex-black;

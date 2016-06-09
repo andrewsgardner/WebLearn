@@ -262,9 +262,8 @@ ob_start();
             </div>
         </div>
         
-        <hr>
         
-        <div class="activity alt-link-color">
+        <div class="credits alt-link-color">
             <h4>Credits:</h4>
             <p><?php echo ++$refCount . ". "; ?><a href="http://www.mometrix.com/academy/authors-position/" target="_blank">Mometrix Test Preparation</a>.</p>
             <p><?php echo ++$refCount . ". "; ?><a href="http://www.studyzone.org/testprep/ela4/o/authorsviewpointl.cfm" target="_blank">Study Zone: Oswego City School District</a>.</p>

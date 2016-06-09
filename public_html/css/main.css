@@ -5933,10 +5933,10 @@ address {
   max-width: 100%; }
 
 /*---------> 8. ACTIVITYLIST <-------*/
-.activity, .activity-thumbnail, .activity-open {
+.activity, .credits, .activity-thumbnail, .activity-open {
   display: block; }
 
-.activity h4, .activity p {
+.activity h4, .activity p, .credits h4, .credits p {
   color: #353638; }
 
 .activity-thumbnail {
@@ -6196,11 +6196,11 @@ ul.responses li {
     content: "\ASorry! This activity doesn't work on mobile devices.";
     white-space: pre; }
   /*-> ACTIVITYLIST <-*/
-  .activity {
+  .activity, .credits {
     padding: 0 0 1.875em 0; }
-    .activity:last-of-type {
+    .activity:last-of-type, .credits:last-of-type {
       padding: 0; }
-    .activity h3, .activity h4 {
+    .activity h3, .activity h4, .credits h3, .credits h4 {
       text-align: center; }
   .activity-ul {
     text-align: center; }
@@ -6249,11 +6249,11 @@ ul.responses li {
   .embed-flash:after {
     content: ""; }
   /*-> ACTIVITYLIST <-*/
-  .activity {
+  .activity, .credits {
     padding: 1.875em; }
-    .activity:last-of-type {
+    .activity:last-of-type, .credits:last-of-type {
       padding: 1.875em; }
-    .activity h3, .activity h4 {
+    .activity h3, .activity h4, .credits h3, .credits h4 {
       text-align: left; }
   .activity-ul {
     text-align: left; }
