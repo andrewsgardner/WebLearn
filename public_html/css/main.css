@@ -5963,6 +5963,12 @@ hr {
   list-style-type: none;
   margin: 0.625em 0; }
 
+.activity-ul-top {
+  display: block;
+  line-height: 2;
+  font-weight: 700;
+  margin-top: .5em; }
+
 .bold {
   font-weight: 700; }
 
@@ -6204,6 +6210,8 @@ ul.responses li {
       text-align: center; }
   .activity-ul {
     text-align: center; }
+  .activity-ul-top {
+    text-align: center; }
   .activity-thumbnail img {
     display: block;
     margin: 0 auto; }
@@ -6256,6 +6264,8 @@ ul.responses li {
     .activity h3, .activity h4, .credits h3, .credits h4 {
       text-align: left; }
   .activity-ul {
+    text-align: left; }
+  .activity-ul-top {
     text-align: left; }
   .activity-thumbnail img {
     margin-left: 0; }

@@ -50,7 +50,6 @@
     /*-> ACTIVITYLIST <-*/
     
     .activity, .credits {
-        //padding: 0;
         padding: 0 0 em(30) 0;
         
         &:last-of-type {
@@ -63,6 +62,10 @@
     }
     
     .activity-ul {
+        text-align: center;
+    }
+    
+    .activity-ul-top {
         text-align: center;
     }
     
@@ -171,6 +174,10 @@
     }
     
     .activity-ul {
+        text-align: left;
+    }
+    
+    .activity-ul-top {
         text-align: left;
     }
     
