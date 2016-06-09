@@ -138,21 +138,9 @@ ob_start();
 $activityItems = ob_get_contents();
 ob_get_clean();
 
-ob_start();
-?>
-
-<!-- BEGIN item references -->
-
-<!-- END item references -->
-
-<?php
-$itemRefs = ob_get_contents();
-ob_get_clean();
-
 $variables = array(
     "pageBreadbrumbs" => $pageBreadbrumbs,
-    "activityItems" => $activityItems,
-    "itemRefs" => $itemRefs
+    "activityItems" => $activityItems
 );
 renderActivityListLayout("/activityList.php", $variables);
 ?>

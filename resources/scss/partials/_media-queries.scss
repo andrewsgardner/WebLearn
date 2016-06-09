@@ -33,7 +33,19 @@
     
     .subheading, .subject-desc {
         text-align: center;
-    } 
+    }
+    
+    .embed-flash {
+        
+        object, embed {
+            display: none;
+        }
+        
+        &:after {
+            content: "\ASorry! This activity doesn't work on mobile devices.";
+            white-space: pre;
+        }
+    }
     
     /*-> ACTIVITYLIST <-*/
     
@@ -48,6 +60,10 @@
         h3, h4 {
             text-align: center;
         }
+    }
+    
+    .activity-ul {
+        text-align: center;
     }
     
     .activity-thumbnail {
@@ -127,6 +143,19 @@
         text-align: left;
     }
     
+    .embed-flash {
+        
+        object, embed {
+            display: block;
+            width: 640px;
+            height: 480px;
+        }
+        
+        &:after {
+            content: "";
+        }
+    }
+    
     /*-> ACTIVITYLIST <-*/
     
     .activity {
@@ -139,6 +168,10 @@
         h3, h4 {
             text-align: left;
         }
+    }
+    
+    .activity-ul {
+        text-align: left;
     }
     
     .activity-thumbnail {

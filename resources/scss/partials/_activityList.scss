@@ -32,3 +32,17 @@ hr {
     background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
     background-image: linear-gradient(left, #ccc, #333, #ccc);
 }
+
+.activity-ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin: em(10) 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italics {
+    font-style: italic;
+}

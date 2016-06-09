@@ -15,8 +15,6 @@ echo "\t<div class=\"container grid-container\">\n";
 
 echo $activityItems;
 
-echo $itemRefs;
-
 echo "\t</div>\n";
 /* END container */
 ?>

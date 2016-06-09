@@ -5928,6 +5928,10 @@ address {
   width: 100%;
   height: 100%; }
 
+.embed-flash {
+  display: block;
+  max-width: 100%; }
+
 /*---------> 8. ACTIVITYLIST <-------*/
 .activity, .activity-thumbnail, .activity-open {
   display: block; }
@@ -5953,6 +5957,17 @@ hr {
   background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
   background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
   background-image: linear-gradient(left, #ccc, #333, #ccc); }
+
+.activity-ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin: 0.625em 0; }
+
+.bold {
+  font-weight: 700; }
+
+.italics {
+  font-style: italic; }
 
 /*-----------> 9. HEADER <-----------*/
 .navbar-bottom {
@@ -6175,6 +6190,11 @@ ul.responses li {
   /*--> PAGECONTENT <-*/
   .subheading, .subject-desc {
     text-align: center; }
+  .embed-flash object, .embed-flash embed {
+    display: none; }
+  .embed-flash:after {
+    content: "\ASorry! This activity doesn't work on mobile devices.";
+    white-space: pre; }
   /*-> ACTIVITYLIST <-*/
   .activity {
     padding: 0 0 1.875em 0; }
@@ -6182,6 +6202,8 @@ ul.responses li {
       padding: 0; }
     .activity h3, .activity h4 {
       text-align: center; }
+  .activity-ul {
+    text-align: center; }
   .activity-thumbnail img {
     display: block;
     margin: 0 auto; }
@@ -6220,6 +6242,12 @@ ul.responses li {
   /*--> PAGECONTENT <-*/
   .subheading, .subject-desc {
     text-align: left; }
+  .embed-flash object, .embed-flash embed {
+    display: block;
+    width: 640px;
+    height: 480px; }
+  .embed-flash:after {
+    content: ""; }
   /*-> ACTIVITYLIST <-*/
   .activity {
     padding: 1.875em; }
@@ -6227,6 +6255,8 @@ ul.responses li {
       padding: 1.875em; }
     .activity h3, .activity h4 {
       text-align: left; }
+  .activity-ul {
+    text-align: left; }
   .activity-thumbnail img {
     margin-left: 0; }
   .activity-open {

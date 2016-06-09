@@ -50,6 +50,15 @@ $abeRoutes = array(
         "commaFunctions" => "/abe/punctuation/common-comma-functions.php",
         "semicolonUsage" => "/abe/punctuation/semicolon-usage.php",
         "reading" => "/abe/reading/",
+        "authorsPosition" => "/abe/reading/authors-position.php",
+        "detWordMeanings" => "/abe/reading/determining-word-meanings.php",
+        "factOpinion" => "/abe/reading/fact-or-opinion.php",
+        "historicalContext" => "/abe/reading/historical-context.php",
+        "logicalConclusion" => "/abe/reading/identifying-logical-conclusion.php",
+        "inference" => "/abe/reading/inference.php",
+        "inferencePractice" => "/abe/reading/inference-practice.php",
+        "theme" => "/abe/reading/theme.php",
+        "topicsMainIdeas" => "/abe/reading/topics-and-main-ideas.php",
         "writing" => "/abe/writing/"
     ),
     "math" => array(
