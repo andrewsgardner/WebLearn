@@ -59,7 +59,11 @@ $abeRoutes = array(
         "inferencePractice" => "/abe/reading/inference-practice.php",
         "theme" => "/abe/reading/theme.php",
         "topicsMainIdeas" => "/abe/reading/topics-and-main-ideas.php",
-        "writing" => "/abe/writing/"
+        "writing" => "/abe/writing/",
+        "persuasiveEssay" => "/abe/writing/persuasive-essay.php",
+        "thesisStatement" => "/abe/writing/drafting-thesis-statement.php",
+        "bodyParagraphs" => "/abe/writing/drafting-body-paragraphs.php",
+        "draftingConclusions" => "/abe/writing/drafting-conclusions.php"
     ),
     "math" => array(
         "addition" => "/abe/addition/",
