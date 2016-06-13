@@ -5932,6 +5932,13 @@ address {
   display: block;
   max-width: 100%; }
 
+.embed-sporcle iframe {
+  display: block;
+  max-width: 100%;
+  width: 41.875em;
+  height: 47em;
+  margin-top: 1.25em; }
+
 /*---------> 8. ACTIVITYLIST <-------*/
 .activity, .credits, .activity-thumbnail, .activity-open {
   display: block; }
@@ -5974,6 +5981,9 @@ hr {
 
 .italics {
   font-style: italic; }
+
+.underline {
+  text-decoration: underline; }
 
 /*-----------> 9. HEADER <-----------*/
 .navbar-bottom {

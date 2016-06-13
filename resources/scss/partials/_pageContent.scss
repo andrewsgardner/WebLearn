@@ -55,3 +55,11 @@
     display: block;
     max-width: 100%;
 }
+
+.embed-sporcle iframe {
+    display: block;
+    max-width: 100%;
+    width: em(670);
+    height: em(752);
+    margin-top: em(20);
+}
