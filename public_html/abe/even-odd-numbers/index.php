@@ -51,7 +51,7 @@ ob_start();
         <div class="activity">
             <h3><a href="http://primarytopics.com/maths/calculating/mental/year2/interactive/quizzes/oddevenq.htm" target="_blank" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>Even &amp; Odd Numbers: Question Set 1</a></h3>
             <p>Practice identifying even and odd numbers. <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></p>
-            <p class="bold">General Rules:</p>
+            <span class="activity-ul-top bold">General Rules:</span>
             <ul class="activity-ul">
                 <li><span class="bold">A number is even when it ends in: 0, 2, 4, 6, or 8.</span> Example: 25<span class="underline">6</span>.</li>
                 <li><span class="bold">A number is odd when it ends in: 1, 3, 5, or 9.</span> Example: 100,37<span class="underline">5</span>.</li>
@@ -67,7 +67,7 @@ ob_start();
         <div class="activity">
             <h3><a href="http://www.softschools.com/math/games/odd_even_number_game.jsp" target="_blank" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>Even &amp; Odd Numbers: Question Set 2</a></h3>
             <p>Practice identifying even and odd numbers. After selecting the above link, click on the "generate" button to start the activity.</p>
-            <p class="bold">General Rules:</p>
+            <span class="activity-ul-top bold">General Rules:</span>
             <ul class="activity-ul">
                 <li><span class="bold">A number is even when it ends in: 0, 2, 4, 6, or 8.</span> Example: 25<span class="underline">6</span>.</li>
                 <li><span class="bold">A number is odd when it ends in: 1, 3, 5, or 9.</span> Example: 100,37<span class="underline">5</span>.</li>

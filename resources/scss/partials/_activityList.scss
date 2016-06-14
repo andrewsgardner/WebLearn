@@ -24,13 +24,14 @@
 }
 
 hr {
-    border: 0;
-    height: em(1);
-    background: #333;
-    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: linear-gradient(left, #ccc, #333, #ccc);
+    display: block;
+    margin-top: em(16);
+    margin-bottom: em(16);
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: em(.5);
+    
 }
 
 .activity-ul {
@@ -56,4 +57,33 @@ hr {
 
 .underline {
     text-decoration: underline;
+}
+
+span.fraction {
+    display: inline-block;
+    font-size: 110%;
+    text-align: center;
+}
+
+span.fraction > sup {
+    display: block;
+    border-bottom: 1px solid;
+    font: inherit;
+}
+
+span.fraction > span {
+    display: none;
+}
+
+span.fraction > sub {
+    display: block;
+    font: inherit;
+}
+
+span.fraction sub {
+    margin: em(-10) 0;
+}
+
+.fraction-p {
+    margin: 1em 0;
 }

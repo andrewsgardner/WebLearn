@@ -50,14 +50,27 @@
     /*-> ACTIVITYLIST <-*/
     
     .activity, .credits {
-        padding: 0 0 em(30) 0;
-        
-        &:last-of-type {
-            padding: 0;
-        }
+        padding: em(30) 0;
         
         h3, h4 {
             text-align: center;
+        }
+    }
+    
+    .activity {
+        
+        &:first-of-type {
+            padding-top: em(15);
+        }
+    }
+    
+    .credits {
+        h4 {
+            margin-top: 0;
+        }
+        
+        &:last-of-type {
+            padding-bottom: em(15);
         }
     }
     
@@ -170,6 +183,13 @@
         
         h3, h4 {
             text-align: left;
+        }
+    }
+    
+    .credits {
+        
+        &:last-of-type {
+            padding-bottom: em(15);
         }
     }
     

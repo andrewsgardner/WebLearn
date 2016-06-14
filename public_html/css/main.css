@@ -5957,13 +5957,13 @@ address {
   color: #4a0011; }
 
 hr {
-  border: 0;
-  height: 0.0625em;
-  background: #333;
-  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
-  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
-  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
-  background-image: linear-gradient(left, #ccc, #333, #ccc); }
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 0.03125em; }
 
 .activity-ul {
   padding-left: 0;
@@ -5984,6 +5984,29 @@ hr {
 
 .underline {
   text-decoration: underline; }
+
+span.fraction {
+  display: inline-block;
+  font-size: 110%;
+  text-align: center; }
+
+span.fraction > sup {
+  display: block;
+  border-bottom: 1px solid;
+  font: inherit; }
+
+span.fraction > span {
+  display: none; }
+
+span.fraction > sub {
+  display: block;
+  font: inherit; }
+
+span.fraction sub {
+  margin: -0.625em 0; }
+
+.fraction-p {
+  margin: 1em 0; }
 
 /*-----------> 9. HEADER <-----------*/
 .navbar-bottom {
@@ -6213,11 +6236,15 @@ ul.responses li {
     white-space: pre; }
   /*-> ACTIVITYLIST <-*/
   .activity, .credits {
-    padding: 0 0 1.875em 0; }
-    .activity:last-of-type, .credits:last-of-type {
-      padding: 0; }
+    padding: 1.875em 0; }
     .activity h3, .activity h4, .credits h3, .credits h4 {
       text-align: center; }
+  .activity:first-of-type {
+    padding-top: 0.9375em; }
+  .credits h4 {
+    margin-top: 0; }
+  .credits:last-of-type {
+    padding-bottom: 0.9375em; }
   .activity-ul {
     text-align: center; }
   .activity-ul-top {
@@ -6273,6 +6300,8 @@ ul.responses li {
       padding: 1.875em; }
     .activity h3, .activity h4, .credits h3, .credits h4 {
       text-align: left; }
+  .credits:last-of-type {
+    padding-bottom: 0.9375em; }
   .activity-ul {
     text-align: left; }
   .activity-ul-top {
