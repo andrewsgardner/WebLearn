@@ -29,6 +29,13 @@
         }
     }
     
+    .custom-activity {
+        
+        h3 {
+            text-align: center;
+        }
+    }
+    
     /*--> PAGECONTENT <-*/
     
     .subheading, .subject-desc {
@@ -120,6 +127,12 @@
         font-size: em(12);
     }
     
+    /*--> CALCULATOR <--*/
+    
+    form.webcalc-form {
+        margin: 0 auto;
+    }
+    
 }
 
 @media (min-width: em(768)) { /* Small devices */
@@ -150,6 +163,13 @@
         
         > li {
             display: inline-block;
+        }
+    }
+    
+    .custom-activity {
+        
+        h3 {
+            text-align: left;
         }
     }
     
@@ -246,6 +266,12 @@
     
     .copyright, .developer {
         font-size: em(14);
+    }
+    
+    /*--> CALCULATOR <--*/
+    
+    form.webcalc-form {
+        margin-left: 0;
     }
 }
 

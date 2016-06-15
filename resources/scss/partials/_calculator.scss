@@ -1,0 +1,52 @@
+fieldset {
+    padding: 0;
+    border: 0;
+}
+
+.calc-container {
+    display: block;
+    text-align: center;
+    margin: em(30) 0 em(15) 0;
+}
+
+form.webcalc-form {
+    border: 3px solid $hex-black;
+    background: #ddd;
+    box-shadow: 0 0 4px 0 $hex-black;
+    width: 244px;
+    max-width: 100%;
+}
+
+input.webcalc-screen {
+    margin: 6px 6px 20px 6px;
+    font-size: 29px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 90%;
+    width: 204px;
+}
+
+input.webcalc-general {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 5px;
+    background: $hex-black;
+    color: $hex-white;
+    -webkit-appearance: none;
+}
+
+input.webcalc-long {
+    width: 88px;
+    height: 30px;
+    padding: 0;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 5px;
+    background: $hex-black;
+    color: $hex-white;
+    -webkit-appearance: none;
+}

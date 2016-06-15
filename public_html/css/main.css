@@ -6210,7 +6210,55 @@ ul.responses li {
   position: absolute;
   width: 1px; }
 
-/*-------> 12. MEDIA QUERIES <-------*/
+/*--------> 12. CALCULATOR <---------*/
+fieldset {
+  padding: 0;
+  border: 0; }
+
+.calc-container {
+  display: block;
+  text-align: center;
+  margin: 1.875em 0 0.9375em 0; }
+
+form.webcalc-form {
+  border: 3px solid #353638;
+  background: #ddd;
+  box-shadow: 0 0 4px 0 #353638;
+  width: 244px;
+  max-width: 100%; }
+
+input.webcalc-screen {
+  margin: 6px 6px 20px 6px;
+  font-size: 29px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 90%;
+  width: 204px; }
+
+input.webcalc-general {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 5px;
+  background: #353638;
+  color: #fff;
+  -webkit-appearance: none; }
+
+input.webcalc-long {
+  width: 88px;
+  height: 30px;
+  padding: 0;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 5px;
+  background: #353638;
+  color: #fff;
+  -webkit-appearance: none; }
+
+/*-------> 13. MEDIA QUERIES <-------*/
 @media (min-width: 0.1em) {
   /* Custom: 1.6px = .1em */
   /*---> BOOTSTRAP <--*/
@@ -6226,6 +6274,8 @@ ul.responses li {
     padding: 4.1875em 1.25em 16.6875em 1.25em; }
   .breadcrumb > li {
     display: none; }
+  .custom-activity h3 {
+    text-align: center; }
   /*--> PAGECONTENT <-*/
   .subheading, .subject-desc {
     text-align: center; }
@@ -6267,7 +6317,10 @@ ul.responses li {
         content: "";
         display: none; }
   .copyright, .developer {
-    font-size: 0.75em; } }
+    font-size: 0.75em; }
+  /*--> CALCULATOR <--*/
+  form.webcalc-form {
+    margin: 0 auto; } }
 
 @media (min-width: 48em) {
   /* Small devices */
@@ -6284,6 +6337,8 @@ ul.responses li {
     padding: 6em 0 13.25em 0; }
   .breadcrumb > li {
     display: inline-block; }
+  .custom-activity h3 {
+    text-align: left; }
   /*--> PAGECONTENT <-*/
   .subheading, .subject-desc {
     text-align: left; }
@@ -6329,7 +6384,10 @@ ul.responses li {
     .footer-links a:last-of-type:after {
       content: ""; }
   .copyright, .developer {
-    font-size: 0.875em; } }
+    font-size: 0.875em; }
+  /*--> CALCULATOR <--*/
+  form.webcalc-form {
+    margin-left: 0; } }
 
 @media (min-width: 62em) {
   /* Medium devices */

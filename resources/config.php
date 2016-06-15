@@ -74,6 +74,7 @@ $abeRoutes = array(
         "eonQs3" => "/abe/even-odd-numbers/qs3.php",
         "fractions" => "/abe/fractions/",
         "measurement" => "/abe/measurement/",
+        "metersKilometers" => "/abe/measurement/meters-kilometers.php",
         "multiplication" => "/abe/multiplication/",
         "numberSense" => "/abe/number-sense/",
         "placeValue" => "/abe/place-value/",
