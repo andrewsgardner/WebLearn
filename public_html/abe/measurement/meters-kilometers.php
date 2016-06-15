@@ -151,8 +151,7 @@ ob_start();
                         onclick="WebCalc.Input.value=eval(WebCalc.Input.value)"><br>
                     </fieldset>
                </form>
-           </div>
-                 
+           </div> 
            <div class="abeActivity">
                <div id="slickQuiz">
                    <h2 class="quizName"></h2>
