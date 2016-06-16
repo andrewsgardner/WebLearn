@@ -86,6 +86,11 @@ $abeRoutes = array(
     ),
     "science" => array(
         "bodySystems" => "/abe/body-systems/",
+        "bsIntro" => "/abe/body-systems/intro.php",
+        "heartCirculatorySys" => "/abe/body-systems/heart-circulatory-system.php",
+        "respiratorySys" => "/abe/body-systems/respiratory-system.php",
+        "nervousSys" => "/abe/body-systems/nervous-system.php",
+        "digestiveSys" => "/abe/body-systems/digestive-system.php",
         "photosynthesis" => "/abe/photosynthesis/",
         "scientificMethod" => "/abe/scientific-method/",
         "scientificTerms" => "/abe/scientific-terms/"

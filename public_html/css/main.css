@@ -6282,7 +6282,7 @@ input.webcalc-long {
   .embed-flash object, .embed-flash embed {
     display: none; }
   .embed-flash:after {
-    content: "\ASorry! This activity doesn't work on mobile devices.";
+    content: "\ASorry! This activity doesn't work on \Amobile devices.";
     white-space: pre; }
   /*-> ACTIVITYLIST <-*/
   .activity, .credits {
