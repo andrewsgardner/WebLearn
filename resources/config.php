@@ -94,6 +94,7 @@ $abeRoutes = array(
         "photosynthesis" => "/abe/photosynthesis/",
         "introPhotosynthesis" => "/abe/photosynthesis/intro.php",
         "scientificMethod" => "/abe/scientific-method/",
+        "scientificMethodIntro" => "/abe/scientific-method/intro.php",
         "scientificTerms" => "/abe/scientific-terms/"
     ),
     "socialStudies" => array(
