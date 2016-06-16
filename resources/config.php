@@ -78,6 +78,10 @@ $abeRoutes = array(
         "multiplication" => "/abe/multiplication/",
         "numberSense" => "/abe/number-sense/",
         "placeValue" => "/abe/place-value/",
+        "placeValueV1" => "/abe/place-value/place-value-v1.php",
+        "placeValueV2" => "/abe/place-value/place-value-v2.php",
+        "placeValueV3" => "/abe/place-value/place-value-v3.php",
+        "placeValueV4" => "/abe/place-value/place-value-v4.php",
         "subtraction" => "/abe/subtraction/"
     ),
     "science" => array(
