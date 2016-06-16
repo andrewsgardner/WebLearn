@@ -92,6 +92,7 @@ $abeRoutes = array(
         "nervousSys" => "/abe/body-systems/nervous-system.php",
         "digestiveSys" => "/abe/body-systems/digestive-system.php",
         "photosynthesis" => "/abe/photosynthesis/",
+        "introPhotosynthesis" => "/abe/photosynthesis/intro.php",
         "scientificMethod" => "/abe/scientific-method/",
         "scientificTerms" => "/abe/scientific-terms/"
     ),
