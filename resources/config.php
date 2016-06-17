@@ -105,6 +105,10 @@ $abeRoutes = array(
         "greatDepression" => "/abe/great-depression/",
         "revolutionaryWar" => "/abe/revolutionary-war/",
         "separationPowers" => "/abe/separation-of-powers/",
+        "3BranchesGov" => "/abe/separation-of-powers/three-branches-government.php",
+        "legislativeBranch" => "/abe/separation-of-powers/legislative-branch.php",
+        "executiveBranch" => "/abe/separation-of-powers/executive-branch.php",
+        "judicialBranch" => "/abe/separation-of-powers/judicial-branch.php",
         "usPresidents" => "/abe/us-presidents/"
     ),
     "compLit" => array(
