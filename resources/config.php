@@ -99,6 +99,7 @@ $abeRoutes = array(
     ),
     "socialStudies" => array(
         "civilRights" => "/abe/civil-rights-movement/",
+        "majorEvents" => "/abe/civil-rights-movement/major-events.php",
         "civilWar" => "/abe/civil-war/",
         "greatDepression" => "/abe/great-depression/",
         "revolutionaryWar" => "/abe/revolutionary-war/",
