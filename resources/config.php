@@ -101,6 +101,7 @@ $abeRoutes = array(
         "civilRights" => "/abe/civil-rights-movement/",
         "majorEvents" => "/abe/civil-rights-movement/major-events.php",
         "civilWar" => "/abe/civil-war/",
+        "cwIntro" => "/abe/civil-war/intro.php",
         "greatDepression" => "/abe/great-depression/",
         "revolutionaryWar" => "/abe/revolutionary-war/",
         "separationPowers" => "/abe/separation-of-powers/",
