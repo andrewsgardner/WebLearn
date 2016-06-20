@@ -93,18 +93,6 @@ ob_start();
         </div>
         
         <div class="activity">
-            <h3><a href="http://bookunitsteacher.com/government/test3.htm" target="_blank" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>Three Branches of Government: Questions</a></h3>
-            <p>Test your knowledge of the three branches of government by answering these multiple choice questions.</p>
-            <p>Click the question mark symbol beside each answer you select. Questions where you must type an answer will require you to click the "check" button. You may then advance to the next question by clicking the button that looks like this "=>".</p>
-            <div class="activity-thumbnail">
-                <img src="<?php echo $config['paths']['img']['content'] . '/three-branches-government-questions.png'; ?>" alt="Three Branches of Government: Questions">
-            </div>
-            <div class="activity-open">
-                <p><a href="http://bookunitsteacher.com/government/test3.htm" target="_blank" class="btn btn-primary" role="button">Open</a></p>
-            </div>
-        </div>
-        
-        <div class="activity">
             <h3><a href="http://www.sheppardsoftware.com/usa_game/government/branches_government.htm" target="_blank" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>Branches of Government Game</a></h3>
             <p>Identify the responsibilities of the three branches of government.</p>
             <p>Click the yellow arrow twice to begin the game. Drag and drop each responsibility under the correct branch of government. <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></p>
@@ -124,7 +112,6 @@ ob_start();
             <p><?php echo ++$refCount . ". "; ?><a href="http://www.mometrix.com/academy/legislative-branch/" target="_blank">Mometrix Test Preparation</a>.</p>
             <p><?php echo ++$refCount . ". "; ?><a href="http://www.mometrix.com/academy/executive-branch/" target="_blank">Mometrix Test Preparation</a>.</p>
             <p><?php echo ++$refCount . ". "; ?><a href="http://www.mometrix.com/academy/judicial-branch/" target="_blank">Mometrix Test Preparation</a>.</p>
-            <p><?php echo ++$refCount . ". "; ?><a href="http://bookunitsteacher.com/government/test3.htm" target="_blank">Book Units Teacher</a>.</p>
             <p><?php echo ++$refCount . ". "; ?><a href="http://www.sheppardsoftware.com/usa_game/government/branches_government.htm" target="_blank">Sheppard Software</a>.</p>
         </div>
         
