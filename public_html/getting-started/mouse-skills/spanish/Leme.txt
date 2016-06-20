@@ -1,0 +1,33 @@
+					Léeme 
+				
+Versión  En Español 2.0     Octubre 2, 2008
+
+****************************
+Este archivo es un a copia electrónica del Nuevo Cursillo Para El Usuario
+que se hizo disponible por The Library Network (TLN)
+
+Sitio Web del Comité de Tecnología. http://tech.tln.lib.mi.us
+Este cursillo fue adaptado en parte de varios cursillos del sistema de bibliotecas 
+de Nevada-Condado de Washoe, Bibliotecas Centrales de Kansas y el sistema 
+de bibliotecas del Condado de Palm Beach.
+
+Muchas de las páginas que utilizan Java Script, están disponibles por gratis por 
+el Web y fueron modificadas del fuente original con menciones que se incluyen 
+cuando se solicitan. El cursillo no funcionara si el uso de Java esta discapacitado.
+
+******************************
+Utilizando Este Cursillo
+
+Este cursillo se utiliza para cualquier uso educacional, no mercantil, y se puede 
+instalar en su propio Server de la Web asimismo o con cambios propios. Favor de 
+informar a la Comité de Tecnología de cambios por correo electrónico: webmaster@tln.lib.mi.us
+
+Para utilizar estos archivos, siempre abre index.htm al principio del Nuevo
+Cursillo Para El Usuario.
+
+La parte inicial del cursillo fue diseñado para que la página quede en la pantalla con definición de 800 X 600 para no utilizar la barra de desplazamiento. Dependiendo de la cantidad y el lugar de cada barra de herramienta en el explorador, puede ser que el contenido no quedara bien en la pantalla. Les sugerimos que mire a todas las páginas en el explorador de cada computadora para asegurar de que sus estudiantes no utilizaran la barra de desplazamiento hasta que lleguen a esa sección.
+
+El tamaño del texto es flexible, así que se puede aumentar para estudiantes con 
+problemas de los ojos. Si se aumenta a un tamaño más grande del valor mediano puede ser que el contenido de las páginas no quedaran bien y hará barras de desplazamientos necesarias.
+
+

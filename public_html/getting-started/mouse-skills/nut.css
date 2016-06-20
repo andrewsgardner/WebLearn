@@ -1,0 +1,198 @@
+/*#############################################################
+Name: Indigo
+Date: 2006-07-27
+Description: A lightweight, simple and pleasant design.
+Author: Viktor Persson
+URL: http://arcsin.se
+
+Feel free to use and modify but please provide credits.
+#############################################################*/
+
+/* standard elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #F70;
+}
+a:hover {
+	color: #C60;
+}
+body {
+	background: #0094D6 url(http://www.stcc.edu/adulteducationcenter/weblearn/mouse-skills/img/bg.gif) repeat-x;
+	color: #466;
+	font: normal "Lucida Sans Unicode",sans-serif;
+	margin: 0;
+}
+input {
+	color: #555;
+	font: normal 1.1em "Lucida Sans Unicode",sans-serif;
+}
+p,cite,code,ul {
+	font-size: 1em;
+	padding-bottom: 1.2em;
+}
+h1 {
+	font-size: 1.4em;
+	margin-bottom: 4px;
+}
+code {
+	background: url(img/bgcode.gif);
+	border: 1px solid #F0F0F0;
+	border-left: 6px solid #39F;
+	color: #555;
+	display: block;
+	font: normal 1.1em "Lucida Sans Unicode",serif;
+	margin-bottom: 12px;
+	padding: 8px 10px;
+	white-space: pre;
+}
+cite {
+	background: url() no-repeat;
+	color: #666;
+	display: block;
+	font: normal 1.3em "Lucida Sans Unicode",serif;
+	padding-left: 28px;
+}
+h1,h2,h3 {
+	color: #06C;
+	padding-top: 6px;
+}
+/* misc */
+.clearer {
+	clear: both;
+}
+
+/* structure */
+.container {
+	background: url(img/topleft.gif) no-repeat;
+}
+
+.header {
+	height: 92px;
+}
+
+/* title */
+.title {
+	float: left;
+	padding: 28px 0 0 76px;
+}
+.title h1 {
+	color: #FFF;
+	font: normal 2em Verdana,sans-serif;
+}
+
+/* main */
+.main {
+	background: #FFF url(img/bgmain.gif) no-repeat;
+	clear: both;
+	padding: 12px 12px 0 52px;
+}
+
+
+/* content */
+.content {
+	float: left;
+	margin-right: 4%;
+	width: 95%; 
+}
+.content .descr {
+	color: #C60;
+	margin-bottom: 6px;
+}
+.content li {
+	list-style: url(img/li.gif);
+	margin-left: 18px;
+}
+
+/* footer */
+.footer {
+	background: #0094D6 url(img/bgfooter.gif) repeat-x;
+	color: #C1DEF0;
+	font-size: 1em;
+}
+.footer a {
+	color: #FFF;
+	text-decoration: underline;
+}
+.footer a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.keypress {font-family:arial,sans-serif;
+font-size: 1.3em;
+color:#009900;
+text-align:center;
+}
+
+.title {font-family:arial,sans-serif;
+font-size: 2em;
+color:#6600cc;
+font-weight:bold;
+}
+
+.welcome {font-family:arial,sans-serif;
+font-size: 1.6em;
+color:black;
+}
+
+td    {font-family:arial,sans-serif;
+font-weight: normal;
+color:black;
+}
+
+.start {font-family:arial,sans-serif;
+font-size: .8em;
+color:black;
+}
+
+.next {font-family:arial,sans-serif;
+font-size: .8em;
+}
+
+
+.emph1 {font-family:arial,sans-serif;
+font-weight:bold;
+color:#ff0000;
+}
+
+.emph2 {font-family:arial,sans-serif;
+font-size: 1.3em;
+font-weight:bold;
+color:#ff3300;
+}
+
+.emph3 {font-family:arial,sans-serif;
+font-weight:bold;
+color:black;
+text-decoration:underline;
+}
+
+.emph4 {font-family:arial,sans-serif;
+font-weight:normal;
+color:black;
+text-decoration:underline;
+}
+
+.emph5 {font-family:arial,sans-serif;
+font-size:1.6em;
+font-weight:bold;
+color:#ff0000;
+}
+.bigger {font-size: 1.2em;
+}
+
+.smaller {font-size: .8em;
+}
+
+.simpleborder {border-style:solid;
+border-width: 2px;
+border-color: black;
+padding: 10px;
+}
+
+.mborder {padding: 20px;
+}
+

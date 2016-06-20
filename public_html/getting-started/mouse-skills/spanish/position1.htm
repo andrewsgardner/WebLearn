@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type"
+    content="text/html; charset=ISO-8859-1" />
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta http-equiv="content-language" content="en-us" />
+    <meta name="Author"
+    content="TLN Technology Committee" />
+    
+  <title>New User Tutorial</title>
+  
+    <link rel="StyleSheet" href="nut.css" type="text/css" />
+<script language="JavaScript" type="text/javascript" src="sniffer.js"></script>
+
+    <script type="text/javascript" language="JavaScript1.2">
+    //<![CDATA[
+<!--
+/*
+Modified from:
+Home Hot Key Script- 
+(c) Dynamic Drive (www.dynamicdrive.com)
+For full source code, installation instructions,
+100's more DHTML scripts, and Terms Of
+Use, visit dynamicdrive.com
+*/
+
+var destination="position2.htm"
+if (document.layers || window.Event || window.captureEvents)
+document.captureEvents(Event.KEYUP)
+
+
+function page2(e){
+if (document.layers){
+if (e.which==13 || e.which==14)
+window.location=destination
+}
+else if (document.all){
+if (event.keyCode==13 || event.keyCode==14){
+window.location=destination;
+}
+}
+else if (e.keyCode==13 || e.keyCode==14)
+window.location=destination
+}
+
+
+
+if (mac && ie4){
+document.onkeypress=page2
+}
+else {document.onkeyup=page2}
+//-->
+    </script>
+
+
+    <!-- Progess bar widget, by Matthew Harvey (matt at smallish.com) -->
+    <!-- Licensed under a Creative Commons Attribution-Share Alike 2.5
+         License (http://creativecommons.org/licenses/by-sa/2.5/) -->
+    <style type="text/css">
+      div.smallish-progress-wrapper
+      {
+        /* Don't change the following lines. */
+        position: relative;
+        border: 1px solid black;
+      }
+
+      div.smallish-progress-bar
+      {
+        /* Don't change the following lines. */
+        position: absolute;
+        top: 0; left: 0;
+        height: 100%;
+      }
+
+      div.smallish-progress-text
+      {
+        /* Don't change the following lines. */
+        text-align: right;
+        position: relative;
+		color: white;
+        /* Add your customizations after this line. */
+      }
+    </style>
+
+    <!-- Progess bar widget, by Matthew Harvey (matt at smallish.com) -->
+    <!-- Licensed under a Creative Commons Attribution-Share Alike 2.5
+         License (http://creativecommons.org/licenses/by-sa/2.5/) -->
+    <script type="text/javascript">  
+      function drawProgressBar(color, width, percent)  
+      {  
+        var pixels = width * (percent / 100);  
+      
+        document.write('<div class="smallish-progress-wrapper" style="width: ' + width + 'px">');  
+        document.write('<div class="smallish-progress-bar" style="width: ' + pixels + 'px; background-color: ' + color + ';"></div>');  
+        document.write('<div class="smallish-progress-text" style="width: ' + width + 'px">' + percent + '%</div>');  
+        document.write('</div>');  
+      }  
+    </script>
+</head>
+  <body>
+  <div class="container">
+
+	<div class="header">
+		
+		<div class="title">
+<img src="images/logo.gif" width="560" height="78" alt="New User Tutorial" align="right"/>		</div>
+	</div>
+</div>
+	<div class="main">
+		
+		<div class="content">
+  
+      <table border="0" cellpadding="10" align="center"
+    width="90%">
+      <tr><td colspan="2">
+        <span class="title">Colocando El Rat&oacute;n</span><br /><p>&nbsp;</p>
+        </td></tr>
+      <tr>
+        <td valign="middle">Coloca el rat&oacute;n sobre la alfombrilla de rat&oacute;n o superficie plana
+como su escritorio u mesa. P&oacute;ngalo al lado m&aacute;s c&oacute;modo del teclado (izquierdo u derecho) con el cable apuntado hacia atr&aacute;s.
+</td>
+        <td><img src="images/position.jpg" width="211"
+        height="150" alt="Positioning the mouse on the pad"
+        align="right" /></td>
+      </tr>
+   <tr><td colspan="2"> 
+	<p><img src="images/blank.gif" width=400 height=40 border=0> </p>
+    <div class="keypress">
+      Oprime la tecla "Enter" para continuar.</div>
+	  <p><img src="images/blank.gif" width=400 height=10 border=0> </p>	</td></tr>
+	  </table>
+      <script type="text/javascript">drawProgressBar('#FF9900', 200, 15);</script>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15% Completo </div>
+<p><img src="images/blank.gif" width=400 height=10 border=0> </p>		
+
+		<div class="clearer"><span></span></div>
+	</div>
+
+</div>
+
+
+
+<div class="footer">
+&nbsp;</div>
+  </body>
+</html>

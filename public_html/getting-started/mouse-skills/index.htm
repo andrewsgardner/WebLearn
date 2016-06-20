@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="description"/>
+<meta name="keywords" content="keywords"/> 
+<meta name="author" content="author"/> 
+<link rel="stylesheet" type="text/css" href="nut.css" media="screen"/>
+
+<title>New User Tutorial</title>
+
+<script language="JavaScript" type="text/javascript" src="sniffer.js"></script> 
+  
+<script type="text/javascript" language="JavaScript1.2">
+    //<![CDATA[
+<!--
+/*
+Modified from:
+Home Hot Key Script- 
+(c) Dynamic Drive (www.dynamicdrive.com)
+For full source code, installation instructions,
+100's more DHTML scripts, and Terms Of
+Use, visit dynamicdrive.com
+*/
+var destination="intro2.htm"
+if (document.layers || window.Event || window.captureEvents)
+document.captureEvents(Event.KEYUP)
+
+function page2(e){
+if (document.layers){
+if (e.which==13 || e.which==14)
+window.location=destination
+}
+else if (document.all){
+if (event.keyCode==13 || event.keyCode==14){
+window.location=destination;
+}
+}
+else if (e.keyCode==13 || e.keyCode==14)
+window.location=destination
+}
+
+
+
+if (mac && ie4){
+document.onkeypress=page2
+}
+else {document.onkeyup=page2}
+//-->
+</script>
+
+<script type="text/javascript"> function setFocus() { document.getElementById("enter").focus(); } </script> 
+
+</head>
+
+<body onload="setFocus()"> 
+
+
+<div class="container">
+
+	<div class="header">
+		
+		<div class="title">
+<img src="images/logo.gif" width="338" height="78" alt="New User Tutorial" align="right"/>		</div>
+	</div>
+</div>
+	<div class="main">
+		
+		<div class="content">
+          
+      <p>
+  <img src="images/welcome.gif" alt="Welcome" align="left"/>        </p>
+      <p><img src="images/blank.gif" width=400 height=40 border=0> </p>
+      <p class="welcome">
+      This tutorial is designed to help people who have never used a computer before. We will concentrate on using the mouse and a few other basic skills. Ask a librarian for information on local computer classes for more in-depth instruction.</p>
+      <p>
+      <center>
+        <div class="keypress" id="enter">Press the "enter" key on the keyboard to begin.</div>
+      </center>
+      <p><img src="images/blank.gif" width=400 height=20 border=0> </p>
+	  <p><a href="spanish/index.htm">En Espa&ntilde;ol</a></p>
+      </div>
+		
+
+		<div class="clearer"><span></span></div>
+</div>
+
+</div>
+
+
+
+<div class="footer">
+
+&copy;2008 <a href="http://tech.tln.lib.mi.us"><img src="images/tclogo4.gif" align=absmiddle border=0></a> If you link to this site or download the self-extracting version from our home page, we'd love to hear from you. <a href="mailto:webmaster.tln.lib.mi.us">E-Mail</a> us.
+
+<br> 
+This tutorial adapted in part from tutorials at Washoe County Nevada Library System and Central Kansas Library System and Palm Beach County Library System.		        
+<br>
+Template design by Arcsin
+</div>
+
+
+<div style="font-size: 1em; text-align: center; margin-top: 1.0em; margin-bottom: 1.0em;">
+  Design provided by <a href="http://www.freewebtemplates.com/">Free Web Templates</a> - your source for free website templates</div>
+</body>
+</html>

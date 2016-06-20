@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/newclick.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta http-equiv="content-type"
+    content="text/html; charset=ISO-8859-1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta http-equiv="content-language" content="en-us" />
+    <meta name="Author"
+    content="TLN Technology Committee" />
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>New User Tutorial</title>
+    <!-- InstanceEndEditable -->
+    <link rel="StyleSheet" href="nut.css" type="text/css" />
+<script language="JavaScript" type="text/javascript" src="sniffer.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+ <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+<!--
+var beach = new Image(130,130)
+var mountain = new Image(130,130)
+var desert = new Image(130,130)
+var city = new Image(130,130)
+
+beach.src="images/beach.jpg"
+mountain.src="images/mountain.jpg"
+desert.src="images/desert.jpg"
+city.src="images/city.jpg"
+
+
+function setPlace(choice){
+if (choice==0) {document.country.src="images/beach.jpg"}
+else if (choice==1) {document.country.src="images/mountains.jpg"}
+else if (choice==2) {document.country.src="images/desert.jpg"}
+else if (choice==3) {document.country.src="images/city.jpg"}
+
+}
+    //-->
+    //]]>
+        </script>
+		
+    <!-- Progess bar widget, by Matthew Harvey (matt at smallish.com) -->
+    <!-- Licensed under a Creative Commons Attribution-Share Alike 2.5
+         License (http://creativecommons.org/licenses/by-sa/2.5/) -->
+    <style type="text/css">
+      div.smallish-progress-wrapper
+      {
+        /* Don't change the following lines. */
+        position: relative;
+        border: 1px solid black;
+      }
+
+      div.smallish-progress-bar
+      {
+        /* Don't change the following lines. */
+        position: absolute;
+        top: 0; left: 0;
+        height: 100%;
+      }
+
+      div.smallish-progress-text
+      {
+        /* Don't change the following lines. */
+        text-align: left;
+        position: relative;
+		color: #ff9900;
+        /* Add your customizations after this line. */
+      }
+    </style>
+
+    <!-- Progess bar widget, by Matthew Harvey (matt at smallish.com) -->
+    <!-- Licensed under a Creative Commons Attribution-Share Alike 2.5
+         License (http://creativecommons.org/licenses/by-sa/2.5/) -->
+    <script type="text/javascript">  
+      function drawProgressBar(color, width, percent)  
+      {  
+        var pixels = width * (percent / 100);  
+      
+        document.write('<div class="smallish-progress-wrapper" style="width: ' + width + 'px">');  
+        document.write('<div class="smallish-progress-bar" style="width: ' + pixels + 'px; background-color: ' + color + ';"></div>');  
+        document.write('<div class="smallish-progress-text" style="width: ' + width + 'px">' + percent + '%</div>');  
+        document.write('</div>');  
+      }  
+    </script>
+<!-- InstanceEndEditable -->
+</head>
+  <body>
+  <div class="container">
+
+	<div class="header">
+		
+		<div class="title">
+<img src="images/logo.gif" width="338" height="78" alt="New User Tutorial" align="right"/>
+		</div>
+
+
+	</div>
+</div>
+	<div class="main">
+		
+		<div class="content">
+  <!-- InstanceBeginEditable name="edit body" -->
+   <table border="0" cellpadding="10" align="center"
+    width="90%">
+      <tr><td colspan="2">
+        <span class="title">Additional Skills: Radio Buttons</span><br /><p>&nbsp;</p>
+        </td></tr>
+      <tr>
+        <td align="left" valign="top" width="35%>
+          <form name="pieChoice" action="">
+            <p>Where would your dream home be?<br />
+             <input type="radio" name="dream" value="beach" onClick="setPlace(0);"> beach
+<br />
+<input type="radio" name="dream" value="mountains" onClick="setPlace(1);"> mountains
+<br />
+<input type="radio" name="dream" value="desert" onClick="setPlace(2);"> desert
+<br />
+<input type="radio" name="dream" value="city" onClick="setPlace(3);"> city
+<br />
+</p>
+          </form><br />
+          <img src="images/blank.gif" width="130" height="130"
+          name="country" alt="" />
+        </td>
+        <td  valign="top">
+		
+          <ul>
+            <li>The small circles in the list to the left are <span
+            class="emph1">radio buttons</span>.<br />
+            <br />
+            </li>
+            <li>Radio buttons allow you to select <span class="emph3">one</span> item from a list of options.<br />
+            <br />
+            </li>
+            <li>Select one of the options by clicking in the circle next to it.<br />
+            <br />
+            </li>
+<li>Notice that a dot will appear in the circle of the item you selected.<br />
+            <br />
+            </li>
+ <li>If you select a second option, the previous option will automatically be "unselected".<br />
+            <br />
+            </li>          
+          </ul>
+            <a href="opening.htm">Click here</a> to go to the next page.
+        </td>
+      </tr>
+	  
+    </table>
+  <script type="text/javascript">drawProgressBar('#FF9900', 200, 92);</script>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;92% Complete
+	  <!-- InstanceEndEditable -->
+		 </div>
+<p><img src="images/blank.gif" width=400 height=10 border=0> </p>		
+
+		<div class="clearer"><span></span></div>
+
+	</div>
+
+</div>
+
+
+
+<div class="footer">
+&nbsp;</div>
+  </body><!-- InstanceEnd --></html>

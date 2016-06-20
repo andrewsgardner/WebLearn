@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type"
+    content="text/html; charset=ISO-8859-1" />
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta http-equiv="content-language" content="en-us" />
+    <meta name="Author"
+    content="TLN Technology Committee" />
+    
+<title>New User Tutorial</title>
+
+    <link rel="StyleSheet" href="nut.css" type="text/css" />
+<script language="JavaScript" type="text/javascript" src="sniffer.js"></script>
+
+ <script type="text/javascript" language="JavaScript">
+    //<![CDATA[
+<!--
+var beach = new Image(130,130)
+var mountain = new Image(130,130)
+var desert = new Image(130,130)
+var city = new Image(130,130)
+
+beach.src="images/beach.jpg"
+mountain.src="images/mountain.jpg"
+desert.src="images/desert.jpg"
+city.src="images/city.jpg"
+
+
+function setPlace(choice){
+if (choice==0) {document.country.src="images/beach.jpg"}
+else if (choice==1) {document.country.src="images/mountains.jpg"}
+else if (choice==2) {document.country.src="images/desert.jpg"}
+else if (choice==3) {document.country.src="images/city.jpg"}
+
+}
+    //-->
+    //]]>
+        </script>
+		
+    <!-- Progess bar widget, by Matthew Harvey (matt at smallish.com) -->
+    <!-- Licensed under a Creative Commons Attribution-Share Alike 2.5
+         License (http://creativecommons.org/licenses/by-sa/2.5/) -->
+    <style type="text/css">
+      div.smallish-progress-wrapper
+      {
+        /* Don't change the following lines. */
+        position: relative;
+        border: 1px solid black;
+      }
+
+      div.smallish-progress-bar
+      {
+        /* Don't change the following lines. */
+        position: absolute;
+        top: 0; left: 0;
+        height: 100%;
+      }
+
+      div.smallish-progress-text
+      {
+        /* Don't change the following lines. */
+        text-align: left;
+        position: relative;
+		color: #ff9900;
+        /* Add your customizations after this line. */
+      }
+    </style>
+
+    <!-- Progess bar widget, by Matthew Harvey (matt at smallish.com) -->
+    <!-- Licensed under a Creative Commons Attribution-Share Alike 2.5
+         License (http://creativecommons.org/licenses/by-sa/2.5/) -->
+    <script type="text/javascript">  
+      function drawProgressBar(color, width, percent)  
+      {  
+        var pixels = width * (percent / 100);  
+      
+        document.write('<div class="smallish-progress-wrapper" style="width: ' + width + 'px">');  
+        document.write('<div class="smallish-progress-bar" style="width: ' + pixels + 'px; background-color: ' + color + ';"></div>');  
+        document.write('<div class="smallish-progress-text" style="width: ' + width + 'px">' + percent + '%</div>');  
+        document.write('</div>');  
+      }  
+    </script>
+  </head>
+  <body>
+  <div class="container">
+
+	<div class="header">
+		
+		<div class="title">
+<img src="images/logo.gif" width="560" height="78" alt="New User Tutorial" align="right"/>		</div>
+	</div>
+</div>
+	<div class="main">
+		
+		<div class="content">
+  
+    <table border="0" cellpadding="10" align="center"
+    width="90%">
+      <tr><td colspan="2">
+        <span class="title">Habilidades Adicionales: Botones de Radio</span><br /><p>&nbsp;</p>
+        </td></tr>
+      <tr>
+        <td align="left" valign="top" width="35%>
+          <form name="pieChoice" action="">
+            <p>&iquest;Donde quisiera tener la casa de sus se&ntilde;os?<br />
+             <input type="radio" name="dream" value="beach" onClick="setPlace(0);"> La playa
+<br />
+<input type="radio" name="dream" value="mountains" onClick="setPlace(1);"> Las montanas
+<br />
+<input type="radio" name="dream" value="desert" onClick="setPlace(2);"> El desierto
+<br />
+<input type="radio" name="dream" value="city" onClick="setPlace(3);"> En la cuidad
+<br />
+</p>
+          </form><br />
+          <img src="images/blank.gif" width="130" height="130"
+          name="country" alt="" />        </td>
+        <td  valign="top">
+		<p>&nbsp;</p>
+          <ul>
+            <li>Los c&iacute;rculos peque&ntilde;os en la lista izquierda son botones de radio u <span
+            class="emph1">radio buttons</span>.<br />
+            <br />
+            </li>
+            <li>Estos botones permite elegir <span class="emph3">una</span> de un conjunto de opciones predefinido.<br />
+            <br />
+            </li>
+            <li>Ahora, selecciona una opci&oacute;n pulsando sobre el c&iacute;rculo.<br />
+            <br />
+            </li>
+<li>F&iacute;jese que un punto aparece.<br />
+            <br />
+            </li>
+ <li>Si hace otra selecci&oacute;n, la opci&oacute;n previa se desaparecer&aacute;.<br />
+            <br />
+            </li>          
+          </ul>
+            <a href="opening.htm">Oprime aqu&iacute;</a> para seguir a la pr&oacute;xima p&aacute;gina.        </td>
+      </tr>
+    </table>
+    <script type="text/javascript">drawProgressBar('#FF9900', 200, 92);</script>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;92% Completo </div>
+<p><img src="images/blank.gif" width=400 height=10 border=0> </p>		
+
+		<div class="clearer"><span></span></div>
+	</div>
+
+</div>
+
+
+
+<div class="footer">
+&nbsp;</div>
+  </body>
+</html>
