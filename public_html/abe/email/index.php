@@ -39,7 +39,7 @@ ob_start();
         
         <div class="activity">
             <h3><a href="https://www.digitallearn.org/courses/intro-to-email" target="_blank" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>Intro to Email: Part One</a></h3>
-            <p>DigitalLearn.org offers free self-paced tutorials about using Email. After selecting the above link, click on the "Start Class" button to begin the activity. <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></p>
+            <p>DigitalLearn.org offers free self-paced tutorials about using Email. After selecting the above link, click on the "Start Course" button to begin the activity. <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></p>
             <span class="activity-ul-top bold">Sections:</span>
             <ul class="activity-ul">
                 <li class="italics">What is Email?</li>
