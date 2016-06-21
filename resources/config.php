@@ -126,7 +126,11 @@ $abeRoutes = array(
         "pageLayoutDesign" => "/abe/word/page-layout-design.php",
         "searchEngines" => "/abe/search-engines/",
         "typing" => "/abe/typing/",
-        "win7" => "/abe/windows-7/"
+        "win7" => "/abe/windows-7/",
+        "introDesktop" => "/abe/windows-7/intro-desktop.php",
+        "introStartMenu" => "/abe/windows-7/intro-start-menu.php",
+        "windowFunctions" => "/abe/windows-7/window-functions.php",
+        "navPersonalFolders" => "/abe/windows-7/navigating-personal-folders.php"
     )
 );
 
