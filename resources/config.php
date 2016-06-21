@@ -126,8 +126,7 @@ $abeRoutes = array(
         "pageLayoutDesign" => "/abe/word/page-layout-design.php",
         "searchEngines" => "/abe/search-engines/",
         "typing" => "/abe/typing/",
-        "win7" => "/abe/windows-7/",
-        "win8" => "/abe/windows-8/"
+        "win7" => "/abe/windows-7/"
     )
 );
 

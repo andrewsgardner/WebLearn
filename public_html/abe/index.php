@@ -396,16 +396,6 @@ ob_start();
             </div>
         </div>
     </div>
-    <div class="col-xs-12 col-md-4">
-        <div class="panel panel-default">
-            <div class="panel-body text-center media-block">
-                <div class="caption">
-                    <h4>Windows 8</h4>
-                    <p><a href="<?php echo $abeRoutes['compLit']['win8']; ?>" class="btn btn-primary" role="button">Open</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
 <!-- END page content -->
