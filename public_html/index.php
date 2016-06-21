@@ -35,26 +35,26 @@ ob_start();
 </div>
 <div class="row">
     <div class="col-xs-12 col-md-6">
-        <div class="panel panel-default">
-            <div class="panel-body text-center media-block">
-                <div class="caption">
+        
+        <?php preMediaBlockCenter(); ?>
+        
                     <h3>ABE Lab</h3>
                     <p>ABE Lab is a section on WebLearn for students waiting to enter <a href="http://hiset.ets.org/" target="_blank">High School Equivalency Test</a> (HiSET) preparation classes. It contains links to <?php echo $config['info']['abeLinkNum']; ?> learning activities that SALC instructors feel are important for students to review.</p>
                     <p><a href="<?php echo $abeRoutes['abeHome']; ?>" class="btn btn-primary" role="button">Start Here</a></p>
-                </div>
-            </div>
-        </div>
+        
+        <?php postMediaBlock(); ?>
+        
     </div>
     <div class="col-xs-12 col-md-6">
-        <div class="panel panel-default">
-            <div class="panel-body text-center media-block">
-                <div class="caption">
+        
+        <?php preMediaBlockCenter(); ?>
+        
                     <h3>ESOL Lab</h3>
                     <p>ESOL Lab is a section on WebLearn for students waiting to enter English for Speakers of Other Languages (ESOL) classes. It contains links to <?php echo $config['info']['esolLinkNum']; ?> learning activities for both future and current students to use.</p>
                     <p><a href="<?php echo $esolRoutes['esolHome']; ?>" class="btn btn-primary" role="button">Start Here</a></p>
-                </div>
-            </div>
-        </div>
+        
+        <?php postMediaBlock(); ?>
+        
     </div>
 </div>
 <div class="row">

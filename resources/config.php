@@ -161,13 +161,25 @@ if (!function_exists('preMediaBlock')) {
     
 }
 
+if (!function_exists('preMediaBlockCenter')) {
+    
+    function preMediaBlockCenter() {
+        
+        echo "<div class=\"panel panel-default\">\n";
+        echo "\t\t\t<div class=\"panel-body text-center media-block\">\n";
+        echo "\t\t\t\t<div class=\"caption\">\n";
+        
+    }
+    
+}
+
 if (!function_exists('postMediaBlock')) {
     
     function postMediaBlock() {
         
-        echo "</div>\n";
-        echo "\t</div>\n";
-        echo "\t</div>\n";
+        echo "\t\t</div>\n";
+        echo "\t\t\t</div>\n";
+        echo "\t\t</div>\n";
         
     }
     
