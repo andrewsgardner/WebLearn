@@ -159,6 +159,10 @@ if (!function_exists('preMediaBlock')) {
         
     }
     
+}
+
+if (!function_exists('postMediaBlock')) {
+    
     function postMediaBlock() {
         
         echo "</div>\n";
