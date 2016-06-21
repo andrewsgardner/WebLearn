@@ -21,29 +21,12 @@ function renderContentPageLayout($contentFile, $variables = array()) {
     
     if (file_exists($contentPath)) {
         
-        /* DOCTYPE */
-        echo "<!DOCTYPE html>\n";
-        /* BEGIN html */
-        echo "<html lang=\"en\">\n";
-        require_once(TEMPLATES_PATH . "/metadata.php");
-        /* BEGIN body */
-        echo "\t<body>\n";
-        require_once(TEMPLATES_PATH . "/header.php");
-        
         require_once($contentPath);
-        
-        require_once(TEMPLATES_PATH . "/footer.php");
-        require_once(TEMPLATES_PATH . "/loadScripts.php");
-        require_once(TEMPLATES_PATH . "/analytics.php");
-        echo "</body>\n";
-        /* END body */
-        echo "</html>";
-        /* END html */
         
     } else {
         
         /* fallback if template not found */
-        echo "</p>Sorry! That page cannot be found.</p>";
+        echo "<html><h1>Sorry! That page cannot be found.</h1></html>";
         
     }
     

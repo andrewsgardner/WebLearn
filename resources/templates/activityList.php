@@ -1,4 +1,12 @@
-<?php
+<?php 
+/* DOCTYPE */
+echo "<!DOCTYPE html>\n";
+/* BEGIN html */
+echo "<html lang=\"en\">\n";
+require_once(TEMPLATES_PATH . "/metadata.php");
+/* BEGIN body */
+echo "\t<body>\n";
+require_once(TEMPLATES_PATH . "/header.php");
 
 /* BEGIN navbar-bottom */
 echo "\t<div class=\"navbar-bottom\">\n";
@@ -17,4 +25,12 @@ echo $activityItems;
 
 echo "\t</div>\n";
 /* END container */
+
+require_once(TEMPLATES_PATH . "/footer.php");
+require_once(TEMPLATES_PATH . "/loadScripts.php");
+require_once(TEMPLATES_PATH . "/analytics.php");
+echo "</body>\n";
+/* END body */
+echo "</html>";
+/* END html */
 ?>
