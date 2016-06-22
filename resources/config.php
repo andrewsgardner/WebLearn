@@ -136,17 +136,31 @@ $abeRoutes = array(
 
 $esolRoutes = array(
     "esolHome" => "/esol/",
-    "citizenship" => "/esol/citizenship/",
-    "generalEsol" => "/esol/general-esol/",
-    "grammar" => "/esol/grammar/",
-    "health" => "/esol/health/",
-    "learnersPermit" => "/esol/learners-permit/",
-    "money" => "/esol/money/",
-    "parents" => "/esol/parents/",
-    "pronunciation" => "/esol/pronunciation/",
-    "compLit" => "/esol/computer-literacy/",
-    "vocabulary" => "/esol/vocabulary/",
-    "workplace" => "/esol/workplace/"
+    "generalEsol" => array(
+        "genEsolDir" => "/esol/general-esol/"
+    ),
+    "specialTopics" => array(
+        "citizenship" => "/esol/citizenship/",
+        "grammar" => "/esol/grammar/",
+        "health" => "/esol/health/",
+        "learnersPermit" => "/esol/learners-permit/",
+        "money" => "/esol/money/",
+        "parents" => "/esol/parents/",
+        "pronunciation" => "/esol/pronunciation/",
+        "vocabulary" => "/esol/vocabulary/",
+        "workplace" => "/esol/workplace/"
+    ),
+    "compLit" => array(
+        "compFundamentals" => "/esol/computer-fundamentals/",
+        "email" => "/esol/email/",
+        "internetBrowsing" => "/esol/internet-browsing/",
+        "excel" => "/esol/excel/",
+        "powerPoint" => "/esol/powerpoint/",
+        "word" => "/esol/word/",
+        "searchEngines" => "/esol/search-engines/",
+        "typing" => "/esol/typing/",
+        "win7" => "/esol/windows-7/"
+    )
 );
 
 if (!function_exists('preMediaBlock')) {
