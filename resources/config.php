@@ -10,7 +10,7 @@ $config = array(
         "siteAuthor" => "Andrew S. Gardner",
         "cacheVer" => "?v=1.0",
         "abeLinkNum" => "150",
-        "esolLinkNum" => "71"
+        "esolLinkNum" => "70"
         ),
     "paths" => array(
         "css" => array(
