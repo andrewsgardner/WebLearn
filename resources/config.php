@@ -141,6 +141,7 @@ $esolRoutes = array(
     ),
     "specialTopics" => array(
         "citizenship" => "/esol/citizenship/",
+        "natInterviewVid" => "/esol/citizenship/naturalization-interview-video.php",
         "grammar" => "/esol/grammar/",
         "health" => "/esol/health/",
         "learnersPermit" => "/esol/learners-permit/",
