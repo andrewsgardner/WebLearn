@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Scientific Method Introduction";
+$pageTitle = "Scientific Method Introduction | ABE Lab";
 $pageDesc = "Learn about the scientific method and how it's used on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

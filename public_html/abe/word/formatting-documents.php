@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Formatting Documents in Word";
+$pageTitle = "Formatting Documents in Word | ABE Lab";
 $pageDesc = "Learn how to make Microsoft Word documents more visually appealing and easier to read on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

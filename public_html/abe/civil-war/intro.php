@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Civil War Introduction";
+$pageTitle = "Civil War Introduction | ABE Lab";
 $pageDesc = "Learn about the American Civil War on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

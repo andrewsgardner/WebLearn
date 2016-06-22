@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Drafting a Thesis Statement";
+$pageTitle = "Drafting a Thesis Statement | ABE Lab";
 $pageDesc = "Learn how to write an effective thesis statement on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

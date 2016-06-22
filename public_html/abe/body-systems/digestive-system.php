@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Digestive System";
+$pageTitle = "Digestive System | ABE Lab";
 $pageDesc = "Learn how the digestive system works on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

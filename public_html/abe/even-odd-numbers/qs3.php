@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Even &amp; Odd Numbers Question Set 3";
+$pageTitle = "Even &amp; Odd Numbers Question Set 3 | ABE Lab";
 $pageDesc = "Practice identifying even and odd numbers on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

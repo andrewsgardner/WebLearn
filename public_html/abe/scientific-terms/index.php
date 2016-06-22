@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Scientific Terms";
+$pageTitle = "Scientific Terms | ABE Lab";
 $pageDesc = "Distance learning activities about common scientific terms for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

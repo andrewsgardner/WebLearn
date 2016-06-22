@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | U.S. Presidents";
+$pageTitle = "U.S. Presidents | ABE Lab";
 $pageDesc = "Distance learning activities about U.S. Presidents for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Separation of Powers";
+$pageTitle = "Separation of Powers | ABE Lab";
 $pageDesc = "Distance learning activities about the separation of powers for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

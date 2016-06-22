@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Determining Word Meanings";
+$pageTitle = "Determining Word Meanings | ABE Lab";
 $pageDesc = "Learn to determine the meaning of words on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

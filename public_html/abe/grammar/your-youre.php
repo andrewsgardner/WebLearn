@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Your vs. You're Activity";
+$pageTitle = "Your vs. You're Activity | ABE Lab";
 $pageDesc = "A fun grammar activity about using Your and You're. Answer multiple choice questions on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

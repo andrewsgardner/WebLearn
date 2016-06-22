@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Windows 7 Desktop";
+$pageTitle = "Windows 7 Desktop | ABE Lab";
 $pageDesc = "Learn how to identify the different parts of your Windows desktop on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

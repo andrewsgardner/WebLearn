@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Grammar Activity List";
+$pageTitle = "Grammar | ABE Lab";
 $pageDesc = "Grammar distance learning activities for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

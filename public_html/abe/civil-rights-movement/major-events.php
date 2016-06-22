@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Major Events of the Civil Rights Movement";
+$pageTitle = "Major Events of the Civil Rights Movement | ABE Lab";
 $pageDesc = "Learn about some of the major events of the Civil Rights movement on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

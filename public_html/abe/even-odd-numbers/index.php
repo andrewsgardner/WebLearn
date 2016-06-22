@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Even &amp; Odd Numbers";
+$pageTitle = "Even &amp; Odd Numbers | ABE Lab";
 $pageDesc = "Distance learning activities about even and odd numbers for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

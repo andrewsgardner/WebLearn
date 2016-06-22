@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Page Layout &amp; Design in Word";
+$pageTitle = "Page Layout &amp; Design in Word | ABE Lab";
 $pageDesc = "Learn how to change the page layout and general design of your Microsoft Word document on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

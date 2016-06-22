@@ -1,7 +1,7 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Apostrophes";
-$pageDesc = "Learn about proper apostrophe usage on the Springfield Adult Learning Center's ABE Lab.";
+$pageTitle = "Persuasive Essay | ABE Lab";
+$pageDesc = "Learn about the necessary components for writing an effective persuasive essay on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");
 

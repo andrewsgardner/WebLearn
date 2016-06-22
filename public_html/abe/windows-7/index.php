@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Windows 7";
+$pageTitle = "Windows 7 | ABE Lab";
 $pageDesc = "Windows 7 distance learning activities for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

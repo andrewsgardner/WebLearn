@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | To, Too, or Two Activity";
+$pageTitle = "To, Too, or Two Activity | ABE Lab";
 $pageDesc = "A fun grammar activity about using To, Too, and Two. Answer multiple choice questions on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

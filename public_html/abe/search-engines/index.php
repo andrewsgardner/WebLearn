@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Search Engines";
+$pageTitle = "Search Engines | ABE Lab";
 $pageDesc = "Distance learning activities about using search engines for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

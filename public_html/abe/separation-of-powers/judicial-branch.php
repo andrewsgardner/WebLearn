@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Judicial Branch of Government";
+$pageTitle = "Judicial Branch of Government | ABE Lab";
 $pageDesc = "Learn about the Judicial Branch of Government on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Decimals &amp; Percentages";
+$pageTitle = "Decimals &amp; Percentages | ABE Lab";
 $pageDesc = "Decimals and percentages distance learning activities for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

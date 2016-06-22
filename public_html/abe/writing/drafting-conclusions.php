@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Drafting Conclusions";
+$pageTitle = "Drafting Conclusions | ABE Lab";
 $pageDesc = "Learn how to write an effective conclusion to your essay on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

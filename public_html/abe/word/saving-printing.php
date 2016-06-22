@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Saving &amp; Printing in Word";
+$pageTitle = "Saving &amp; Printing in Word | ABE Lab";
 $pageDesc = "Learn how to save and print Microsoft Word documents on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

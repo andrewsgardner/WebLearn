@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Theme";
+$pageTitle = "Theme | ABE Lab";
 $pageDesc = "Learn to identify the lesson or moral embedded in a piece of literature on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

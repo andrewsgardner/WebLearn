@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | The Scientific Method";
+$pageTitle = "The Scientific Method | ABE Lab";
 $pageDesc = "Distance learning activities about the scientific method for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

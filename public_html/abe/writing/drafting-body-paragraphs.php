@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Drafting Body Paragraphs";
+$pageTitle = "Drafting Body Paragraphs | ABE Lab";
 $pageDesc = "Learn how to write effective body paragraphs for your essay on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

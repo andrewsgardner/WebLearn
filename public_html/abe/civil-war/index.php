@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Civil War";
+$pageTitle = "Civil War | ABE Lab";
 $pageDesc = "Distance learning activities about the Civil War for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

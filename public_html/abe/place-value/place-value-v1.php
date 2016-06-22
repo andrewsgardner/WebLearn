@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Place Value Video 1";
+$pageTitle = "Place Value Video 1 | ABE Lab";
 $pageDesc = "Learn about the process for grouping tens and ones together within our number system on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

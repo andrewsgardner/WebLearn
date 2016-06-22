@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Identifying Logical Conclusions";
+$pageTitle = "Identifying Logical Conclusions | ABE Lab";
 $pageDesc = "Learn to identify the conclusion in a piece of writing on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

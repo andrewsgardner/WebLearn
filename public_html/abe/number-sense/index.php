@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Number Sense";
+$pageTitle = "Number Sense | ABE Lab";
 $pageDesc = "Distance learning activities about number sense for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

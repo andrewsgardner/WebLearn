@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Windows 7 Start Menu";
+$pageTitle = "Windows 7 Start Menu | ABE Lab";
 $pageDesc = "Learn how to use the Windows Start menu and create desktop shortcuts on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

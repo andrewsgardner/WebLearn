@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Body Systems Introduction Video";
+$pageTitle = "Body Systems Introduction Video | ABE Lab";
 $pageDesc = "Learn the functions and major parts of the circulatory system, the respiratory system, the nervous system, and the digestive system.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

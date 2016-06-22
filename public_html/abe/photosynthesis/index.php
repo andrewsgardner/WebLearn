@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Photosynthesis";
+$pageTitle = "Photosynthesis | ABE Lab";
 $pageDesc = "Distance learning activities about photosynthesis for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

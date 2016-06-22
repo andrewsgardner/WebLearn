@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Systems of the Body";
+$pageTitle = "Systems of the Body | ABE Lab";
 $pageDesc = "Distance learning activities about major systems of the human body for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

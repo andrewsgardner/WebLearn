@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Fact or Opinion";
+$pageTitle = "Fact or Opinion | ABE Lab";
 $pageDesc = "Learn to distinguish between fact and opinion on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

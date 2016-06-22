@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Images &amp; Tables in Word";
+$pageTitle = "Images &amp; Tables in Word | ABE Lab";
 $pageDesc = "Learn how to add pictures and data tables to your Microsoft Word documents on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

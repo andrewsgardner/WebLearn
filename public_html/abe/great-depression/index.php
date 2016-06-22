@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | The Great Depression";
+$pageTitle = "The Great Depression | ABE Lab";
 $pageDesc = "Distance learning activities about the great depression for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

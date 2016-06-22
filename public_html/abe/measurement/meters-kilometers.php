@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Metric Conversion Activity";
+$pageTitle = "Metric Conversion Activity | ABE Lab";
 $pageDesc = "Learn how to convert between meters and kilometers on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

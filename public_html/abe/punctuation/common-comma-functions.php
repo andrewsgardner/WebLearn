@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Common Comma Functions";
+$pageTitle = "Common Comma Functions | ABE Lab";
 $pageDesc = "Learn about comma functions on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Basic Window Functions in Windows 7";
+$pageTitle = "Basic Window Functions in Windows 7 | ABE Lab";
 $pageDesc = "Learn how to control the window containers that your applications appear in on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

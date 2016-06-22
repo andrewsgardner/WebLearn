@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Place Value";
+$pageTitle = "Place Value | ABE Lab";
 $pageDesc = "Distance learning activities about place value for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Introduction to Photosynthesis";
+$pageTitle = "Introduction to Photosynthesis | ABE Lab";
 $pageDesc = "Learn about the processes of photosynthesis and cellular respiration on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

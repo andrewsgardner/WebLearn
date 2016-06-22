@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Punctuation Activity List";
+$pageTitle = "Punctuation | ABE Lab";
 $pageDesc = "Punctuation distance learning activities for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

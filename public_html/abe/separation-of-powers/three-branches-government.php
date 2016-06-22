@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Three Branches of Government";
+$pageTitle = "Three Branches of Government | ABE Lab";
 $pageDesc = "Learn how power in the U.S. is distributed between three separate branches of government on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

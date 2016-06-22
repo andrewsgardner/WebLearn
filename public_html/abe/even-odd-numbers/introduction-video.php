@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Even &amp; Odd Numbers Introduction Video";
+$pageTitle = "Even &amp; Odd Numbers Introduction Video | ABE Lab";
 $pageDesc = "Learn how to identify even and odd numbers on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");

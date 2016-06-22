@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Civil Rights Movement";
+$pageTitle = "Civil Rights Movement | ABE Lab";
 $pageDesc = "Distance learning activities about the Civil Rights Movement for Adult Basic Education students.";
 $activityCount = 0;
 $refCount = 0;

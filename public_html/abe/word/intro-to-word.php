@@ -1,6 +1,6 @@
 <?php 
 $currentPage = "abe";
-$pageTitle = "ABE Lab | Introduction to Microsoft Word";
+$pageTitle = "Introduction to Microsoft Word | ABE Lab";
 $pageDesc = "Learn how to perform basic tasks in Microsoft Word on the Springfield Adult Learning Center's ABE Lab.";
 require_once("config.php");
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");
