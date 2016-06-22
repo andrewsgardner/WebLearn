@@ -146,6 +146,7 @@ $esolRoutes = array(
         "health" => "/esol/health/",
         "learnersPermit" => "/esol/learners-permit/",
         "money" => "/esol/money/",
+        "amCurrencyFlashcards" => "/esol/money/american-currency-flashcards.php",
         "parents" => "/esol/parents/",
         "pronunciation" => "/esol/pronunciation/",
         "vocabulary" => "/esol/vocabulary/",
