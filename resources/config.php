@@ -166,7 +166,11 @@ $esolRoutes = array(
         "pageLayoutDesign" => "/esol/word/page-layout-design.php",
         "searchEngines" => "/esol/search-engines/",
         "typing" => "/esol/typing/",
-        "win7" => "/esol/windows-7/"
+        "win7" => "/esol/windows-7/",
+        "introDesktop" => "/esol/windows-7/intro-desktop.php",
+        "introStartMenu" => "/esol/windows-7/intro-start-menu.php",
+        "windowFunctions" => "/esol/windows-7/window-functions.php",
+        "navPersonalFolders" => "/esol/windows-7/navigating-personal-folders.php"
     )
 );
 
