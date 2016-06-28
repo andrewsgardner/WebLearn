@@ -5897,6 +5897,8 @@ address {
 
 .media-gap {
   margin-bottom: 2.34375em; }
+  .media-gap:last-of-type {
+    margin-bottom: 0; }
 
 .caption {
   background-color: #fff;

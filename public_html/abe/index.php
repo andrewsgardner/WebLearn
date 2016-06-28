@@ -301,7 +301,7 @@ ob_start();
     </div>
 </div>
 
-<div class="row">
+<div class="row media-gap">
     <div class="col-xs-12">
         <h2>Computer Literacy</h2>
         <p class="subject-desc">Choose an area of computer literacy to study from the options provided below.</p>
