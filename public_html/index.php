@@ -65,15 +65,16 @@ ob_start();
     <div class="col-xs-12">
         <div class="media-gap">
             <h2>Contact</h2>
-            <p>Questions or comments about WebLearn can be directed to SALC's Workforce Readiness Coordinator:</p>
+            <p>Questions or comments about WebLearn can be directed to SALC's computer literacy instructor:</p>
             <address>
-                <strong>John W. Lewis II</strong><br>
-                Work Readiness Coordinator<br>
+                <strong>Nathan Bench</strong><br>
+                ESOL &amp; Computer Instructor<br>
                 Springfield Adult Learning Center<br>
-                Springfield Technical Community College<br>
                 <script>
-                    document.write("<n uers=\"znvygb:wjyrjvf@fgpp.rqh\" ery=\"absbyybj\">wjyrjvf@fgpp.rqh</n>".replace(/[a-zA-Z]/g,
-                    function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+                    document.write("<n uers=\"znvygb:aorapu@funznff.bet\" ery=\"absbyybj\">aorapu@funznff.bet</n>".replace(/[a-zA-Z]/g,
+                    function (c) {
+                        return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+                    }));
                 </script>
             </address>
         </div>
