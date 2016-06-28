@@ -6,6 +6,10 @@
         margin-top: em(20);
     }
     
+    table {
+        margin: 0 auto;
+    }
+    
     /*----> GLOBAL <----*/
     
     h1, h2, address {
@@ -101,6 +105,23 @@
         text-align: center;
     }
     
+    /*-> GET. STARTED <-*/
+    
+    .gs-img {
+        
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    
+    .libraries {
+        
+        h3 {
+            text-align: center;
+        }
+    }
+    
     /*----> HEADER <----*/
     
     .navbar-bottom {
@@ -141,6 +162,10 @@
     
     .container {
         max-width: 720px;
+    }
+    
+    table {
+        margin-left: 0;
     }
     
     /*----> GLOBAL <----*/
@@ -230,6 +255,22 @@
     
     .activity-open {
         text-align: left;
+    }
+    
+    /*-> GET. STARTED <-*/
+    
+    .gs-img {
+        
+        img {
+            margin-left: 0;
+        }
+    }
+    
+    .libraries {
+        
+        h3 {
+            text-align: left;
+        }
     }
     
     /*----> HEADER <----*/

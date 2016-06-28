@@ -14,10 +14,11 @@ Version: 1.0
 6. Grid
 7. pageContent
 8. activityList
-9. Header
-10. Footer
-11. slickQuiz
-12. Media Queries
+9. Getting Started
+10. Header
+11. Footer
+12. slickQuiz
+13. Media Queries
 ------------------------------------ */
 @import 'modules/_variables';
 @import 'modules/_mixins';
@@ -38,13 +39,15 @@ Version: 1.0
 @import 'partials/_pageContent';
 /*---------> 8. ACTIVITYLIST <-------*/
 @import 'partials/_activityList';
-/*-----------> 9. HEADER <-----------*/
+/*-------> 9. GETTING STARTED <------*/
+@import 'partials/_getting-started';
+/*-----------> 10. HEADER <----------*/
 @import 'partials/_header';
-/*-----------> 10. FOOTER <-----------*/
+/*-----------> 11. FOOTER <----------*/
 @import 'partials/_footer';
-/*----------> 11. SLICKQUIZ <---------*/
+/*---------> 12. SLICKQUIZ <---------*/
 @import 'vendor/_slickQuiz-styles';
-/*--------> 12. CALCULATOR <---------*/
+/*--------> 13. CALCULATOR <---------*/
 @import 'partials/_calculator';
-/*-------> 13. MEDIA QUERIES <-------*/
+/*-------> 14. MEDIA QUERIES <-------*/
 @import 'partials/_media-queries';

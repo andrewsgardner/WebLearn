@@ -1,0 +1,55 @@
+#cursor-icon {
+    vertical-align: top;
+}
+
+.gs-resource {
+    margin-bottom: em(16);
+    
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.gs-img {
+    margin: em(17.143) 0;
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+.libraries {
+    
+    table {
+        max-width: em(500);
+        display: table;
+        
+        th, td {
+            display: table-cell;
+        }
+        
+        th {
+            text-align: center;
+            background-color: $hex-yellow;
+            color: $hex-black;
+            font-weight: 700;
+            text-shadow: 0 0 em(.5) $hex-white;
+        }
+        
+        td {
+            font-size: em(15);
+            text-align: center;
+        }
+
+    }
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.lib-title {
+    font-size: em(20);
+}

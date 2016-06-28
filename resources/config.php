@@ -37,6 +37,7 @@ $config = array(
 );
 
 $gettingStarted = "/getting-started/";
+$weblearnFlyer = "/getting-started/#";
 $mouseSkills = "/getting-started/mouse-skills/";
 $salcStcc = "http://www.stcc.edu/adulteducationcenter/";
 

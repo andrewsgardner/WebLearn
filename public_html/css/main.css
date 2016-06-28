@@ -14,10 +14,11 @@ Version: 1.0
 6. Grid
 7. pageContent
 8. activityList
-9. Header
-10. Footer
-11. slickQuiz
-12. Media Queries
+9. Getting Started
+10. Header
+11. Footer
+12. slickQuiz
+13. Media Queries
 ------------------------------------ */
 /*----------> 1. CSS RESET <---------*/
 /*---------> 2. BOOTSTRAP <----------*/
@@ -6008,7 +6009,43 @@ span.fraction sub {
 .fraction-p {
   margin: 1em 0; }
 
-/*-----------> 9. HEADER <-----------*/
+/*-------> 9. GETTING STARTED <------*/
+#cursor-icon {
+  vertical-align: top; }
+
+.gs-resource {
+  margin-bottom: 1em; }
+  .gs-resource:last-of-type {
+    margin-bottom: 0; }
+
+.gs-img {
+  margin: 1.0714375em 0; }
+  .gs-img img {
+    max-width: 100%;
+    height: auto; }
+
+.libraries table {
+  max-width: 31.25em;
+  display: table; }
+  .libraries table th, .libraries table td {
+    display: table-cell; }
+  .libraries table th {
+    text-align: center;
+    background-color: #e1bc60;
+    color: #353638;
+    font-weight: 700;
+    text-shadow: 0 0 0.03125em #fff; }
+  .libraries table td {
+    font-size: 0.9375em;
+    text-align: center; }
+
+.table > tbody > tr > td {
+  vertical-align: middle; }
+
+.lib-title {
+  font-size: 1.25em; }
+
+/*-----------> 10. HEADER <----------*/
 .navbar-bottom {
   position: fixed;
   top: 0;
@@ -6019,7 +6056,7 @@ span.fraction sub {
   -webkit-box-shadow: 0 0 0.15625em 0 #353638;
   box-shadow: 0 0 0.15625em 0 #353638; }
 
-/*-----------> 10. FOOTER <-----------*/
+/*-----------> 11. FOOTER <----------*/
 .footer {
   position: absolute;
   bottom: 0;
@@ -6048,7 +6085,7 @@ span.fraction sub {
   .copyright a, .developer a {
     color: #e1bc60; }
 
-/*----------> 11. SLICKQUIZ <---------*/
+/*---------> 12. SLICKQUIZ <---------*/
 .pre-activity {
   margin: 0 auto; }
 
@@ -6210,7 +6247,7 @@ ul.responses li {
   position: absolute;
   width: 1px; }
 
-/*--------> 12. CALCULATOR <---------*/
+/*--------> 13. CALCULATOR <---------*/
 fieldset {
   padding: 0;
   border: 0; }
@@ -6258,12 +6295,14 @@ input.webcalc-long {
   color: #fff;
   -webkit-appearance: none; }
 
-/*-------> 13. MEDIA QUERIES <-------*/
+/*-------> 14. MEDIA QUERIES <-------*/
 @media (min-width: 0.1em) {
   /* Custom: 1.6px = .1em */
   /*---> BOOTSTRAP <--*/
   .panel {
     margin-top: 1.25em; }
+  table {
+    margin: 0 auto; }
   /*----> GLOBAL <----*/
   h1, h2, address {
     text-align: center; }
@@ -6304,6 +6343,12 @@ input.webcalc-long {
     margin: 0 auto; }
   .activity-open {
     text-align: center; }
+  /*-> GET. STARTED <-*/
+  .gs-img img {
+    display: block;
+    margin: 0 auto; }
+  .libraries h3 {
+    text-align: center; }
   /*----> HEADER <----*/
   .navbar-bottom {
     height: 4.25em; }
@@ -6327,6 +6372,8 @@ input.webcalc-long {
   /*---> BOOTSTRAP <--*/
   .container {
     max-width: 720px; }
+  table {
+    margin-left: 0; }
   /*----> GLOBAL <----*/
   h1, h2, address {
     text-align: left; }
@@ -6364,6 +6411,11 @@ input.webcalc-long {
   .activity-thumbnail img {
     margin-left: 0; }
   .activity-open {
+    text-align: left; }
+  /*-> GET. STARTED <-*/
+  .gs-img img {
+    margin-left: 0; }
+  .libraries h3 {
     text-align: left; }
   /*----> HEADER <----*/
   .navbar-bottom {
