@@ -33,5 +33,3 @@ node_modules
 # Brackets IDE #
 ################
 .brackets.json
-
-public_html/tmp/
