@@ -6,22 +6,19 @@ Author URI: http://www.andrewsgardner.com/
 Version: 1.0
 */
 /* ---------------------- CSS DIRECTORY
-1. CSS Reset
-2. Bootstrap
-3. Fonts
-4. Global
-5. Structural
-6. Grid
-7. pageContent
-8. activityList
-9. Getting Started
-10. Header
-11. Footer
-12. slickQuiz
-13. Media Queries
+1. Bootstrap
+2. Global
+3. Structural
+4. pageContent
+5. activityList
+6. Getting Started
+7. Header
+8. Footer
+9. slickQuiz
+10. Calculator
+11. Media Queries
 ------------------------------------ */
-/*----------> 1. CSS RESET <---------*/
-/*---------> 2. BOOTSTRAP <----------*/
+/*---------> 1. BOOTSTRAP <----------*/
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -5850,8 +5847,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-/*------------> 3. FONTS <-----------*/
-/*-----------> 4. GLOBAL <-----------*/
+/*-----------> 2. GLOBAL <-----------*/
 html {
   position: relative;
   min-height: 100%; }
@@ -5876,15 +5872,14 @@ address {
   margin: 1.25em 0 0 0;
   font-style: italic; }
 
-/*---------> 5. STRUCTURAL <---------*/
+/*---------> 3. STRUCTURAL <---------*/
 .grid-container {
   display: block;
   z-index: 1; }
   .grid-container p:last-of-type {
     margin-bottom: 0; }
 
-/*------------> 6. GRID <------------*/
-/*---------> 7. PAGECONTENT <--------*/
+/*---------> 4. PAGECONTENT <--------*/
 .subheading {
   display: block;
   margin-bottom: 1.25em; }
@@ -5942,7 +5937,7 @@ address {
   height: 47em;
   margin-top: 1.25em; }
 
-/*---------> 8. ACTIVITYLIST <-------*/
+/*---------> 5. ACTIVITYLIST <-------*/
 .activity, .credits, .activity-thumbnail, .activity-open {
   display: block; }
 
@@ -6011,7 +6006,7 @@ span.fraction sub {
 .fraction-p {
   margin: 1em 0; }
 
-/*-------> 9. GETTING STARTED <------*/
+/*-------> 6. GETTING STARTED <------*/
 #cursor-icon {
   vertical-align: top; }
 
@@ -6047,7 +6042,7 @@ span.fraction sub {
 .lib-title {
   font-size: 1.25em; }
 
-/*-----------> 10. HEADER <----------*/
+/*-----------> 7. HEADER <-----------*/
 .navbar-bottom {
   position: fixed;
   top: 0;
@@ -6058,7 +6053,7 @@ span.fraction sub {
   -webkit-box-shadow: 0 0 0.15625em 0 #353638;
   box-shadow: 0 0 0.15625em 0 #353638; }
 
-/*-----------> 11. FOOTER <----------*/
+/*-----------> 8. FOOTER <-----------*/
 .footer {
   position: absolute;
   bottom: 0;
@@ -6087,7 +6082,7 @@ span.fraction sub {
   .copyright a, .developer a {
     color: #e1bc60; }
 
-/*---------> 12. SLICKQUIZ <---------*/
+/*---------> 9. SLICKQUIZ <----------*/
 .pre-activity {
   margin: 0 auto; }
 
@@ -6249,7 +6244,7 @@ ul.responses li {
   position: absolute;
   width: 1px; }
 
-/*--------> 13. CALCULATOR <---------*/
+/*--------> 10. CALCULATOR <---------*/
 fieldset {
   padding: 0;
   border: 0; }
@@ -6297,7 +6292,7 @@ input.webcalc-long {
   color: #fff;
   -webkit-appearance: none; }
 
-/*-------> 14. MEDIA QUERIES <-------*/
+/*-------> 11. MEDIA QUERIES <-------*/
 @media (min-width: 0.1em) {
   /* Custom: 1.6px = .1em */
   /*---> BOOTSTRAP <--*/
