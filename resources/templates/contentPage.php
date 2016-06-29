@@ -19,11 +19,11 @@ echo "\t\t</div>\n";
 /* END navbar-bottom */
 
 /* BEGIN container */
-echo "\t<div class=\"container grid-container\">\n";
+echo "\t\t<div class=\"container grid-container\">\n";
 
 echo $pageContent;
 
-echo "\t</div>\n";
+echo "\t\t</div>\n";
 /* END container */
 
 require_once(TEMPLATES_PATH . "/footer.php");
