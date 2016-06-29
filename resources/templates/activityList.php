@@ -9,13 +9,13 @@ echo "\t<body>\n";
 require_once(TEMPLATES_PATH . "/header.php");
 
 /* BEGIN navbar-bottom */
-echo "\t<div class=\"navbar-bottom\">\n";
-echo "\t<div class=\"container\">\n";
+echo "\t\t<div class=\"navbar-bottom\">\n";
+echo "\t\t\t<div class=\"container\">\n";
 
 echo $pageBreadbrumbs;
 
-echo "\t</div>\n";
-echo "\t</div>\n";
+echo "\t\t\t</div>\n";
+echo "\t\t</div>\n";
 /* END navbar-bottom */
 
 /* BEGIN container */
