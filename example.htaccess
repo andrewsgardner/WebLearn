@@ -1,5 +1,8 @@
 # recommended .htaccess settings:
 
+# set the /resources/ directory as your php include_path
+php_value include_path "/path/to/resources/directory/"
+
 # redirect http://salcweblearn.org to http://www.salcweblearn.org
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^salcweblearn\.org$ [NC]
