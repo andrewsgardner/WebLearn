@@ -23,7 +23,7 @@ echo "\t\t\t</div>\n";
 echo "\t\t\t<div class=\"collapse navbar-collapse\" id=\"primary-navbar\">\n";
 echo "\t\t\t\t<ul class=\"nav navbar-nav\">\n";
 
-echo "\t\t\t\t\t"; ?><li<?php if($currentPage=='getting_started' ) echo ' class="active"'; ?>><a href="<?php echo $gettingStarted ; ?>">Getting Started<span class="sr-only">(current)</span></a></li><?php echo "\n";
+echo "\t\t\t\t\t"; ?><li<?php if($currentPage=='getting_started' ) echo ' class="active"'; ?>><a href="<?php echo $config['paths']['gettingStarted']; ?>">Getting Started<span class="sr-only">(current)</span></a></li><?php echo "\n";
 echo "\t\t\t\t\t"; ?><li<?php if($currentPage=='abe' ) echo ' class="active"'; ?>><a href="<?php echo $abeRoutes['abeHome']; ?>">ABE Lab<span class="sr-only">(current)</span></a></li><?php echo "\n";
 echo "\t\t\t\t\t"; ?><li<?php if($currentPage=='esol' ) echo ' class="active"'; ?>><a href="<?php echo $esolRoutes['esolHome']; ?>">ESOL Lab<span class="sr-only">(current)</span></a></li><?php echo "\n";
 

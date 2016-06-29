@@ -12,7 +12,7 @@ ob_start();
 
 <ol class="breadcrumb">
     <li><a href="/">WebLearn</a></li>
-    <li><a href="<?php echo $gettingStarted; ?>">Getting Started</a></li>
+    <li><a href="<?php echo $config['paths']['gettingStarted']; ?>">Getting Started</a></li>
 </ol>
 
 <!-- END page breadcrumbs -->

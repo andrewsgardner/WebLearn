@@ -33,7 +33,7 @@ ob_start();
         </div>
         <div class="media-gap">
             <h2>What is Distance Learning?</h2>
-            <p>Distance learning is an education delivery process that's used when students and teachers are separated by space or time. Instruction is provided over the Internet to students who can't be present in a traditional classroom. Distance learning websites use video recordings, audio recordings, and web-based activities to present academic material. Please begin by reading our <a href="<?php echo $gettingStarted; ?>">Getting Started</a> page.</p>
+            <p>Distance learning is an education delivery process that's used when students and teachers are separated by space or time. Instruction is provided over the Internet to students who can't be present in a traditional classroom. Distance learning websites use video recordings, audio recordings, and web-based activities to present academic material. Please begin by reading our <a href="<?php echo $config['paths']['gettingStarted']; ?>">Getting Started</a> page.</p>
         </div>
     </div>
 </div>

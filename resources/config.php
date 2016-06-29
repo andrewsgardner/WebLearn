@@ -1,5 +1,5 @@
 <?php
-/* global variables */
+// global variables
 global $currentPage;
 global $pageTitle;
 global $pageDesc;
@@ -13,6 +13,7 @@ $config = array(
         "esolLinkNum" => "70"
         ),
     "paths" => array(
+        "gettingStarted" => "/getting-started/",
         "css" => array(
             "main" => "/css/main.css",
             "min" => "/css/main.min.css"
@@ -39,7 +40,6 @@ $config = array(
     )
 );
 
-$gettingStarted = "/getting-started/";
 $mouseSkills = "/getting-started/mouse-skills/";
 $salcStcc = "http://www.stcc.edu/adulteducationcenter/";
 
@@ -214,8 +214,7 @@ if (!function_exists('postMediaBlock')) {
 }
 
 defined("LIBRARY_PATH")
-	or define("LIBRARY_PATH", realpath(dirname(__FILE__) . "/library"));
+    or define("LIBRARY_PATH", realpath(dirname(__FILE__) . "/library"));
 
 defined("TEMPLATES_PATH")
-	or define("TEMPLATES_PATH", realpath(dirname(__FILE__) . "/templates"));
-?>
+    or define("TEMPLATES_PATH", realpath(dirname(__FILE__) . "/templates"));
