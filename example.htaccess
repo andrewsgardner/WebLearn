@@ -32,7 +32,7 @@ ExpiresActive On
 ExpiresDefault A0
  
 # set up caching for 2 months
-<filesMatch ".(css|js|json|gif|jpg|jpeg|png|svg|pdf|ico|eot|ttf|woff|woff2|)$">
+<filesMatch ".(css|js|json|gif|jpg|jpeg|png|svg|pdf|ico|eot|ttf|woff|woff2)$">
 ExpiresDefault A4838400
 Header append Cache-Control "public"
 </filesMatch>
