@@ -60,14 +60,14 @@ ob_start();
         </div>
         
         <div class="activity">
-            <h3><a href="<?php echo $mouseSkills; ?>" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>Mouse Skills Tutorial Two</a></h3>
+            <h3><a href="<?php echo $config['paths']['mouseSkills']; ?>" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>Mouse Skills Tutorial Two</a></h3>
             <p>Learn how to use a computer mouse.</p>
             <p>This activity doesn't work on smartphones.</p>
             <div class="activity-thumbnail">
                 <img src="<?php echo $config['paths']['img']['content'] . '/mouse-skills-tutorial-2.png'; ?>" alt="Mouse Skills Tutorial Two">
             </div>
             <div class="activity-open">
-                <p><a href="<?php echo $mouseSkills; ?>" class="btn btn-primary" role="button">Open</a></p>
+                <p><a href="<?php echo $config['paths']['mouseSkills']; ?>" class="btn btn-primary" role="button">Open</a></p>
             </div>
         </div>
         

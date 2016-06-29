@@ -14,6 +14,7 @@ $config = array(
         ),
     "paths" => array(
         "gettingStarted" => "/getting-started/",
+        "mouseSkills" => "/getting-started/mouse-skills/",
         "css" => array(
             "main" => "/css/main.css",
             "min" => "/css/main.min.css"
@@ -40,7 +41,6 @@ $config = array(
     )
 );
 
-$mouseSkills = "/getting-started/mouse-skills/";
 $salcStcc = "http://www.stcc.edu/adulteducationcenter/";
 
 $abeRoutes = array(

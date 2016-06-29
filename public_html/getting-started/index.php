@@ -201,7 +201,7 @@ ob_start();
         <div class="media-gap">
             <h2>Resources</h2>
             <ul class="activity-ul">
-                <li class="italics gs-resource"><a href="<?php echo $mouseSkills; ?>" class="btn btn-primary btn-sm" id="mouse-skills" role="button">Mouse Skills Tutorial</a></li>
+                <li class="italics gs-resource"><a href="<?php echo $config['paths']['mouseSkills']; ?>" class="btn btn-primary btn-sm" id="mouse-skills" role="button">Mouse Skills Tutorial</a></li>
                 <li class="italics gs-resource"><a href="<?php echo $config['paths']['pdf']['weblearnFlyer']; ?>" class="btn btn-primary btn-sm" role="button">WebLearn Flyer</a></li>
             </ul>
         </div>
