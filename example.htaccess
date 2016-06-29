@@ -1,0 +1,43 @@
+# recommended .htaccess settings:
+
+# redirect http://salcweblearn.org to http://www.salcweblearn.org
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^salcweblearn\.org$ [NC]
+RewriteRule ^(.*)$ http://www.salcweblearn.org/$1 [R=301,L]
+
+# block spam referral traffic for google analytics
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*ranksonic\.org [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*traffic\-paradise\.org [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*trafficmonetize\.org [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*semalt\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*semaltmedia\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*best\-seo\-offer\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*100dollars\-seo\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*sharebutton\.net [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*buttons\-for\-your\-website\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*buttons\-for\-website\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*www\.get\-free\-traffic\-now\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*success\-seo\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*videos\-for\-your\-business\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*video\-\-production\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*4webmasters\.org [NC]
+RewriteRule .* - [F]
+
+<ifModule mod_headers.c>
+# turn on expires and set default to no caching
+ExpiresActive On
+ExpiresDefault A0
+ 
+# set up caching for 2 months
+<filesMatch ".(css|js|json|gif|jpg|jpeg|png|svg|pdf|ico|eot|ttf|woff|woff2|)$">
+ExpiresDefault A4838400
+Header append Cache-Control "public"
+</filesMatch>
+ 
+# force no caching
+<filesMatch ".(php|html|htm|txt|xml|cgi)$">
+ExpiresDefault A0
+Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+Header set Pragma "no-cache"
+</filesMatch>
+</ifModule>
