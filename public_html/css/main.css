@@ -6429,7 +6429,8 @@ input.webcalc-long {
         text-decoration: none;
         height: 1.0625em;
         overflow: hidden;
-        padding: 0 0.625em; }
+        padding: 0 0.625em;
+        cursor: default; }
     .footer-links a:last-of-type:after {
       content: ""; }
   .copyright, .developer {
