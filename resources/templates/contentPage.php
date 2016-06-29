@@ -29,7 +29,7 @@ echo "\t</div>\n";
 require_once(TEMPLATES_PATH . "/footer.php");
 require_once(TEMPLATES_PATH . "/loadScripts.php");
 require_once(TEMPLATES_PATH . "/analytics.php");
-echo "</body>\n";
+echo "\t</body>\n";
 /* END body */
 echo "</html>";
 /* END html */
