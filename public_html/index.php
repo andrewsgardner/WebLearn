@@ -29,7 +29,7 @@ ob_start();
         <strong class="subheading text-muted">Springfield Adult Learning Center</strong>
         <div class="media-gap">
             <h2>About</h2>
-            <p>WebLearn is a distance learning website maintained by the <a href="<?php echo $salcStcc; ?>" target="_blank">Springfield Adult Learning Center</a> (SALC). This resource empowers future students to get a head start on their education while still on our waitlist for Adult Basic Education services.</p>
+            <p>WebLearn is a distance learning website maintained by the <a href="<?php echo $config['paths']['salcStcc']; ?>" target="_blank">Springfield Adult Learning Center</a> (SALC). This resource empowers future students to get a head start on their education while still on our waitlist for Adult Basic Education services.</p>
         </div>
         <div class="media-gap">
             <h2>What is Distance Learning?</h2>

@@ -73,9 +73,9 @@ ob_start();
         
         <div class="credits alt-link-color">
             <h4>Credits:</h4>
-            <p><?php echo ++$refCount . ". "; ?><a href="<?php echo $salcStcc; ?>" target="_blank">Andrew S. Gardner: Springfield Adult Learning Center</a>, <a href="http://www.engvid.com/confused-words-to-too-two/" target="_blank">engVID.com</a>.</p>
+            <p><?php echo ++$refCount . ". "; ?><a href="<?php echo $config['paths']['salcStcc']; ?>" target="_blank">Andrew S. Gardner: Springfield Adult Learning Center</a>, <a href="http://www.engvid.com/confused-words-to-too-two/" target="_blank">engVID.com</a>.</p>
             <p><?php echo ++$refCount . ". "; ?><a href="http://www.engvid.com/commonly-confused-words-in-english-theyre-there-their/" target="_blank">engVID.com</a>.</p>
-            <p><?php echo ++$refCount . ". "; ?><a href="<?php echo $salcStcc; ?>" target="_blank">Andrew S. Gardner: Springfield Adult Learning Center</a>, <a href="http://www.engvid.com/confused-words-youre-your/" target="_blank">engVID.com</a>.</p>
+            <p><?php echo ++$refCount . ". "; ?><a href="<?php echo $config['paths']['salcStcc']; ?>" target="_blank">Andrew S. Gardner: Springfield Adult Learning Center</a>, <a href="http://www.engvid.com/confused-words-youre-your/" target="_blank">engVID.com</a>.</p>
         </div>
         
         <?php postMediaBlock(); ?>

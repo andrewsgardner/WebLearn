@@ -71,7 +71,7 @@ ob_start();
         <div class="credits alt-link-color">
             <h4>Credits:</h4>
             <p><?php echo ++$refCount . ". "; ?><a href="https://www.khanacademy.org/math/k-8-grades/cc-fourth-grade-math/cc-4th-measurement-topic" target="_blank">Khan Academy</a>.</p>
-            <p><?php echo ++$refCount . ". "; ?><a href="<?php echo $salcStcc; ?>" target="_blank">Andrew S. Gardner: Springfield Adult Learning Center</a>.</p>
+            <p><?php echo ++$refCount . ". "; ?><a href="<?php echo $config['paths']['salcStcc']; ?>" target="_blank">Andrew S. Gardner: Springfield Adult Learning Center</a>.</p>
         </div>
         
         <?php postMediaBlock(); ?>
