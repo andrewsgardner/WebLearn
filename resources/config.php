@@ -42,8 +42,6 @@ $config = array(
     )
 );
 
-//$salcStcc = "http://www.stcc.edu/adulteducationcenter/";
-
 $abeRoutes = array(
     "abeHome" => "/abe/",
     "english" => array(
