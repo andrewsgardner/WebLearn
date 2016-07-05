@@ -5,8 +5,9 @@ php_value include_path "/path/to/resources/directory/"
 
 # redirect http://salcweblearn.org to http://www.salcweblearn.org
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^salcweblearn\.org$ [NC]
-RewriteRule ^(.*)$ http://www.salcweblearn.org/$1 [R=301,L]
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
 
 # block spam referral traffic for google analytics
 RewriteCond %{HTTP_REFERER} ^https?:\/\/([^.]+\.)*ranksonic\.org [NC,OR]
