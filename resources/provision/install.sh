@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# remap document root from '/var/www/public' to '/var/www/public_html'
-mv /var/www/public /var/www/public_html
-sudo sed -i s,/var/www/public,/var/www/public_html,g /etc/apache2/sites-available/000-default.conf
-sudo sed -i s,/var/www/public,/var/www/public_html,g /etc/apache2/sites-available/scotchbox.local.conf
+# remap document root from '/var/www/public' to '/var/www/html'
+mv /var/www/public /var/www/html
+sudo sed -i s,/var/www/public,/var/www/html,g /etc/apache2/sites-available/000-default.conf
+sudo sed -i s,/var/www/public,/var/www/html,g /etc/apache2/sites-available/scotchbox.local.conf
 sudo service apache2 restart
 
 echo "Installing virtual host files...";
