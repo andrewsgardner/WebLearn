@@ -13,7 +13,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 src: ['resources/scripts/*.js'],
-                dest: 'html/js/main.js'
+                dest: 'public_html/js/main.js'
             }
         },
 
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    'html/js/main.min.js': ['html/js/main.js']
+                    'public_html/js/main.min.js': ['public_html/js/main.js']
                 }
             }
         },
@@ -35,7 +35,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    'html/css/main.css': 'resources/scss/main.scss'
+                    'public_html/css/main.css': 'resources/scss/main.scss'
                 }
             }
         },
