@@ -34,7 +34,6 @@ echo "\t\t\t\t</ul>\n";
 echo "\t\t\t\t<div class=\"col-sm-3 col-md-3 navbar-right\">\n";
 echo "\t\t\t\t\t<div class=\"navbar-form navbar-right\">\n";
 echo "\t\t\t\t<div class=\"input-group\">\n";
-
 echo "\t\t\t\t<script>
   \t\t\t\t\t(function() {
   \t\t\t\t\t\tvar cx = '003530140148966202441:84ezwcca8jo';
