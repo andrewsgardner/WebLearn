@@ -6416,7 +6416,7 @@ input.webcalc-long {
   h1, h2, address {
     text-align: center; }
   p {
-    font-size: 0.9375em; }
+    font-size: 1em; }
   /*--> STRUCTURAL <--*/
   .grid-container {
     padding: 4.1875em 1.25em 16.6875em 1.25em; }
@@ -6486,8 +6486,6 @@ input.webcalc-long {
   /*----> GLOBAL <----*/
   h1, h2, address {
     text-align: left; }
-  p {
-    font-size: 1em; }
   /*--> STRUCTURAL <--*/
   .grid-container {
     padding: 6em 0 13.25em 0; }
