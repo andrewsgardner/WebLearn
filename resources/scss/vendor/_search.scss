@@ -112,3 +112,7 @@ input.gsc-search-button.gsc-search-button-v2 {
 .cse input.gsc-search-button, input.gsc-search-button {
     @include box-shadow(inset 0 0 0 1px $hex-yellow !important);
 }
+
+.gsc-tabsArea > div {
+    overflow: visible !important;
+}
