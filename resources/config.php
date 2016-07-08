@@ -10,12 +10,14 @@ $config = array(
         "siteAuthor" => "Andrew S. Gardner",
         "cacheVer" => "?v=1.0",
         "abeLinkNum" => "150",
-        "esolLinkNum" => "70"
+        "esolLinkNum" => "70",
+        "baseUrl" => "//" . $_SERVER['SERVER_NAME']
         ),
     "paths" => array(
         "gettingStarted" => "/getting-started/",
         "mouseSkills" => "/getting-started/mouse-skills/",
         "salcStcc" => "http://www.stcc.edu/adulteducationcenter/",
+        "searchResults" => "/search.php",
         "css" => array(
             "main" => "/css/main.css",
             "min" => "/css/main.min.css"
