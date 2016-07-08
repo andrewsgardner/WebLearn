@@ -17,7 +17,7 @@
     }
     
     p {
-        font-size: em(15);
+        font-size: em(16);
     }
     
     /*--> STRUCTURAL <--*/
@@ -174,10 +174,6 @@
         text-align: left;
     }
     
-    p {
-        font-size: em(16);
-    }
-    
     /*--> STRUCTURAL <--*/
     
     .grid-container {
@@ -325,8 +321,4 @@
         //width: 970px;
         max-width: 940px;
     }
-}
-
-@media (min-width: em(1200)) { /* Large devices (large devices */
-    
 }
