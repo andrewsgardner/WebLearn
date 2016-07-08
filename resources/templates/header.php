@@ -32,16 +32,28 @@ echo "\t\t\t\t</ul>\n";
 
 /* BEGIN search */
 echo "\t\t\t\t<div class=\"col-sm-3 col-md-3 navbar-right\">\n";
-echo "\t\t\t\t\t<form class=\"navbar-form navbar-right\" role=\"search\">\n";
-echo "\t\t\t\t\t<div class=\"input-group\">\n";
-echo "\t\t\t\t\t<input type=\"text\" class=\"form-control\" placeholder=\"Search\">\n";
-echo "\t\t\t\t\t<div class=\"input-group-btn\">\n";
-echo "\t\t\t\t\t<button class=\"btn btn-default\" type=\"submit\"><i class=\"glyphicon glyphicon-search\"></i></button>\n";
+echo "\t\t\t\t\t<div class=\"navbar-form navbar-right\">\n";
+echo "\t\t\t\t<div class=\"input-group\">\n";
+
+echo "\t\t\t\t<script>
+  \t\t\t\t\t(function() {
+  \t\t\t\t\t\tvar cx = '003530140148966202441:84ezwcca8jo';
+  \t\t\t\t\t\tvar gcse = document.createElement('script');
+  \t\t\t\t\t\tgcse.type = 'text/javascript';
+  \t\t\t\t\t\tgcse.async = true;
+  \t\t\t\t\t\tgcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+  \t\t\t\t\t\tvar s = document.getElementsByTagName('script')[0];
+  \t\t\t\t\t\ts.parentNode.insertBefore(gcse, s);
+  \t\t\t\t\t})();\n
+\t\t\t\t</script>\n";
+echo "\t\t\t\t<gcse:searchbox-only resultsUrl=\"" . $config['info']['baseUrl'] . $config['paths']['searchResults'] . "\"></gcse:searchbox-only>\n";
+echo "\t\t\t\t\t\t</div>\n";
 echo "\t\t\t\t\t</div>\n";
-echo "\t\t\t\t\t</div>\n";
-echo "\t\t\t\t\t</form>\n";
 echo "\t\t\t\t</div>\n";
 /* END search */
+
+
+
 
 echo "\t\t\t\t</div>\n";
 echo "\t\t\t</div>\n";
