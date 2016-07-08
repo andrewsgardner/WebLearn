@@ -52,9 +52,6 @@ echo "\t\t\t\t\t</div>\n";
 echo "\t\t\t\t</div>\n";
 /* END search */
 
-
-
-
 echo "\t\t\t\t</div>\n";
 echo "\t\t\t</div>\n";
 
