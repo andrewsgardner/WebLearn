@@ -14,6 +14,8 @@ Version: 1.0
 6. Getting Started
 7. Header
 8. Footer
+9. Search
+
 9. slickQuiz
 10. Calculator
 11. Media Queries
@@ -38,9 +40,11 @@ Version: 1.0
 @import 'partials/_header';
 /*-----------> 8. FOOTER <-----------*/
 @import 'partials/_footer';
-/*---------> 9. SLICKQUIZ <----------*/
+/*-----------> 9. SEARCH <-----------*/
+@import 'vendor/_search';
+/*--------> 10. SLICKQUIZ <----------*/
 @import 'vendor/_slickQuiz-styles';
-/*--------> 10. CALCULATOR <---------*/
+/*--------> 11. CALCULATOR <---------*/
 @import 'partials/_calculator';
-/*-------> 11. MEDIA QUERIES <-------*/
+/*-------> 12. MEDIA QUERIES <-------*/
 @import 'partials/_media-queries';
