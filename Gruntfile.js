@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 
         uglify: {
             options: {
-                banner: '/*! &lt;%= pkg.name %&gt; &lt;%= grunt.template.today("dd-mm-yyyy") %&gt; */\n'
+                banner: '/* Theme Name: WebLearn | Version: 1.0 */\n'
             },
             dist: {
                 files: {
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
         
         sass: {
             options: {
-                sourceMap: true,
+                sourceMap: false,
                 sourceComments: false
             },
             dist: {
