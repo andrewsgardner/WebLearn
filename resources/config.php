@@ -4,11 +4,14 @@ global $currentPage;
 global $pageTitle;
 global $pageDesc;
 
+// cache buster
+$cacheVer = "v1.1";
+
+// main config array
 $config = array(
     "info" => array(
         "siteName" => "WebLearn",
         "siteAuthor" => "Andrew S. Gardner",
-        "cacheVer" => "?v=1.0",
         "abeLinkNum" => "150",
         "esolLinkNum" => "70",
         "baseUrl" => "//" . $_SERVER['SERVER_NAME']
@@ -19,7 +22,7 @@ $config = array(
         "salcStcc" => "http://www.stcc.edu/adulteducationcenter/",
         "searchResults" => "/search.php",
         "css" => array(
-            "main" => "/css/main.css",
+            "main" => "/css/main." . $cacheVer . ".css",
             "min" => "/css/main.min.css"
         ),
         "img" => array(
@@ -30,7 +33,8 @@ $config = array(
         ),
         "scripts" => array(
             "main" => "/js/main.js",
-            "min" => "/js/main.min.js",
+            "min" => "/js/main.min." . $cacheVer . ".js",
+            
             "html5shiv" => "https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js",
             "respond" => "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"
         ),
@@ -44,6 +48,7 @@ $config = array(
     )
 );
 
+// abe lab internal routes
 $abeRoutes = array(
     "abeHome" => "/abe/",
     "english" => array(
@@ -138,6 +143,7 @@ $abeRoutes = array(
     )
 );
 
+// esol lab internal routes
 $esolRoutes = array(
     "esolHome" => "/esol/",
     "generalEsol" => array(

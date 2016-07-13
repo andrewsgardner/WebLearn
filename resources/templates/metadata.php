@@ -28,7 +28,7 @@ echo "\t\t<link rel=\"mask-icon\" href=\"/safari-pinned-tab.svg\" color=\"#94002
 echo "\t\t<meta name=\"msapplication-TileColor\" content=\"#da532c\">\n";
 echo "\t\t<meta name=\"msapplication-TileImage\" content=\"/mstile-144x144.png\">\n";
 echo "\t\t<meta name=\"theme-color\" content=\"#ffffff\">\n"; ?>
-<?php echo "\t\t"; ?><link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['main'] . $config['info']['cacheVer']; ?>"><?php echo "\n"; ?>
+<?php echo "\t\t"; ?><link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['main']; ?>"><?php echo "\n"; ?>
 <?php echo "\t\t<!--[if lt IE 9]>\n\t\t\t<script src=\"" . $config['paths']['scripts']['html5shiv'] . "\"></script>\n\t\t\t<script src=\"" . $config['paths']['scripts']['respond'] . "\"></script>\n\t\t<![endif]-->\n";
 
 echo "\t</head>\n";

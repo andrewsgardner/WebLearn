@@ -1,8 +1,8 @@
 {
   "version": 3,
-  "file": "main.css",
+  "file": "main.v1.1.css",
   "sources": [
-    "../../resources/scss/main.scss",
+    "../../resources/scss/main.v1.1.scss",
     "../../resources/scss/modules/_variables.scss",
     "../../resources/scss/modules/_mixins.scss",
     "../../resources/scss/modules/_functions.scss",

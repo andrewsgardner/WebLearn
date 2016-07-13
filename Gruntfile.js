@@ -13,17 +13,17 @@ module.exports = function(grunt) {
             },
             dist: {
                 src: ['resources/scripts/*.js'],
-                dest: 'public_html/js/main.js'
+                dest: 'public_html/js/main.v1.1.js'
             }
         },
 
         uglify: {
             options: {
-                banner: '/* Theme Name: WebLearn | Version: 1.0 */\n'
+                banner: '/* Theme Name: WebLearn | Version: 1.1 */\n'
             },
             dist: {
                 files: {
-                    'public_html/js/main.min.js': ['public_html/js/main.js']
+                    'public_html/js/main.min.v1.1.js': ['public_html/js/main.v1.1.js']
                 }
             }
         },
@@ -35,7 +35,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    'public_html/css/main.css': 'resources/scss/main.scss'
+                    'public_html/css/main.v1.1.css': 'resources/scss/main.v1.1.scss'
                 }
             }
         },
