@@ -4,6 +4,14 @@ global $currentPage;
 global $pageTitle;
 global $pageDesc;
 
+// calculate absolute path to /resources/library/
+defined("LIBRARY_PATH")
+    or define("LIBRARY_PATH", realpath(dirname(__FILE__) . "/library"));
+
+// calculate absolute path to /resources/templates/
+defined("TEMPLATES_PATH")
+    or define("TEMPLATES_PATH", realpath(dirname(__FILE__) . "/templates"));
+
 // cache buster
 $cacheVer = "v1.1";
 
@@ -184,6 +192,7 @@ $esolRoutes = array(
     )
 );
 
+// generate markup for media blocks
 if (!function_exists('preMediaBlock')) {
     
     function preMediaBlock() {
@@ -219,10 +228,4 @@ if (!function_exists('postMediaBlock')) {
     }
     
 }
-
-defined("LIBRARY_PATH")
-    or define("LIBRARY_PATH", realpath(dirname(__FILE__) . "/library"));
-
-defined("TEMPLATES_PATH")
-    or define("TEMPLATES_PATH", realpath(dirname(__FILE__) . "/templates"));
 ?>
