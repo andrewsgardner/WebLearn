@@ -14,13 +14,13 @@ echo "\t\t\t\t</div>\n";
 
 /* BEGIN copyright notice */
 echo "\t\t\t<div class=\"col-xs-12\">\n";
-echo "\t\t\t\t<p class=\"copyright\">&copy; " . date('Y') . "&nbsp;" . "<a href=\"" . $config['paths']['salcStcc'] . "\">Springfield Adult Learning Center</a></p>\n";
+echo "\t\t\t\t<p class=\"copyright\">&copy; " . date('Y') . "&nbsp;" . "<a target=\"_blank\" href=\"" . $config['paths']['salcStcc'] . "\">Springfield Adult Learning Center</a></p>\n";
 echo "\t\t\t</div>\n";
 /* END copyright notice */
 
 /* BEGIN developer notice */
 echo "\t\t\t<div class=\"col-xs-12\">\n";
-echo "\t\t\t\t<p class=\"developer\">Website by <a href=\"http://www.andrewsgardner.com\">Andrew S. Gardner</a></p>\n";
+echo "\t\t\t\t<p class=\"developer\">Website by <a target=\"_blank\" href=\"http://www.andrewsgardner.com\">Andrew S. Gardner</a></p>\n";
 echo "\t\t\t</div>\n";
 /* END developer notice */
 
