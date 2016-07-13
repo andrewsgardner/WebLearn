@@ -1,0 +1,6 @@
+# robots.txt for http://www.salcweblearn.org
+
+# allow crawling of all content
+User-Agent: *
+Disallow:
+Sitemap: http://www.salcweblearn.org/sitemap.xml
