@@ -46,10 +46,10 @@ Make sure you've installed the following prerequisites on your server before we 
   
   Note: Linux and Mac users may need to use sudo.
   
-  2. **Install project dependencies.**
+2. **Install project dependencies.**
   
   ```
   npm install
   ```
-  
-  3. **Run ```grunt``` from the command line to listen for changes.**
+
+3. **Run ```grunt``` from the command line to listen for changes.**
