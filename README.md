@@ -62,4 +62,4 @@ php_value include_path "/path/to/resources/directory/"
 ```
 Remember that Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that your .htaccess file only uses forward slashes when setting the include path.
 
-Depending on the server environment, you may also need to set the ```allow_url_include``` parameter to on in php.ini.
+Depending on the server environment, you may also need to set the ```allow_url_include``` parameter to **on** in php.ini.
