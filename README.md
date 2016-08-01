@@ -63,3 +63,8 @@ php_value include_path "/path/to/resources/directory/"
 Remember that Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that your .htaccess file only uses forward slashes when setting the include path.
 
 Depending on the server environment, you may also need to set the ```allow_url_include``` parameter to **on** in php.ini.
+
+## Features
+The following section will briefly go over the code structure used in WebLearn.
+### The config.php File
+WebLearn is a dynamic website that generates content when pages are parsed by referencing specific backend libraries and directives.
