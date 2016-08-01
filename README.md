@@ -67,8 +67,35 @@ Depending on the server environment, you may also need to set the ```allow_url_i
 ## Features
 The following section will briefly go over the code structure used in WebLearn.
 
-### The config.php File
+#### The config.php File
 
 WebLearn generates content when pages are parsed by referencing specific backend libraries and directives.
 
 The [config.php](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php) file, located at **/resources/config.php**, will be preprocessed before any page-specific HTML objects. This is the main configuration file that stores site wide settings and variables. It also serves as a routing system for locating other important back-end, front-end, and external assets.
+
+### Library & Templates Paths
+
+```require_once``` statements are used in the front-end to locate the absolute paths to specific back-end resources.
+
+The following code exists in [/salcweblearn.org/public_html/abe/index.php](https://github.com/andrewsgardner/WebLearn/blob/master/public_html/abe/index.php).
+
+```
+require_once(LIBRARY_PATH . "/contentPageFunctions.php");
+```
+
+Here, the path to a file called [contentPageFunctions.php](https://github.com/andrewsgardner/WebLearn/blob/master/resources/library/contentPageFunctions.php) must be resolved before it can be required.
+
+In config.php, the LIBRARY_PATH constant will calculate a path to the library directory where this file is located: [/salcweblearn.org/resources/library/](https://github.com/andrewsgardner/WebLearn/tree/master/resources/library).
+
+```
+// calculate absolute path to /resources/library/
+
+defined("LIBRARY_PATH")
+    or define("LIBRARY_PATH", realpath(dirname(__FILE__) . "/library"));
+```
+
+It first traverses back to the project root and then locates the specified resource: **../../salcweblearn.org/resources/library/contentPageFunctions.php**.
+
+When the relative file path navigation markings are removed, we are left with an absolute path that can map anywhere on the site to **/salcweblearn.org/resources/library/contentPageFunctions.php**.
+
+The same technique is also used to render template files.
