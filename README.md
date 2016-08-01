@@ -55,3 +55,11 @@ Make sure you've installed the following prerequisites on your server:
 
 ## Configuration
 Create an .htaccess file in the [/public_html/](https://github.com/andrewsgardner/WebLearn/tree/master/public_html) directory with your code editor. This will only be used for development purposes and shouldn't be committed to any repository.
+
+In .htaccess, set the PHP include path to the URL of the [/resources/](https://github.com/andrewsgardner/WebLearn/tree/master/resources) directory like this:
+```
+php_value include_path "/path/to/resources/directory/"
+```
+Remember that Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that your .htaccess file only uses forward slashes when setting the include path.
+
+Depending on the server environment, you may also need to set the ```allow_url_include``` parameter to on in php.ini.
