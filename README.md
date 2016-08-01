@@ -204,8 +204,8 @@ Place all page specific HTML markup in between the provided comments. It will be
 
 Variable     | Explanation
 ------------ | -------------
-```$currentPage&amp;=&amp;"";``` | **Possible values include:**<br>```"abe"``` = The page exists in ABE Lab.<br>```"esol"``` = The page exists in ESOL Lab.<br>```"getting_started"``` = The page exists in the Getting Started directory.<br><br>*The section of WebLearn that a specific page exists in will be highlighted in the site header using this information.*
-```$pageTitle&amp;=&amp;"";``` | Injects text into the HTML title tag for the current page.
-```$pageDesc&amp;=&amp;"";```  | Injects text into the meta description tag for the current page.
+```$currentPage = "";``` | **Possible values include:**<br>```"abe"``` = The page exists in ABE Lab.<br>```"esol"``` = The page exists in ESOL Lab.<br>```"getting_started"``` = The page exists in the Getting Started directory.<br><br>*The section of WebLearn that a specific page exists in will be highlighted in the site header using this information.*
+```$pageTitle = "";``` | Injects text into the HTML title tag for the current page.
+```$pageDesc = "";```  | Injects text into the meta description tag for the current page.
 ```++$activityCount```  | Counts the total number of activities on a page. Place next to each new activity link.
 ```++$refCount```       | Counts the total number of references on a page. Place next to each new reference entry.
