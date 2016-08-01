@@ -14,7 +14,7 @@ Make sure you've installed the following prerequisites on your server before we 
 * [SASS](http://sass-lang.com/)
 * [GIT](https://git-scm.com/)
 
-**Download the Project Files**
+### Download the Project Files
 
 1. Create a new directory on your local computer for the development environment.
   
