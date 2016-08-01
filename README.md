@@ -71,7 +71,7 @@ The following section will briefly go over the code structure used in WebLearn.
 
 WebLearn generates content when pages are parsed by referencing specific backend libraries and directives.
 
-The [config.php](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php) file, located at **/resources/config.php**, will be preprocessed before any page-specific HTML objects. This is the main configuration file that stores site wide settings and variables. It also serves as a routing system for locating other important back-end, front-end, and external assets.
+The [config.php](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php) file, located at **/salcweblearn.org/resources/config.php**, will be preprocessed before any page-specific HTML objects. This is the main configuration file that stores site-wide settings and variables. It also serves as a routing system for locating other important back-end, front-end, and external assets.
 
 ### Library & Templates Paths
 
@@ -99,3 +99,26 @@ It first traverses back to the project root and then locates the specified resou
 When the relative file path navigation markings are removed, we are left with an absolute path that can map anywhere on the site to **/salcweblearn.org/resources/library/contentPageFunctions.php**.
 
 The same technique is also used to render template files.
+
+### Main Config Array
+
+Frequently referenced settings and variables are stored in the multidimensional [Main Config Array](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L18).
+
+```
+// main config array
+
+$config = array(
+        "info" => array(
+            "siteName" => "WebLearn",
+            ...
+        ),
+        "paths" => array(
+            "gettingStarted" => "/getting-started/",
+            ...
+        ),
+        "jQuery" => array(
+            "cdn" => "https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js",
+            ...
+        )
+);
+```
