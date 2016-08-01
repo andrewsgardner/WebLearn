@@ -16,40 +16,40 @@ Make sure you've installed the following prerequisites on your server before we 
 
 ### Download the Project Files
 
-1. **Create a new directory on your local computer for the development environment.**
+1. Create a new directory on your local computer for the development environment.
   
   ```
   mkdir salcweblearn.org
   ```
   
-2. **Afterwards, cd into this location from the command line.**
+2. Afterwards, cd into this location from the command line.
   
   ```
   cd salcweblearn.org
   ```
   
-3. **Clone WebLearn onto your server.**
+3. Clone WebLearn onto your server.
   
   ```
   git clone https://github.com/andrewsgardner/WebLearn.git .
   ```
   
-  Adding a period at the end prevents the name of the root folder in my repository from being cloned into your project (this may cause routing errors later). However, all of the contents from my repository's root folder will get copied.
+  ###### Adding a period at the end prevents the name of the root folder in my repository from being cloned into your project (this may cause routing errors later). However, all of the contents from my repository's root folder will get copied.
   
 ### Download Grunt
 
-1. **From within our root directory, salcweblearn.org, install the Grunt CLI**
+1. From within our root directory, salcweblearn.org, install the Grunt CLI
   
   ```
   npm install -g grunt-cli
   ```
   
-  Note: Linux and Mac users may need to use sudo.
+  ###### Note: Linux and Mac users may need to use sudo.
   
-2. **Install project dependencies.**
+2. Install project dependencies.
   
   ```
   npm install
   ```
 
-3. **Run ```grunt``` from the command line to listen for changes.**
+3. Run ```grunt``` from the command line to listen for changes.
