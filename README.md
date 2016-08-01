@@ -52,3 +52,6 @@ Make sure you've installed the following prerequisites on your server:
   ```
 
 3. Run ```grunt``` from the command line to listen for changes.
+
+## Configuration
+Create an .htaccess file in the [/public_html/](https://github.com/andrewsgardner/WebLearn/tree/master/public_html) directory with your code editor. This will only be used for development purposes and shouldn't be committed to any repository.
