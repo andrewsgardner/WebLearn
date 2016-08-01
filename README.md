@@ -204,4 +204,4 @@ Place all page specific HTML markup in between the provided comments. It will be
 
 Variable | Explanation
 --- | ---
-```$currentPage = "#";``` | Possible values include: "abe" = The page exists in ABE Lab, "esol" = The page exists in ESOL Lab, "getting_started" = The page exists in the Getting Started directory. The section of WebLearn that a specific page exists in will be highlighted in the site header using this |information.
+```$currentPage = "#";``` | Possible values include: "**abe**" = The page exists in ABE Lab<br>"**esol**" = The page exists in ESOL Lab<br>"**getting_started**" = The page exists in the Getting Started directory.<br>The section of WebLearn that a specific page exists in will be highlighted in the site header using this |information.
