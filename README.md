@@ -15,7 +15,7 @@ Make sure you've installed the following dependencies on your server:
 
 ### Download the Project Files
 
-1. Create a new directory on your local computer. Afterwards, cd into this location.
+1. Create a new directory on your local computer. Afterwards, cd into that location.
   
   ```
   mkdir salcweblearn.org
