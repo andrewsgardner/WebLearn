@@ -8,7 +8,7 @@ WebLearn is a responsive distance learning website developed for the [Springfiel
 ## Installation
 It will be useful to set up a test server on your localhost to preview changes before you make them live on the web server. I usually use [Vagrant](https://www.vagrantup.com/) for this purpose. However, whichever environment you choose should run the Apache web server and a stable version of PHP.
 
-Make sure you've installed the following prerequisites on your server before we begin:
+Make sure you've installed the following prerequisites on your server:
 * [Node.js](https://nodejs.org/en/)
 * [Grunt](http://gruntjs.com/)
 * [SASS](http://sass-lang.com/)
@@ -34,7 +34,7 @@ Make sure you've installed the following prerequisites on your server before we 
   git clone https://github.com/andrewsgardner/WebLearn.git .
   ```
   
-  ###### Adding a period at the end prevents the name of the root folder in my repository from being cloned into your project (this may cause routing errors later). However, all of the contents from my repository's root folder will get copied.
+  ###### Adding a period at the end prevents the name of the root folder in my repository from being cloned into your project (this may cause routing errors later).
   
 ### Download Grunt
 
