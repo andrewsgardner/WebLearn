@@ -64,10 +64,10 @@ Remember that Linux uses forward slashes in URLs while Windows uses back slashes
 
 Depending on the server environment, you may also need to set the ```allow_url_include``` parameter to **on** in php.ini.
 
-## Features
+## Features & Usage
 The following section will briefly go over the code structure used in WebLearn.
 
-#### The config.php File
+### The config.php File
 
 WebLearn generates content when pages are parsed by referencing specific backend libraries and directives.
 
