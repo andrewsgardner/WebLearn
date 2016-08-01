@@ -9,8 +9,9 @@ WebLearn is a responsive distance learning website developed for the [Springfiel
 It will be useful to set up a test server on your localhost to preview changes before you make them live on the web server. I usually use [Vagrant](https://www.vagrantup.com/) for this purpose. However, whichever environment you choose should run the Apache web server and a stable version of PHP.
 
 Make sure you've installed the following dependencies on your server:
-* [Node.js](https://nodejs.org/en/)
 * [SASS](http://sass-lang.com/)
+* [Ruby - for Windows users](http://rubyinstaller.org/)
+* [Node.js](https://nodejs.org/en/)
 * [GIT](https://git-scm.com/)
 
 ### Download the Project Files
