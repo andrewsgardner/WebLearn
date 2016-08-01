@@ -16,19 +16,19 @@ Make sure you've installed the following prerequisites on your server before we 
 
 ### Download the Project Files
 
-1. Create a new directory on your local computer for the development environment.
+1. **Create a new directory on your local computer for the development environment.**
   
   ```
   mkdir salcweblearn.org
   ```
   
-2. Afterwards, cd into this location from the command line.
+2. **Afterwards, cd into this location from the command line.**
   
   ```
   cd salcweblearn.org
   ```
   
-3. Clone WebLearn onto your server.
+3. **Clone WebLearn onto your server.**
   
   ```
   git clone https://github.com/andrewsgardner/WebLearn.git .
