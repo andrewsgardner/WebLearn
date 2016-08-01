@@ -36,7 +36,9 @@ Make sure you've installed the following prerequisites on your server before we 
   
   Adding a period at the end prevents the name of the root folder in my repository from being cloned into your project (this may cause routing errors later). However, all of the contents from my repository's root folder will get copied.
   
-4. **Next install the Grunt CLI**
+### Download Grunt
+
+1. **From within our root directory, salcweblearn.org, install the Grunt CLI**
   
   ```
   npm install -g grunt-cli
@@ -44,10 +46,10 @@ Make sure you've installed the following prerequisites on your server before we 
   
   Note: Linux and Mac users may need to use sudo.
   
-5. **Install project dependencies.**
+  2. **Install project dependencies.**
   
   ```
   npm install
   ```
   
-6. **Run ```grunt``` from the command line to listen for changes.**
+  3. **Run ```grunt``` from the command line to listen for changes.**
