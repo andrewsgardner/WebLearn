@@ -14,18 +14,18 @@ Make sure you've installed the following prerequisites on your server before we 
 * [SASS](http://sass-lang.com/)
 * [GIT](https://git-scm.com/)
 
-###### Download the Project Files
+**Download the Project Files**
 
-1. **Create a new directory on your local computer for the development environment.**
-```
-mkdir salcweblearn.org
-```
-2. **Afterwards, cd into this location from the command line.**
-```
-cd salcweblearn.org
-```
-3. **Clone WebLearn onto your server.**
-```
-git clone https://github.com/andrewsgardner/WebLearn.git .
-```
-Adding a period at the end prevents the name of the root folder in my repository from being cloned into your project (this may cause routing errors later). However, all of the contents from my repository's root folder will get copied.
+1. Create a new directory on your local computer for the development environment.
+  ```
+  mkdir salcweblearn.org
+  ```
+2. Afterwards, cd into this location from the command line.
+  ```
+  cd salcweblearn.org
+  ```
+3. Clone WebLearn onto your server.
+  ```
+  git clone https://github.com/andrewsgardner/WebLearn.git .
+  ```
+  Adding a period at the end prevents the name of the root folder in my repository from being cloned into your project (this may cause routing errors later). However, all of the contents from my repository's root folder will get copied.
