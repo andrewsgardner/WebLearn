@@ -10,7 +10,6 @@ It will be useful to set up a test server on your localhost to preview changes b
 
 Make sure you've installed the following prerequisites on your server:
 * [Node.js](https://nodejs.org/en/)
-* [Grunt](http://gruntjs.com/)
 * [SASS](http://sass-lang.com/)
 * [GIT](https://git-scm.com/)
 
