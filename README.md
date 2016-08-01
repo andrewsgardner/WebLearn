@@ -66,5 +66,9 @@ Depending on the server environment, you may also need to set the ```allow_url_i
 
 ## Features
 The following section will briefly go over the code structure used in WebLearn.
+
 ### The config.php File
-WebLearn is a dynamic website that generates content when pages are parsed by referencing specific backend libraries and directives.
+
+WebLearn generates content when pages are parsed by referencing specific backend libraries and directives.
+
+The [config.php](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php) file, located at **/resources/config.php**, will be preprocessed before any page-specific HTML objects. This is the main configuration file that stores site wide settings and variables. It also serves as a routing system for locating other important back-end, front-end, and external assets.
