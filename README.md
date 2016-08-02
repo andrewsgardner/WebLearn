@@ -209,7 +209,7 @@ renderActivityListLayout("/activityList.php", $variables);
 
 **Page Specific Code**
 
-Place all page-specific HTML markup in between the provided comments.
+Place all page-specific HTML markup between the provided comments.
 
 It will be captured using PHP output buffering and integrated into the layout.
 
@@ -221,4 +221,6 @@ Variable     | Explanation
 ```$pageTitle = "";``` | Injects text into a page's HTML title tag.
 ```$pageDesc = "";```  | Injects text into a page's meta description tag.
 ```++$activityCount```  | Counts the number of activities on a page. Place within each new activity link.<br><sub>&lt;h3&gt;&lt;a href="#" target="_blank" class="alt-link-color"&gt;<b>&lt;?php echo ++$activityCount . ". "; ?&gt;</b>Activity Name...&lt;/a&gt;&lt;/h3&gt;</sub>
-```++$refCount```       | Counts the number of references on a page. Place within each new reference link.<br><sub>&lt;p&gt;<b>&lt;?php echo ++$refCount . ". "; ?&gt;</b>&lt;a href="#" target="_blank"&gt;Credit Name...&lt;/a&gt;.&lt;/p&gt;</sub>
+```++$refCount```       | Counts the number of references on a page. Place before each new reference link.<br><sub>&lt;p&gt;<b>&lt;?php echo ++$refCount . ". "; ?&gt;</b>&lt;a href="#" target="_blank"&gt;Credit Name...&lt;/a&gt;.&lt;/p&gt;</sub>
+
+## Maintenance
