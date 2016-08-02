@@ -220,5 +220,6 @@ Variable     | Explanation
 ```$currentPage = "";``` | **Possible values include:**<br>```"abe"``` = The page exists in ABE Lab.<br>```"esol"``` = The page exists in ESOL Lab.<br>```"getting_started"``` = The page exists in the Getting Started directory.<br>*<sub>Used to highlight the directory name where a page exists.</sub>*
 ```$pageTitle = "";``` | Injects text into a page's HTML title tag.
 ```$pageDesc = "";```  | Injects text into a page's meta description tag.
-```++$activityCount```  | Counts the number of activities on a page. Place next to each new activity link.<br><sub><h3><a href="#" target="_blank" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>Lessons on Fractions</a></h3></sub>
+```++$activityCount```  | Counts the number of activities on a page. Place next to each new activity link.<br><sub>
+<h3>&lt;a href="#" target="_blank" class="alt-link-color"&gt;<?php echo ++$activityCount . ". "; ?>Lessons on Fractions&lt;/a&gt;</h3></sub>
 ```++$refCount```       | Counts the total number of references on a page. Place next to each new reference entry.
