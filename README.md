@@ -223,6 +223,10 @@ Variable     | Explanation
 ```++$activityCount```  | Counts the number of activities on a page. Place within each new activity link.<br><sub>&lt;h3&gt;&lt;a href="#" target="_blank" class="alt-link-color"&gt;<b>&lt;?php echo ++$activityCount . ". "; ?&gt;</b>Activity Name...&lt;/a&gt;&lt;/h3&gt;</sub>
 ```++$refCount```       | Counts the number of references on a page. Place before each new reference link.<br><sub>&lt;p&gt;<b>&lt;?php echo ++$refCount . ". "; ?&gt;</b>&lt;a href="#" target="_blank"&gt;Credit Name...&lt;/a&gt;.&lt;/p&gt;</sub>
 
+## Maintenance
+
+Internal and external links are handled differently in WebLearn. As such, site administrators should take notice of the differences outlined below.
+
 ### Internal Links
 
 Internal links are defined in config.php with two arrays: [$abeRoutes](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L59) and [$esolRoutes](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L154).
