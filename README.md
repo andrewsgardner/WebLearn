@@ -59,7 +59,7 @@ Make sure you've installed the following dependencies on your computer:
 ###### * Mac users may need to use sudo.
 
 ## Configuration
-Create an .htaccess file in the [/public_html/](https://github.com/andrewsgardner/WebLearn/tree/master/public_html) directory for your test server.
+Create an .htaccess file in your test server's [/public_html/](https://github.com/andrewsgardner/WebLearn/tree/master/public_html) directory.
 
 In .htaccess, point the PHP include path at the [/resources/](https://github.com/andrewsgardner/WebLearn/tree/master/resources) directory.
 
@@ -67,7 +67,7 @@ In .htaccess, point the PHP include path at the [/resources/](https://github.com
 php_value include_path "/path/to/resources/directory/"
 ```
 
-Remember that Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that your include path only uses forward slashes.
+Remember that Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that you only use forward slashes.
 
 Depending on the server environment, you may also need to set the ```allow_url_include``` parameter to **on** in php.ini.
 
@@ -76,9 +76,9 @@ The following section will briefly go over the code structure used in WebLearn.
 
 ### The config.php File
 
-WebLearn generates content when pages are parsed by referencing specific backend libraries and directives.
+WebLearn generates content when pages are parsed by referencing backend libraries and directives.
 
-The [config.php](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php) file, located at **/salcweblearn.org/resources/config.php**, will be preprocessed before any page-specific HTML objects. This is the main configuration file that stores site-wide settings and variables. It also serves as a routing system for locating other important back-end, front-end, and external assets.
+The [config.php](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php) file will be preprocessed before any page-specific HTML objects. This is the main configuration file that stores site-wide settings and variables. It also serves as a routing system for locating other important back-end, front-end, and external assets.
 
 ### Library & Templates Paths
 
