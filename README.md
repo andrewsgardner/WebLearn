@@ -209,7 +209,9 @@ renderActivityListLayout("/activityList.php", $variables);
 
 **Page Specific Code**
 
-Place all page specific HTML markup in between the provided comments. It will be captured using PHP output buffering and integrated into the page layout.
+Place all page-specific HTML markup in between the provided comments.
+
+It will be captured using PHP output buffering and integrated into the layout.
 
 **Using the Variables**
 
