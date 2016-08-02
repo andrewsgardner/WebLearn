@@ -207,7 +207,7 @@ renderActivityListLayout("/activityList.php", $variables);
 ?>
 ```
 
-**Page Specific Code**
+**Page-Specific Code**
 
 Place all page-specific HTML markup between the provided comments.
 
@@ -223,4 +223,29 @@ Variable     | Explanation
 ```++$activityCount```  | Counts the number of activities on a page. Place within each new activity link.<br><sub>&lt;h3&gt;&lt;a href="#" target="_blank" class="alt-link-color"&gt;<b>&lt;?php echo ++$activityCount . ". "; ?&gt;</b>Activity Name...&lt;/a&gt;&lt;/h3&gt;</sub>
 ```++$refCount```       | Counts the number of references on a page. Place before each new reference link.<br><sub>&lt;p&gt;<b>&lt;?php echo ++$refCount . ". "; ?&gt;</b>&lt;a href="#" target="_blank"&gt;Credit Name...&lt;/a&gt;.&lt;/p&gt;</sub>
 
-## Maintenance
+### Editing Internal Links
+
+Internal links are defined in config.php with two arrays: [$abeRoutes](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L59) and [$esolRoutes](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L154).
+
+```$abeRoutes``` handles ABE Lab's internal links.
+
+```
+// abe lab internal routes
+
+$abeRoutes = array(
+    "abeHome" => "/abe/",
+    "english" => array(
+        "grammar" => "/abe/grammar/",
+        ...
+    ),
+    ...
+);
+```
+
+Additionally, '''$esolRoutes''' handles ESOL Lab's internal links.
+
+When creating an internal link, echo data from these arrays into your <a> tag's href attribute.
+
+```
+<a href="<?php echo $abeRoutes['english']['grammar']; ?>">Grammar Activities</a>
+```
