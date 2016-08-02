@@ -107,7 +107,7 @@ The same technique is also used to render template files.
 
 ### Main Config Array
 
-Frequently referenced settings and variables are stored in the [Main Config Array](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L18) in config.php.
+Frequently referenced settings and variables are stored in config.php's [Main Config Array](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L18).
 
 ### Templating System
 
