@@ -217,8 +217,8 @@ It will be captured using PHP output buffering and integrated into the layout.
 
 Variable     | Explanation
 ------------ | -------------
-```$currentPage = "";``` | **Possible values include:**<br>```"abe"``` = The page exists in ABE Lab.<br>```"esol"``` = The page exists in ESOL Lab.<br>```"getting_started"``` = The page exists in the Getting Started directory.<br>*<sub>The section of WebLearn that a specific page exists in will be highlighted in the site header using this information.</sub>*
-```$pageTitle = "";``` | Injects text into the HTML title tag for the current page.
-```$pageDesc = "";```  | Injects text into the meta description tag for the current page.
-```++$activityCount```  | Counts the total number of activities on a page. Place next to each new activity link.
+```$currentPage = "";``` | **Possible values include:**<br>```"abe"``` = The page exists in ABE Lab.<br>```"esol"``` = The page exists in ESOL Lab.<br>```"getting_started"``` = The page exists in the Getting Started directory.<br>*<sub>Used to highlight the directory name where a page exists.</sub>*
+```$pageTitle = "";``` | Injects text into a page's HTML title tag.
+```$pageDesc = "";```  | Injects text into a page's meta description tag.
+```++$activityCount```  | Counts the number of activities on a page. Place next to each new activity link.<br><sub><h3><a href="#" target="_blank" class="alt-link-color"><?php echo ++$activityCount . ". "; ?>Lessons on Fractions</a></h3></sub>
 ```++$refCount```       | Counts the total number of references on a page. Place next to each new reference entry.
