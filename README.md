@@ -69,7 +69,7 @@ php_value include_path "/path/to/resources/directory/"
 
 Remember that Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that you only use forward slashes.
 
-Depending on the server environment, you may also need to set the ```allow_url_include``` parameter to **on** in php.ini.
+Depending on the server environment, you may need to set the ```allow_url_include``` parameter to **on** in php.ini.
 
 ## Features & Usage
 The following section will briefly go over the code structure used in WebLearn.
@@ -92,7 +92,7 @@ require_once(LIBRARY_PATH . "/contentPageFunctions.php");
 
 Here, the path to [contentPageFunctions.php](https://github.com/andrewsgardner/WebLearn/blob/master/resources/library/contentPageFunctions.php) must be resolved before it can be required.
 
-The LIBRARY_PATH constant will calculate a path to the library directory where this file is located: [/salcweblearn.org/resources/library/](https://github.com/andrewsgardner/WebLearn/tree/master/resources/library).
+The LIBRARY_PATH constant will find the library directory where this file is located: [/salcweblearn.org/resources/library/](https://github.com/andrewsgardner/WebLearn/tree/master/resources/library).
 
 ```
 // calculate absolute path to /resources/library/
@@ -107,7 +107,7 @@ The same technique is also used to render template files.
 
 ### Main Config Array
 
-Frequently referenced settings and variables are stored in the multidimensional [Main Config Array](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L18).
+Frequently referenced settings and variables are stored in the [Main Config Array](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L18) in config.php.
 
 ### Templating System
 
