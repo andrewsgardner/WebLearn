@@ -223,7 +223,7 @@ Variable     | Explanation
 ```++$activityCount```  | Counts the number of activities on a page. Place within each new activity link.<br><sub>&lt;h3&gt;&lt;a href="#" target="_blank" class="alt-link-color"&gt;<b>&lt;?php echo ++$activityCount . ". "; ?&gt;</b>Activity Name...&lt;/a&gt;&lt;/h3&gt;</sub>
 ```++$refCount```       | Counts the number of references on a page. Place before each new reference link.<br><sub>&lt;p&gt;<b>&lt;?php echo ++$refCount . ". "; ?&gt;</b>&lt;a href="#" target="_blank"&gt;Credit Name...&lt;/a&gt;.&lt;/p&gt;</sub>
 
-### Editing Internal Links
+### Internal Links
 
 Internal links are defined in config.php with two arrays: [$abeRoutes](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L59) and [$esolRoutes](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L154).
 
@@ -249,3 +249,7 @@ When creating an internal link, echo routing data into your &lt;a&gt; tag's href
 ```
 <a href="<?php echo $abeRoutes['english']['grammar']; ?>">Link Name...</a>
 ```
+
+### External Links
+
+External links are created with static HTML. Therefore, no special procedure is required to edit them.
