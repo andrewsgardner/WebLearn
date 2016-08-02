@@ -59,13 +59,15 @@ Make sure you've installed the following dependencies on your computer:
 ###### * Mac users may need to use sudo.
 
 ## Configuration
-Create an .htaccess file in the [/public_html/](https://github.com/andrewsgardner/WebLearn/tree/master/public_html) directory. This will only be used for development purposes and shouldn't be committed to any repository.
+Create an .htaccess file in the [/public_html/](https://github.com/andrewsgardner/WebLearn/tree/master/public_html) directory for your test server.
 
-In .htaccess, set the PHP include path to the URL of the [/resources/](https://github.com/andrewsgardner/WebLearn/tree/master/resources) directory like this:
+In .htaccess, point the PHP include path at the [/resources/](https://github.com/andrewsgardner/WebLearn/tree/master/resources) directory.
+
 ```
 php_value include_path "/path/to/resources/directory/"
 ```
-Remember that Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that your .htaccess file only uses forward slashes when setting the include path.
+
+Remember that Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that your include path only uses forward slashes.
 
 Depending on the server environment, you may also need to set the ```allow_url_include``` parameter to **on** in php.ini.
 
