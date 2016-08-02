@@ -225,11 +225,11 @@ Variable     | Explanation
 
 ## Maintenance
 
-Internal and external links are handled differently in WebLearn. As such, site administrators should take notice of the differences outlined below.
+Internal and external links are handled differently in WebLearn.
 
 ### Internal Links
 
-Internal links are defined in config.php with two arrays: [$abeRoutes](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L59) and [$esolRoutes](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L154).
+Internal links are defined in config.php using two arrays: [$abeRoutes](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L59) and [$esolRoutes](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L154).
 
 ```$abeRoutes``` handles ABE Lab's internal links.
 
@@ -257,3 +257,21 @@ When creating an internal link, echo routing data into your &lt;a&gt; tag's href
 ### External Links
 
 External links are created with static HTML. Therefore, no special procedure is required to edit them.
+
+### Cache Busting
+
+WebLearn permits browsers to cache specific types of HTTP requests in order to optimize the performance of future site visits. However, not every type of file is allowed to be cached.
+
+As specified in the live server's .htaccess file, stylesheets, JavaScripts, and image files are cacheable for 2 months.
+
+Alternatively, PHP and HTML files aren't allowed to be cached at all.
+
+Therefore, whenever you alter the site's CSS or JS, a cache busting procedure must be carried out to prevent returning users from serving stale, outdated code.
+
+A rudimentary versioning system is used to tackle this problem. The [$cacheVer](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L15) variable in config.php injects itself into the file names of assets requiring cache busting.
+
+```
+// cache buster
+
+$cacheVer = "v1.2";
+```
