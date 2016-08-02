@@ -220,5 +220,5 @@ Variable     | Explanation
 ```$currentPage = "";``` | **Possible values include:**<br>```"abe"``` = The page exists in ABE Lab.<br>```"esol"``` = The page exists in ESOL Lab.<br>```"getting_started"``` = The page exists in the Getting Started directory.<br>*<sub>Used to highlight the directory name where a page exists.</sub>*
 ```$pageTitle = "";``` | Injects text into a page's HTML title tag.
 ```$pageDesc = "";```  | Injects text into a page's meta description tag.
-```++$activityCount```  | Counts the number of activities on a page. Place next to each new activity link.<br><sub>&lt;h3&gt;&lt;a href="#" target="_blank" class="alt-link-color"&gt;<b><?php echo ++$activityCount . ". "; ?></b>Activity Name...&lt;/a&gt;&lt;/h3&gt;</sub>
-```++$refCount```       | Counts the total number of references on a page. Place next to each new reference entry.
+```++$activityCount```  | Counts the number of activities on a page. Place within each new activity link.<br><sub>&lt;h3&gt;&lt;a href="#" target="_blank" class="alt-link-color"&gt;<b>&lt;?php echo ++$activityCount . ". "; ?&gt;</b>Activity Name...&lt;/a&gt;&lt;/h3&gt;</sub>
+```++$refCount```       | Counts the number of references on a page. Place within each new reference link.<br><sub>&lt;p&gt;<b>&lt;?php echo ++$refCount . ". "; ?&gt;</b>&lt;a href="#" target="_blank"&gt;Credit Name...&lt;/a&gt;.&lt;/p&gt;</sub>
