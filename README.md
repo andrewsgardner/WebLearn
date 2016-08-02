@@ -48,7 +48,7 @@ Make sure you've installed the following dependencies on your computer:
   npm install -g grunt-cli
   ```
   
-2. Install project dependencies.
+2. Install the project dependencies. *
   
   ```
   npm install
