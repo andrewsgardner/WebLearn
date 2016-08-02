@@ -8,11 +8,12 @@ WebLearn is a responsive distance learning website developed for the [Springfiel
 ## Installation
 It will be useful to set up a test server on your localhost to preview changes before you make them live on the web server. I usually use [Vagrant](https://www.vagrantup.com/) for this purpose. However, whichever environment you choose should run the Apache web server and a stable version of PHP.
 
-Make sure you've installed the following dependencies on your server:
-* [SASS](http://sass-lang.com/)
-* [Ruby - for Windows users](http://rubyinstaller.org/)
+Make sure you've installed the following dependencies on your computer:
+* [Ruby](http://rubyinstaller.org/) *
 * [Node.js](https://nodejs.org/en/)
 * [GIT](https://git-scm.com/)
+
+###### * Mac's ship with a system version of Ruby pre-installed.
 
 ### Download the Project Files
 
@@ -31,15 +32,21 @@ Make sure you've installed the following dependencies on your server:
   
   ###### Adding a period at the end prevents the name of the root folder in my repository from being cloned into your project (this may cause routing errors later).
   
+### Download SASS
+
+1. Install SASS using the command prompt with Ruby. *
+   
+   ```
+   gem install sass
+   ```
+
 ### Download Grunt
 
-1. From within our root directory, salcweblearn.org, install the Grunt CLI
+1. From within our root directory, salcweblearn.org, install the Grunt CLI. *
   
   ```
   npm install -g grunt-cli
   ```
-  
-  ###### Note: Linux and Mac users may need to use sudo.
   
 2. Install project dependencies.
   
@@ -48,6 +55,8 @@ Make sure you've installed the following dependencies on your server:
   ```
 
 3. Run ```grunt``` from the command line to listen for changes.
+
+###### * Mac users may need to use sudo.
 
 ## Configuration
 Create an .htaccess file in the [/public_html/](https://github.com/andrewsgardner/WebLearn/tree/master/public_html) directory. This will only be used for development purposes and shouldn't be committed to any repository.
