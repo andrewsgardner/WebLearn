@@ -260,11 +260,11 @@ External links are created with static HTML. Therefore, no special procedure is 
 
 ### Cache Busting
 
-WebLearn permits browsers to cache specific types of HTTP requests in order to optimize the performance of future site visits. However, not every type of file is allowed to be cached.
+WebLearn permits browsers to cache specific HTTP requests to optimize the performance of future site visits. However, some file types aren't allowed to be cached.
 
-As specified in the live server's .htaccess file, stylesheets, JavaScripts, and image files are cacheable for 2 months.
+Stylesheets, JavaScripts, and image files are cacheable for 2 months.
 
-Alternatively, PHP and HTML files aren't allowed to be cached at all.
+Alternatively, PHP and HTML files aren't cacheable at all.
 
 Therefore, whenever you alter the site's CSS or JS, a cache busting procedure must be carried out to prevent returning users from serving stale, outdated code.
 
