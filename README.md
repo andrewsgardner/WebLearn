@@ -242,10 +242,10 @@ $abeRoutes = array(
 );
 ```
 
-Additionally, '''$esolRoutes''' handles ESOL Lab's internal links.
+```$esolRoutes``` handles ESOL Lab's internal links.
 
-When creating an internal link, echo data from these arrays into your <a> tag's href attribute.
+When creating an internal link, echo routing data into your <a> tag's href attribute.
 
 ```
-<a href="<?php echo $abeRoutes['english']['grammar']; ?>">Grammar Activities</a>
+<a href="<?php echo $abeRoutes['english']['grammar']; ?>">Link Name...</a>
 ```
