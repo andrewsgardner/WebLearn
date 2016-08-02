@@ -82,17 +82,17 @@ The [config.php](https://github.com/andrewsgardner/WebLearn/blob/master/resource
 
 ### Library & Templates Paths
 
-```require_once``` statements are used in the front-end to locate the absolute paths to specific back-end resources.
+```require_once``` statements are used in the front-end to locate the absolute paths to back-end resources.
 
-The following code exists in [/salcweblearn.org/public_html/abe/index.php](https://github.com/andrewsgardner/WebLearn/blob/master/public_html/abe/index.php).
+For instance, the following code exists in [/salcweblearn.org/public_html/abe/index.php](https://github.com/andrewsgardner/WebLearn/blob/master/public_html/abe/index.php).
 
 ```
 require_once(LIBRARY_PATH . "/contentPageFunctions.php");
 ```
 
-Here, the path to a file called [contentPageFunctions.php](https://github.com/andrewsgardner/WebLearn/blob/master/resources/library/contentPageFunctions.php) must be resolved before it can be required.
+Here, the path to [contentPageFunctions.php](https://github.com/andrewsgardner/WebLearn/blob/master/resources/library/contentPageFunctions.php) must be resolved before it can be required.
 
-In config.php, the LIBRARY_PATH constant will calculate a path to the library directory where this file is located: [/salcweblearn.org/resources/library/](https://github.com/andrewsgardner/WebLearn/tree/master/resources/library).
+The LIBRARY_PATH constant will calculate a path to the library directory where this file is located: [/salcweblearn.org/resources/library/](https://github.com/andrewsgardner/WebLearn/tree/master/resources/library).
 
 ```
 // calculate absolute path to /resources/library/
