@@ -260,7 +260,7 @@ External links are created with static HTML. Therefore, no special procedure is 
 
 ### Cache Busting
 
-WebLearn permits browsers to cache specific HTTP requests to optimize the performance of future site visits. However, some file types aren't allowed to be cached.
+WebLearn permits browsers to cache specific HTTP requests to optimize the performance of future site visits.
 
 Stylesheets, JavaScripts, and image files are cacheable for 2 months.
 
