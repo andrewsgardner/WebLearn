@@ -268,7 +268,7 @@ PHP and HTML files aren't cacheable at all.
 
 Whenever you alter the site's CSS or JS, a cache busting procedure must be carried out to prevent returning users from serving stale, outdated code.
 
-A rudimentary versioning system is used for busting cache. The [$cacheVer](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L15) variable injects itself into the file names of assets requiring cache busting.
+A rudimentary versioning system is used for busting cache. The [$cacheVer](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L15) variable injects itself into the file names of affected assets. This forces browsers to download fresh copies.
 
 ```
 // cache buster
