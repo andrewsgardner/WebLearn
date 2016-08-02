@@ -264,14 +264,20 @@ WebLearn permits browsers to cache specific HTTP requests to optimize the perfor
 
 Stylesheets, JavaScripts, and image files are cacheable for 2 months.
 
-Alternatively, PHP and HTML files aren't cacheable at all.
+PHP and HTML files aren't cacheable at all.
 
-Therefore, whenever you alter the site's CSS or JS, a cache busting procedure must be carried out to prevent returning users from serving stale, outdated code.
+Whenever you alter the site's CSS or JS, a cache busting procedure must be carried out to prevent returning users from serving stale, outdated code.
 
-A rudimentary versioning system is used to tackle this problem. The [$cacheVer](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L15) variable in config.php injects itself into the file names of assets requiring cache busting.
+A rudimentary versioning system is used to bust the cache. The [$cacheVer](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L15) variable injects itself into the file names of assets requiring cache busting.
 
 ```
 // cache buster
 
 $cacheVer = "v1.2";
 ```
+
+Here, the cache busting procedure is outlined in detail:
+
+1. When cache busting is necessary, increase the version number for ```$cacheVer``` in config.php.
+2. Rename the stylesheets in [/public_html/css/](https://github.com/andrewsgardner/WebLearn/tree/master/public_html/css) to reflect the new version number *(i.e. main.v1.2.css may become main.v1.3.css)*.
+3. Rename the JavaScripts in [/public_html/js/](https://github.com/andrewsgardner/WebLearn/tree/master/public_html/js) to reflect the new version number *(i.e. main.min.v1.2.js may become main.min.v1.3.js)*.
