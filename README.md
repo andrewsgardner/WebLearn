@@ -251,7 +251,7 @@ $abeRoutes = array(
 When creating an internal link, echo routing data into your &lt;a&gt; tag's href attribute.
 
 ```
-<a href="<?php echo $abeRoutes['english']['grammar']; ?>">Link Name...</a>
+<a href="<?php echo $abeRoutes['english']['grammar']; ?>">Grammar Directory</a>
 ```
 
 ### External Links
