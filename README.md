@@ -229,7 +229,7 @@ Internal and external links are handled differently in WebLearn.
 
 ### Internal Links
 
-Internal links are defined in config.php using two arrays: [$abeRoutes](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L59) and [$esolRoutes](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L154).
+Internal link paths are defined in config.php using two arrays: [$abeRoutes](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L59) and [$esolRoutes](https://github.com/andrewsgardner/WebLearn/blob/master/resources/config.php#L154).
 
 ```$abeRoutes``` handles ABE Lab's internal links.
 
