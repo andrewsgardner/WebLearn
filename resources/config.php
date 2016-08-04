@@ -13,7 +13,7 @@ defined("TEMPLATES_PATH")
     or define("TEMPLATES_PATH", realpath(dirname(__FILE__) . "/templates"));
 
 // cache buster
-$cacheVer = "v1.1";
+$cacheVer = "v1.2";
 
 // main config array
 $config = array(
