@@ -1,18 +1,21 @@
 {
   "name": "WebLearn",
-  "version": "0.1.0",
+  "version": "1.2.0",
+  "description": "WebLearn is a responsive distance learning website developed for the Springfield Adult Learning Center. It utilizes a mobile-first design via PHP, HTML5, CSS3, jQuery, SASS, Grunt, and Bootstrap. Encapsulated in WebLearn are two academic learning labs. ABE Lab is designed for students pursuing High School Equivalency Test preparation classes. ESOL Lab is a resource to help recent immigrants learn English.",
   "devDependencies": {
     "grunt": "~0.4.5",
-    "grunt-contrib-compass": "latest",
-    "grunt-contrib-concat": "latest",
-    "grunt-contrib-cssmin": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-contrib-watch": "latest",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^1.2.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/andrewsgardner/WebLearn.git"
   },
-  "author": "Andrew S. Gardner"
+  "author": "Andrew S. Gardner",
+  "license": "MIT",
+  "homepage": "http://www.salcweblearn.org"
 }
